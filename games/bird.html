@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body { width: 100%; height: 100%; overflow: hidden; }
+
+        #Canvas {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, #4ec0ca 0%, #4ec0ca 60%, #e8d35a 60%, #e8d35a 64%, #5dad3c 64%, #5dad3c 100%);
+            overflow: hidden;
+        }
+
+        #Birdy {
+            width: 34px;
+            height: 24px;
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            z-index: 150;
+            image-rendering: pixelated;
+        }
+        /* CSS pixel-art bird */
+        #Birdy .bird-body {
+            width: 100%; height: 100%;
+            background: #f8c031;
+            border-radius: 50%;
+            position: relative;
+            border: 2px solid #543b14;
+        }
+        #Birdy .bird-body::before { /* eye */
+            content: '';
+            position: absolute;
+            width: 8px; height: 8px;
+            background: white;
+            border-radius: 50%;
+            top: 2px; right: 4px;
+            border: 1.5px solid #333;
+        }
+        #Birdy .bird-body::after { /* beak */
+            content: '';
+            position: absolute;
+            width: 12px; height: 6px;
+            background: #e84530;
+            top: 10px; right: -8px;
+            border-radius: 2px;
+            border: 1px solid #8b2010;
+        }
+        #Birdy .bird-wing {
+            position: absolute;
+            width: 16px; height: 10px;
+            background: #e8a031;
+            border-radius: 50%;
+            top: 10px; left: 2px;
+            border: 1.5px solid #543b14;
+            transition: transform 0.1s;
+        }
+        #Birdy.wing-up .bird-wing { transform: rotate(-30deg) translateY(-4px); }
+        #Birdy.wing-down .bird-wing { transform: rotate(20deg) translateY(2px); }
+
+        .Pipe {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            width: 52px;
+            background: #73bf2e;
+            border: 3px solid #3a6b15;
+            animation: PipeMovement 15s linear;
+            -webkit-animation: PipeMovement 15s linear;
+        }
+        .Pipe::after { /* pipe cap */
+            content: '';
+            position: absolute;
+            left: -6px;
+            width: calc(100% + 12px);
+            height: 26px;
+            background: #73bf2e;
+            border: 3px solid #3a6b15;
+            border-radius: 2px;
+        }
+        .Pipe:not(.BottomPipe)::after { bottom: -3px; } /* top pipe cap at bottom */
+        .BottomPipe::after { top: -3px; } /* bottom pipe cap at top */
+
+        @keyframes PipeMovement { from { left: 100%; } to { left: -80px; } }
+        @-webkit-keyframes PipeMovement { from { left: 100%; } to { left: -80px; } }
+
+        .paused {
+            -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+        }
+
+        .noSelect {
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        #ScoreDisplay {
+            position: absolute;
+            top: 6%;
+            left: 50%;
+            transform: translateX(-50%);
+            font: bold 48px 'Arial Black', Arial, sans-serif;
+            color: white;
+            text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+            z-index: 50;
+        }
+
+        #DeathScreen {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #ded895;
+            border: 3px solid #543b14;
+            border-radius: 12px;
+            padding: 24px 40px;
+            text-align: center;
+            z-index: 200;
+            font-family: 'Arial Black', Arial, sans-serif;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        #DeathScreen .score-label { font-size: 18px; margin-bottom: 2px; }
+        #DeathScreen .score-value { font-size: 36px; margin-bottom: 12px; }
+        #DeathScreen button {
+            margin-top: 10px;
+            padding: 8px 28px;
+            font-size: 18px;
+            font-weight: bold;
+            background: #e8a031;
+            border: 2px solid #543b14;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        #DeathScreen button:hover { background: #f8c031; }
+
+        #PauseBtn {
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            width: 36px; height: 36px;
+            background: rgba(0,0,0,0.3);
+            border: 2px solid rgba(255,255,255,0.5);
+            border-radius: 6px;
+            z-index: 60;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #PauseBtn .bar { width: 4px; height: 16px; background: white; margin: 0 2px; border-radius: 1px; }
+        #PauseBtn.show-play .bar { display: none; }
+        #PauseBtn.show-play::after {
+            content: '';
+            width: 0; height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 14px solid white;
+        }
+        #PauseBtn:not(.show-play)::after { content: none; }
+    </style>
+</head>
+<body>
+    <div id="Canvas">
+        <div id="ScoreDisplay" class="noSelect">0</div>
+
+        <div id="Birdy">
+            <div class="bird-body">
+                <div class="bird-wing"></div>
+            </div>
+        </div>
+
+        <div id="PauseBtn" class="noSelect">
+            <div class="bar"></div><div class="bar"></div>
+        </div>
+
+        <div id="DeathScreen" class="noSelect">
+            <div class="score-label">Score</div>
+            <div class="score-value" id="FinalScore">0</div>
+            <div class="score-label">Best</div>
+            <div class="score-value" id="BestScore">0</div>
+            <button id="ResetButton">Play Again</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        window.BirdyConfig = window.BirdyConfig || {
+            gravAccel: 0.3,
+            terminalVelocity: 5,
+            jumpHeight: 9,
+            pipeInterval: 60,
+            pipeGap: 30,
+            pipeSpeed: 7
+        };
+
+        $(function () {
+            var canvasObject = $('#Canvas');
+            var birdyEl = $('#Birdy');
+            var gameLoopIntervalID = 0;
+            var Paused = false;
+            var Lost = false;
+            var CurrentScore = 0;
+            var gameLoopCounter = 0;
+            var gravVeloc = 0;
+            var jumping = false;
+            var Angle = 0;
+            var WingPosition = 0;
+            var WingClasses = ['', 'wing-up', 'wing-down', 'wing-up'];
+
+            // === GAME CONTROL ===
+
+            function pauseGame() {
+                clearInterval(gameLoopIntervalID);
+                $('.Pipe').addClass('paused');
+                $('#PauseBtn').addClass('show-play');
+                Paused = true;
+            }
+
+            function startGame() {
+                if (Lost) return;
+                gameLoopIntervalID = setInterval(gameLoop, 30);
+                $('.Pipe').removeClass('paused');
+                $('#PauseBtn').removeClass('show-play');
+                Paused = false;
+            }
+
+            function endGame() {
+                Lost = true;
+                pauseGame();
+                var best = parseInt(localStorage.getItem('birdBest') || '0', 10);
+                best = Math.max(CurrentScore, best);
+                localStorage.setItem('birdBest', best);
+                birdyEl.stop().animate({ top: '85%' }, 800, 'linear');
+                $('#FinalScore').text(CurrentScore);
+                $('#BestScore').text(best);
+                $('#DeathScreen').fadeIn(300);
+            }
+
+            function resetGame() {
+                pauseGame();
+                $('.Pipe').remove();
+                Lost = false;
+                CurrentScore = 0;
+                gameLoopCounter = 0;
+                gravVeloc = 0;
+                jumping = false;
+                Angle = 0;
+                WingPosition = 0;
+                birdyEl.stop().css({ top: '50%', transform: 'rotate(0deg)' })
+                    .removeClass('wing-up wing-down');
+                $('#ScoreDisplay').text('0');
+                $('#DeathScreen').fadeOut(200);
+                startGame();
+            }
+
+            // === BIRD PHYSICS ===
+
+            function birdFall() {
+                if (jumping) { gravVeloc = 0; return; }
+                var ga = (window.BirdyConfig && window.BirdyConfig.gravAccel != null) ? window.BirdyConfig.gravAccel : 0.3;
+                var tv = (window.BirdyConfig && window.BirdyConfig.terminalVelocity != null) ? window.BirdyConfig.terminalVelocity : 5;
+                gravVeloc += ga;
+                if (gravVeloc > tv) gravVeloc = tv;
+                birdyEl.stop().animate({ top: '+=' + gravVeloc + '%' }, 30, 'linear');
+                var angle = Angle + 15 * (gravVeloc / tv) * (gravVeloc / tv);
+                angle = Math.min(angle, 90);
+                birdyEl.css('transform', 'rotate(' + angle + 'deg)');
+                Angle = angle;
+            }
+
+            function birdJump() {
+                if (Paused || Lost) return;
+                jumping = true;
+                Angle = -30;
+                birdyEl.css('transform', 'rotate(-30deg)');
+                var jh = (window.BirdyConfig && window.BirdyConfig.jumpHeight != null) ? window.BirdyConfig.jumpHeight : 9;
+                birdyEl.stop().animate({ top: '-=' + jh + '%' }, 120, 'linear', function () {
+                    jumping = false;
+                    birdFall();
+                });
+            }
+
+            function flapWings() {
+                WingPosition = (WingPosition + 1) % 4;
+                birdyEl.removeClass('wing-up wing-down').addClass(WingClasses[WingPosition]);
+            }
+
+            // === PIPES ===
+
+            function addPipe() {
+                var gap = (window.BirdyConfig && window.BirdyConfig.pipeGap != null) ? window.BirdyConfig.pipeGap : 30;
+                var speed = (window.BirdyConfig && window.BirdyConfig.pipeSpeed != null) ? window.BirdyConfig.pipeSpeed : 15;
+                var minH = 5;
+                var maxTop = 100 - gap - 2 * minH;
+                var topH = Math.random() * maxTop + minH;
+                var botTop = topH + gap;
+                var botH = 100 - botTop;
+                var anim = 'PipeMovement ' + speed + 's linear';
+                $('<div/>').addClass('Pipe').css({ height: topH + '%', animation: anim }).data('scored', false).appendTo(canvasObject);
+                $('<div/>').addClass('Pipe BottomPipe').css({ height: botH + '%', top: botTop + '%', animation: anim }).data('scored', false).appendTo(canvasObject);
+            }
+
+            function cleanPipes() {
+                var cw = canvasObject.width();
+                $('.Pipe').each(function () {
+                    if ($(this).offset().left / cw < -0.15) $(this).remove();
+                });
+            }
+
+            // === COLLISION ===
+
+            function rectsIntersect(a, b) {
+                return !(a.bottom < b.top || a.top > b.bottom || a.left > b.right || a.right < b.left);
+            }
+
+            function checkCollisions() {
+                var bo = birdyEl.offset();
+                var bRect = { left: bo.left, top: bo.top, right: bo.left + birdyEl.width(), bottom: bo.top + birdyEl.height() };
+                var hit = false;
+                $('.Pipe').each(function () {
+                    var po = $(this).offset();
+                    var pRect = { left: po.left, top: po.top, right: po.left + $(this).width(), bottom: po.top + $(this).height() };
+                    if (rectsIntersect(bRect, pRect)) { hit = true; return false; }
+                });
+                if (hit) { endGame(); return; }
+                var co = canvasObject.offset();
+                if (bRect.bottom > co.top + canvasObject.height() || bRect.top < co.top) {
+                    endGame();
+                }
+            }
+
+            function incrementScore() {
+                var bx = birdyEl.offset().left + birdyEl.width();
+                $('.BottomPipe').each(function () {
+                    var px = $(this).offset().left + $(this).width();
+                    if (!$(this).data('scored') && bx > px) {
+                        CurrentScore++;
+                        $(this).data('scored', true);
+                    }
+                });
+                $('#ScoreDisplay').text(CurrentScore);
+            }
+
+            // === GAME LOOP ===
+
+            function gameLoop() {
+                if (gameLoopCounter % 2 === 0) {
+                    incrementScore();
+                    checkCollisions();
+                }
+                birdFall();
+                var pipeInt = (window.BirdyConfig && window.BirdyConfig.pipeInterval != null) ? window.BirdyConfig.pipeInterval : 90;
+                if (gameLoopCounter % pipeInt === 0) {
+                    addPipe();
+                    cleanPipes();
+                }
+                if (gameLoopCounter % 7 === 0) flapWings();
+                gameLoopCounter++;
+            }
+
+            // === INPUT ===
+
+            canvasObject.on('mousedown touchstart', function (e) {
+                if (Lost) return;
+                e.preventDefault();
+                birdJump();
+            });
+
+            $('#PauseBtn').on('mousedown touchstart', function (e) {
+                e.stopPropagation();
+                e.preventDefault();
+                if (Paused) startGame(); else pauseGame();
+            });
+
+            $('#ResetButton').on('click touchstart', function (e) {
+                e.stopPropagation();
+                e.preventDefault();
+                resetGame();
+            });
+
+            $(document).keydown(function (e) {
+                if (e.which === 32) { // space
+                    e.preventDefault();
+                    if (Lost) resetGame();
+                    else birdJump();
+                }
+                if (e.which === 80) { // P
+                    if (Paused) startGame(); else pauseGame();
+                }
+            });
+
+            // === Expose for engagement system ===
+            window.CurrentScore = 0;
+            Object.defineProperty(window, 'CurrentScore', {
+                get: function () { return CurrentScore; },
+                set: function (v) { CurrentScore = v; }
+            });
+
+            // Expose Lost state for game state capture
+            window.__birdLost = false;
+            var _origEndGame = endGame;
+            endGame = function () {
+                window.__birdLost = true;
+                _origEndGame();
+            };
+            var _origReset = resetGame;
+            resetGame = function () {
+                window.__birdLost = false;
+                _origReset();
+            };
+
+            // AUTO-START: game begins immediately
+            startGame();
+        });
+    </script>
+    <script src="../js/mod-overlay.js"></script>
+    <script src="mod_bird.js"></script>
+</body>
+</html>

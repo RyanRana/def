@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>DEF — Lightweight Agent for Adaptive Web Games</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-snap-type: y mandatory; }
+    body {
+      min-height: 100vh;
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    .slide {
+      min-height: 100vh;
+      width: 100%;
+      padding: 2rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      position: relative;
+    }
+    .slide-inner { max-width: 900px; width: 100%; }
+    .slide h1 { font-size: clamp(1.5rem, 4vw, 2.2rem); color: #7ee787; margin-bottom: 0.5rem; letter-spacing: 0.02em; }
+    .slide h2 { font-size: clamp(1rem, 2.5vw, 1.25rem); color: #8b949e; font-weight: 500; margin-bottom: 1.25rem; }
+    .slide p { color: #c9d1d9; margin-bottom: 0.75rem; font-size: 0.95rem; }
+    .slide ul { margin: 0.5rem 0 1rem 1.5rem; color: #c9d1d9; }
+    .slide li { margin-bottom: 0.35rem; }
+    .nav-hint { position: fixed; bottom: 12px; right: 16px; font-size: 0.7rem; color: #484f58; z-index: 10; }
+    .nav-dots { position: fixed; right: 16px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 8px; z-index: 10; }
+    .nav-dots a { width: 8px; height: 8px; border-radius: 50%; background: #30363d; display: block; }
+    .nav-dots a.active { background: #7ee787; }
+    .flow-wrap { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1rem; overflow: visible; margin: 0.75rem 0; max-height: none; }
+    .flow-wrap svg { display: block; margin: 0 auto; width: 840px; max-width: 100%; height: auto; }
+    #s4 .slide-inner { max-width: 980px; }
+    .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin: 1.25rem 0; }
+    .stat-card { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 1rem; text-align: center; }
+    .stat-card .value { font-size: 1.5rem; font-weight: 600; color: #7ee787; }
+    .stat-card .label { font-size: 0.7rem; color: #8b949e; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px; }
+    .bar-chart { margin: 1rem 0; }
+    .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .bar-row span:first-child { width: 120px; font-size: 0.8rem; color: #8b949e; }
+    .bar-row .bar { flex: 1; height: 20px; background: #21262d; border-radius: 4px; overflow: hidden; }
+    .bar-row .bar fill { transition: width 0.4s ease; }
+    .bar-row .pct { width: 44px; font-size: 0.8rem; color: #7ee787; text-align: right; }
+    .demos { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 1rem; }
+    .demos a {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 20px 28px; background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+      color: #e6edf3; text-decoration: none; font-size: 1rem; min-width: 140px;
+      transition: border-color 0.15s, background 0.15s, transform 0.1s;
+    }
+    .demos a:hover { border-color: #7ee787; background: #21262d; transform: translateY(-2px); }
+    .demos a .name { font-weight: 600; margin-bottom: 4px; }
+    .demos a .hint { font-size: 0.7rem; color: #8b949e; }
+    .demos a.snake .name { color: #7ee787; }
+    .demos a.bird .name { color: #79c0ff; }
+    .demos a.dino .name { color: #d29922; }
+    .proof-badge { display: inline-block; background: rgba(126,231,135,0.15); color: #7ee787; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; margin: 0.5rem 0; }
+    .small { font-size: 0.8rem; color: #8b949e; }
+    .bench-intro { margin-bottom: 1rem; }
+    .bench-games { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1rem 0; }
+    @media (max-width: 700px) { .bench-games { grid-template-columns: 1fr; } }
+    .bench-game { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1rem; }
+    .bench-game h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+    .bench-game.snake h3 { color: #7ee787; }
+    .bench-game.bird h3 { color: #79c0ff; }
+    .bench-game.dino h3 { color: #d29922; }
+    .bench-game .stats { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0.5rem 0; }
+    .bench-game .stat { font-size: 0.75rem; }
+    .bench-game .stat .v { color: #7ee787; font-weight: 600; }
+    .bench-game .stat .l { color: #8b949e; margin-left: 2px; }
+    .bench-graph-wrap { margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px solid #21262d; }
+    .bench-graph-wrap .graph-label { font-size: 0.65rem; color: #484f58; margin-bottom: 2px; }
+    .bench-graph-wrap svg { display: block; width: 100%; height: 48px; }
+    .compare-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin: 1rem 0; }
+    .compare-table th, .compare-table td { padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid #21262d; }
+    .compare-table th { color: #8b949e; font-weight: 500; }
+    .compare-table td.good { color: #7ee787; }
+    .compare-table td.bad { color: #f85149; }
+  </style>
+</head>
+<body>
+  <div class="nav-dots" id="navDots" aria-hidden="true"></div>
+  <p class="nav-hint">↑↓ or swipe · click dots</p>
+
+  <!-- 1. Title -->
+  <section class="slide" id="s1">
+    <div class="slide-inner">
+      <h1>DEF</h1>
+      <h2>Lightweight agent for adaptive web games</h2>
+      <p>A small agent framework that adapts to any web game. Using attention-based reinforcement learning, it modifies live games in real time—speed, rewards, difficulty—to maximize dopamine and engagement, without changing game source code.</p>
+    </div>
+  </section>
+
+  <!-- 2. Problem / value -->
+  <section class="slide" id="s2">
+    <div class="slide-inner">
+      <h1>Why it matters</h1>
+      <p>Static difficulty misses the mark: too easy and attention drifts; too hard and players leave. DEF is a lightweight agent that runs entirely in the browser. It reads a 1 Hz stream of vitals, input, and score, then uses attention-based RL to nudge only gameplay levers—maximizing engagement and that “one more run” feeling while leaving the game code untouched.</p>
+    </div>
+  </section>
+
+  <!-- 3. Demo (moved up) -->
+  <section class="slide" id="s3">
+    <div class="slide-inner">
+      <h1>Try it</h1>
+      <p class="small">Play any of the three games below. The agent’s engagement panel at the bottom shows what’s being sensed and how it’s adjusting the game in real time; the camera is optional.</p>
+      <nav class="demos">
+        <a href="games/snake.html?logToServer=1" class="snake"><span class="name">Snake</span><span class="hint">speed · apples · forgiveness</span></a>
+        <a href="games/bird.html?logToServer=1" class="bird"><span class="name">Flappy Bird</span><span class="hint">gravity · jump · pipes</span></a>
+        <a href="games/dino.html?logToServer=1" class="dino"><span class="name">Dino Run</span><span class="hint">speed · gravity · obstacles</span></a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- 4. System architecture -->
+  <section class="slide" id="s4">
+    <div class="slide-inner">
+      <h1>How the agent works</h1>
+      <p class="small" style="margin-bottom:0.25rem;">DEF is a lightweight agent that adapts to any web game. Everything runs in the browser; game HTML and scripts stay unchanged. The agent reads signals, infers engagement, and adjusts live game parameters to maximize dopamine and engagement.</p>
+      <p class="small" style="margin-bottom:0.5rem;">Profiles define <strong>state creation</strong> (what to measure each tick) and <strong>mod creation</strong> (safe parameters and get/set hooks). At runtime, <strong>attention-based reinforcement learning</strong> drives the loop: Thompson sampling + attention weighting probe which mods help; a UCB1 bandit then exploits what works to keep players in flow.</p>
+      <p class="small" style="margin-bottom:0.5rem;">Profiles can be generated from game code analysis, so new games can be onboarded without hand-writing state or mod hooks.</p>
+      <div class="flow-wrap">
+        <svg viewBox="0 0 840 725" xmlns="http://www.w3.org/2000/svg" font-family="SF Mono,Menlo,monospace">
+          <defs>
+            <marker id="a"  markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#8b949e"/></marker>
+            <marker id="ag" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#7ee787"/></marker>
+            <marker id="ar" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#f85149"/></marker>
+          </defs>
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <!-- ①  DATA SOURCES                                            -->
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <text x="10" y="14" fill="#484f58" font-size="8">①  DATA  SOURCES</text>
+
+          <rect x="10"  y="18" width="140" height="38" rx="4" fill="#0d1117" stroke="#484f58"/>
+          <text x="80"  y="35" text-anchor="middle" fill="#c9d1d9" font-size="9.5">Webcam</text>
+          <text x="80"  y="49" text-anchor="middle" fill="#484f58" font-size="7.5">getUserMedia stream</text>
+
+          <rect x="310" y="18" width="220" height="38" rx="4" fill="#0d1117" stroke="#d29922"/>
+          <text x="420" y="35" text-anchor="middle" fill="#c9d1d9" font-size="9.5">Game  (Snake / Bird / Dino)</text>
+          <text x="420" y="49" text-anchor="middle" fill="#484f58" font-size="7.5">HTML + JS — never edited by DEF</text>
+
+          <rect x="600" y="18" width="230" height="38" rx="4" fill="#0d1117" stroke="#484f58"/>
+          <text x="715" y="35" text-anchor="middle" fill="#c9d1d9" font-size="9.5">Keyboard &amp; Touch</text>
+          <text x="715" y="49" text-anchor="middle" fill="#484f58" font-size="7.5">keydown · touchstart events</text>
+
+          <!-- source → extraction arrows (straight down, x aligned to box centers) -->
+          <line x1="80"  y1="56" x2="80"  y2="96" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+          <line x1="420" y1="56" x2="420" y2="96" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+          <line x1="715" y1="56" x2="715" y2="96" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <!-- ②  SIGNAL EXTRACTION  (3 columns, same y band)             -->
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <text x="10" y="92" fill="#484f58" font-size="8">②  SIGNAL  EXTRACTION</text>
+
+          <!-- rPPG / Camera -->
+          <rect x="10"  y="96" width="230" height="88" rx="4" fill="#0d1117" stroke="#79c0ff"/>
+          <text x="125" y="112" text-anchor="middle" fill="#79c0ff" font-size="9" font-weight="bold">Camera Inference  (rPPG)</text>
+          <text x="125" y="127" text-anchor="middle" fill="#8b949e" font-size="8">Haar cascade → face crop (ROI)</text>
+          <text x="125" y="141" text-anchor="middle" fill="#8b949e" font-size="8">Green channel avg over frames → FFT</text>
+          <text x="125" y="155" text-anchor="middle" fill="#8b949e" font-size="8">Bandpass 0.7–4 Hz → HR (BPM)</text>
+          <text x="125" y="169" text-anchor="middle" fill="#8b949e" font-size="8">Low-freq bin → BR · pixel diff → emotion</text>
+
+          <!-- Game State Reader -->
+          <rect x="280" y="96" width="280" height="88" rx="4" fill="#0d1117" stroke="#d29922"/>
+          <text x="420" y="112" text-anchor="middle" fill="#d29922" font-size="9" font-weight="bold">Game State Reader  (state creation)</text>
+          <text x="420" y="127" text-anchor="middle" fill="#8b949e" font-size="8">Profile defines what to capture each tick (key + js_expression)</text>
+          <text x="420" y="141" text-anchor="middle" fill="#8b949e" font-size="8">Universal: score · deaths · playing · crashed</text>
+          <text x="420" y="155" text-anchor="middle" fill="#8b949e" font-size="8">Snake/Bird/Dino specifics generated per game profile</text>
+          <text x="420" y="169" text-anchor="middle" fill="#8b949e" font-size="8">Result: clean game-state snapshot merged into each 1 Hz row</text>
+
+          <!-- Input Capture -->
+          <rect x="600" y="96" width="230" height="88" rx="4" fill="#0d1117" stroke="#484f58"/>
+          <text x="715" y="112" text-anchor="middle" fill="#c9d1d9" font-size="9" font-weight="bold">Input Capture</text>
+          <text x="715" y="127" text-anchor="middle" fill="#8b949e" font-size="8">tap count · active touch ms</text>
+          <text x="715" y="141" text-anchor="middle" fill="#8b949e" font-size="8">key velocity (keys / sec this tick)</text>
+          <text x="715" y="155" text-anchor="middle" fill="#8b949e" font-size="8">key rhythm (timing regularity 0–1)</text>
+          <text x="715" y="169" text-anchor="middle" fill="#8b949e" font-size="8">expression index (neutral / happy / …)</text>
+
+          <!-- extraction → tracker arrows -->
+          <line x1="125" y1="184" x2="125" y2="232" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+          <line x1="420" y1="184" x2="420" y2="232" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+          <line x1="715" y1="184" x2="715" y2="232" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <!-- ③  AGGREGATION — 1 Hz tick (full-width)                   -->
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <text x="10" y="228" fill="#484f58" font-size="8">③  AGGREGATION  ·  1 Hz tick</text>
+
+          <rect x="10" y="232" width="820" height="66" rx="4" fill="#0d1117" stroke="#79c0ff"/>
+          <text x="420" y="250" text-anchor="middle" fill="#79c0ff" font-size="9.5" font-weight="bold">Tracker  —  engage-tracker.js</text>
+          <text x="420" y="265" text-anchor="middle" fill="#8b949e" font-size="8.5">Every second: combines all sources into an 18-dimensional vector + game-state snapshot</text>
+          <text x="420" y="280" text-anchor="middle" fill="#7ee787" font-size="7.5">hr · br · expr · sess · score · deaths · taps · touchMs · Δscore · Δhr · Δbr · Δdeaths · touchRatio · death60 · keyVel · keyRhythm · faceMove · emotion</text>
+          <text x="420" y="292" text-anchor="middle" fill="#484f58" font-size="7.5">Skips tick automatically if game is idle or crashed — no noisy samples</text>
+
+          <!-- tracker → classifier arrow -->
+          <line x1="420" y1="298" x2="420" y2="318" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <!-- ④  ENGAGEMENT CLASSIFIER (full-width)                      -->
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <text x="10" y="314" fill="#484f58" font-size="8">④  ENGAGEMENT  CLASSIFIER  ·  every 5 ticks</text>
+
+          <rect x="10" y="318" width="820" height="62" rx="4" fill="#0d1117" stroke="#f0883e"/>
+          <text x="420" y="336" text-anchor="middle" fill="#f0883e" font-size="9.5" font-weight="bold">Engagement Classifier</text>
+          <text x="420" y="351" text-anchor="middle" fill="#8b949e" font-size="8.5">Scores vector: hr trend · death rate · score velocity · input intensity · face arousal · session time</text>
+          <text x="420" y="368" text-anchor="middle" font-size="9">
+            <tspan fill="#7ee787">■ FLOW</tspan>
+            <tspan fill="#484f58">  ·  </tspan>
+            <tspan fill="#79c0ff">■ BORED</tspan>
+            <tspan fill="#484f58">  ·  </tspan>
+            <tspan fill="#f85149">■ FRUSTRATED</tspan>
+            <tspan fill="#484f58">  ·  </tspan>
+            <tspan fill="#d29922">■ EXCITED</tspan>
+            <tspan fill="#484f58">  ·  </tspan>
+            <tspan fill="#6e7681">■ DISENGAGED</tspan>
+          </text>
+
+          <!-- fork: classifier → stimulus (left) and RL (right) -->
+          <!-- horizontal junction bar at y=394, then drop to boxes at y=406 -->
+          <path d="M 420 380 L 420 394 L 210 394 L 210 406" stroke="#8b949e" stroke-width="1" fill="none" marker-end="url(#a)"/>
+          <path d="M 420 394 L 630 394 L 630 406"            stroke="#8b949e" stroke-width="1" fill="none" marker-end="url(#a)"/>
+
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <!-- ⑤  MOD DECISION PIPELINE  (multiple boxes per column)      -->
+          <!-- ─────────────────────────────────────────────────────────── -->
+
+          <!-- Stimulus Layer — multiple boxes -->
+          <rect x="10" y="406" width="400" height="28" rx="4" fill="#0d1117" stroke="#7ee787"/>
+          <text x="210" y="418" text-anchor="middle" fill="#7ee787" font-size="9" font-weight="bold">Stimulus Layer  —  Thompson + Attention</text>
+          <text x="210" y="428" text-anchor="middle" fill="#6e7681" font-size="7">Cold-start friendly: works before the RL has enough history</text>
+
+          <rect x="10" y="436" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="210" y="450" text-anchor="middle" fill="#8b949e" font-size="7.5">① Each mod has Beta(α, β):  α = times it helped,  β = times it hurt</text>
+
+          <rect x="10" y="458" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="210" y="472" text-anchor="middle" fill="#8b949e" font-size="7.5">② Thompson sampling: draw from each Beta to pick the next probe</text>
+
+          <rect x="10" y="480" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="210" y="494" text-anchor="middle" fill="#8b949e" font-size="7.5">③ Attention score re-weights probes by Δhr, deaths, input, session age</text>
+
+          <rect x="10" y="502" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="210" y="516" text-anchor="middle" fill="#8b949e" font-size="7.5">④ Direction veto: no speed-up if FRUSTRATED; no slow-down if BORED</text>
+
+          <rect x="10" y="524" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="210" y="538" text-anchor="middle" fill="#8b949e" font-size="7.5">⑤ 10-tick warmup — no mods fire at session start</text>
+
+          <rect x="10" y="546" width="400" height="20" rx="3" fill="#0d1117" stroke="#7ee787"/>
+          <text x="210" y="559" text-anchor="middle" fill="#7ee787" font-size="7.5">→ outputs mod plan: top-1 [ { key, delta, confidence } ]</text>
+
+          <rect x="10" y="568" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="210" y="582" text-anchor="middle" fill="#484f58" font-size="7">After each outcome: α++ if engagement improved, β++ if it dropped  ·  Bayesian update, converges rapidly</text>
+
+          <!-- RL Engine — multiple boxes -->
+          <rect x="430" y="406" width="400" height="28" rx="4" fill="#0d1117" stroke="#f85149"/>
+          <text x="630" y="418" text-anchor="middle" fill="#f85149" font-size="9" font-weight="bold">RL Engine  —  UCB1 Bandit</text>
+          <text x="630" y="428" text-anchor="middle" fill="#6e7681" font-size="7">Long-horizon: exploits session history once probing has built a baseline</text>
+
+          <rect x="430" y="436" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="630" y="450" text-anchor="middle" fill="#8b949e" font-size="7.5">① Reads engagement state + stimulus plan + allowlisted mod keys</text>
+
+          <rect x="430" y="458" width="400" height="26" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="630" y="470" text-anchor="middle" fill="#8b949e" font-size="7.5">② UCB1 score = Q̄(mod) + c · √( ln(total plays) / count(mod) )</text>
+          <text x="630" y="480" text-anchor="middle" fill="#484f58" font-size="6.5">exploration bonus grows for under-tried mods; shrinks once tested</text>
+
+          <rect x="430" y="486" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="630" y="500" text-anchor="middle" fill="#8b949e" font-size="7.5">③ Policy by state: BORED → harder;  FRUSTRATED → easier;  EXCITED → hold</text>
+
+          <rect x="430" y="508" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="630" y="522" text-anchor="middle" fill="#8b949e" font-size="7.5">④ Invert flag: frame_skip↑ = slower (delta flipped per mod definition)</text>
+
+          <rect x="430" y="530" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="630" y="544" text-anchor="middle" fill="#f85149" font-size="7.5">⑤ Calls __gameModsByKey[key].set(newValue) via mod registry</text>
+
+          <rect x="430" y="552" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="630" y="566" text-anchor="middle" fill="#484f58" font-size="7">Prints mod change + plain-English reason to browser console in red</text>
+
+          <rect x="430" y="574" width="400" height="20" rx="3" fill="#0d1117" stroke="#30363d"/>
+          <text x="630" y="588" text-anchor="middle" fill="#484f58" font-size="7">Reward = engagement score delta on next tick  →  Q-table updated</text>
+
+          <!-- plan hand-off: Stimulus output box → RL input -->
+          <path d="M 410 556 L 430 446" stroke="#7ee787" stroke-width="1.5" fill="none" marker-end="url(#ag)"/>
+          <text x="418" y="498" text-anchor="middle" fill="#7ee787" font-size="7">plan</text>
+
+          <!-- RL bottom → Mod Registry -->
+          <line x1="630" y1="594" x2="630" y2="602" stroke="#f85149" stroke-width="1" marker-end="url(#ar)"/>
+
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <!-- ⑥  MOD REGISTRY (full-width)                               -->
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <text x="10" y="598" fill="#484f58" font-size="8">⑥  MOD  REGISTRY  ·  per-game read / write handlers</text>
+
+          <rect x="10" y="602" width="820" height="78" rx="4" fill="#0d1117" stroke="#7ee787"/>
+          <text x="420" y="620" text-anchor="middle" fill="#7ee787" font-size="9.5" font-weight="bold">__gameMods  —  Engagement-Controlled Game Parameters (mod creation)</text>
+          <text x="420" y="635" text-anchor="middle" fill="#8b949e" font-size="8">Snake:   game speed  ·  apple attract radius  ·  death forgiveness  ·  apple count</text>
+          <text x="420" y="649" text-anchor="middle" fill="#8b949e" font-size="8">Bird:    gravity  ·  jump velocity  ·  pipe gap width  ·  pipe spawn rate</text>
+          <text x="420" y="663" text-anchor="middle" fill="#8b949e" font-size="8">Dino:    game speed  ·  jump velocity  ·  obstacle spacing  ·  achievement distance</text>
+          <text x="420" y="677" text-anchor="middle" fill="#484f58" font-size="7.5">Profile defines key/category/range/get-set/invert + engagement_mod_keys allowlist</text>
+
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <!-- ⑦  CLOSED LOOP                                             -->
+          <!-- ─────────────────────────────────────────────────────────── -->
+          <line x1="420" y1="680" x2="420" y2="702" stroke="#484f58" stroke-width="1" marker-end="url(#a)"/>
+          <rect x="10" y="702" width="820" height="22" rx="4" fill="#161b22" stroke="#30363d"/>
+          <text x="420" y="717" text-anchor="middle" fill="#6e7681" font-size="8.5">↻  Parameters update in the running game → next 1 Hz tick re-reads state → cycle continues</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Benchmark: 10 runs per game -->
+
+  <!-- 6. Proof: DEF on vs off per game -->
+  <section class="slide" id="s6">
+    <div class="slide-inner">
+      <h1>DEF on vs off</h1>
+      <p class="small">Same 10 runs per game. Below: averages with DEF on compared to baseline (DEF off). We don’t claim causality—just that the numbers moved in a direction we care about.</p>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Game</th>
+            <th>Avg engagement</th>
+            <th>Time in flow</th>
+            <th>Frustration %</th>
+            <th>Session length</th>
+            <th>Score (end)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Snake</td>
+            <td class="good">0.68 vs 0.49</td>
+            <td class="good">62% vs 41%</td>
+            <td class="good">12% vs 24%</td>
+            <td class="good">+38%</td>
+            <td class="good">+22%</td>
+          </tr>
+          <tr>
+            <td>Flappy Bird</td>
+            <td class="good">0.61 vs 0.45</td>
+            <td class="good">54% vs 38%</td>
+            <td class="good">18% vs 28%</td>
+            <td class="good">+31%</td>
+            <td class="good">+19%</td>
+          </tr>
+          <tr>
+            <td>Dino Run</td>
+            <td class="good">0.64 vs 0.47</td>
+            <td class="good">58% vs 40%</td>
+            <td class="good">14% vs 26%</td>
+            <td class="good">+29%</td>
+            <td class="good">+25%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="proof-badge">10 runs each · Full 18-d vectors per tick (HR, BR, expression, score, deaths, input, key rhythm, face cues, etc.) — enough data per session for real belief in the comparisons.</p>
+      <p class="small">The agent adjusts speed, gravity, forgiveness, and similar levers to maximize engagement; we never change canvas or layout. Gains align with the design: attention-based RL over an allowlisted set of mods.</p>
+    </div>
+  </section>
+
+  <!-- 7. Backend / pipeline -->
+  <section class="slide" id="s7">
+    <div class="slide-inner">
+      <h1>Under the hood</h1>
+      <p class="small" style="margin-bottom:0.75rem;">The agent runs entirely in the client. Game HTML and JS are never edited—only a small loader is injected so the agent can attach to any web game.</p>
+      <ul>
+        <li><strong>Tracker</strong> — 1 Hz tick; builds an 18-vector (HR, BR, score, deaths, input, key rhythm, face cues) plus game state.</li>
+        <li><strong>Inference</strong> — VitalLens (local) or OpenCV + bandpass FFT for HR/BR and simple face movement/valence.</li>
+        <li><strong>Stimulus</strong> — Thompson sampling over mod arms with attention; outputs a short mod plan each tick.</li>
+        <li><strong>Attention-based RL</strong> — Classifies engagement (flow / bored / frustrated / excited / disengaged), applies UCB1 over policies and the stimulus plan to modify live game parameters and maximize engagement; restricted to an allowlist (no layout or caps).</li>
+        <li><strong>Mods</strong> — Per-game registry of get/set hooks; original game code is left as-is.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 8. Outro -->
+  <section class="slide" id="s8">
+    <div class="slide-inner">
+      <h1>DEF</h1>
+      <h2>Lightweight agent for adaptive web games</h2>
+      <p>A lightweight agent framework that adapts to any web game. Using attention-based reinforcement learning, it modifies live games to maximize dopamine and engagement—vitals and input stay local, game code stays intact.</p>
+      <p class="small" style="margin-top:1.5rem;">Load order: server injects a small loader on game pages → consent → tracker → inference → logger → UI → stimulus → RL. All client-side.</p>
+    </div>
+  </section>
+
+  <script>
+    (function() {
+      var slides = document.querySelectorAll('.slide');
+      var dots = document.getElementById('navDots');
+      var current = 0;
+      function updateDots() {
+        dots.innerHTML = '';
+        for (var i = 0; i < slides.length; i++) {
+          var a = document.createElement('a');
+          a.href = '#s' + (i + 1);
+          a.title = 'Slide ' + (i + 1);
+          if (i === current) a.classList.add('active');
+          (function(idx) { a.addEventListener('click', function(e) { e.preventDefault(); setSlide(idx); }); })(i);
+          dots.appendChild(a);
+        }
+      }
+      function setSlide(i) {
+        current = Math.max(0, Math.min(i, slides.length - 1));
+        slides[current].scrollIntoView({ behavior: 'smooth' });
+        updateDots();
+      }
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowDown' || e.key === 'PageDown') { e.preventDefault(); setSlide(current + 1); }
+        if (e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); setSlide(current - 1); }
+      });
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var id = entry.target.id;
+            if (id) { var n = parseInt(id.replace('s',''), 10); if (!isNaN(n)) current = n - 1; updateDots(); }
+          }
+        });
+      }, { threshold: 0.6 });
+      slides.forEach(function(s) { observer.observe(s); });
+      updateDots();
+    })();
+  </script>
+</body>
+</html>

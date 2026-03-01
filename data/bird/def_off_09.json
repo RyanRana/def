@@ -1,0 +1,6469 @@
+{
+  "game": "bird",
+  "def_enabled": false,
+  "session_id": "bird_def_off_09",
+  "duration_sec": 201,
+  "final_score": 26,
+  "deaths": 8,
+  "vector_fields": [
+    "heartRate",
+    "breathingRate",
+    "expressionIdx",
+    "sessionTimeSec",
+    "score",
+    "deaths",
+    "tapCount",
+    "activeTouchMs",
+    "scoreDelta",
+    "hrDelta",
+    "brDelta",
+    "deathsDelta",
+    "touchRatio",
+    "deathRate60s",
+    "keyVelocity",
+    "keyRhythm",
+    "faceMovement",
+    "emotionValence"
+  ],
+  "ticks": [
+    {
+      "vector": [
+        73.75,
+        16.6,
+        1,
+        0,
+        0,
+        0,
+        4,
+        387,
+        0,
+        -0.08,
+        0.07,
+        0,
+        0.387,
+        0,
+        3.78,
+        0.6,
+        0.115,
+        -0.38
+      ],
+      "gameState": {
+        "player_y_percent": 30.1,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.24,
+        16.43,
+        1,
+        1,
+        0,
+        0,
+        4,
+        151,
+        0,
+        -0.51,
+        -0.17,
+        0,
+        0.151,
+        0,
+        3.41,
+        0.69,
+        0.047,
+        0.05
+      ],
+      "gameState": {
+        "player_y_percent": 36.7,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.07,
+        16.56,
+        1,
+        2,
+        0,
+        0,
+        1,
+        403,
+        0,
+        -0.17,
+        0.13,
+        0,
+        0.403,
+        0,
+        1.0,
+        0.79,
+        0.022,
+        -0.21
+      ],
+      "gameState": {
+        "player_y_percent": 45.5,
+        "player_x_percent": 20.1,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.5,
+        16.47,
+        1,
+        3,
+        0,
+        0,
+        7,
+        576,
+        0,
+        0.43,
+        -0.09,
+        0,
+        0.576,
+        0,
+        7.66,
+        0.27,
+        0.061,
+        -0.09
+      ],
+      "gameState": {
+        "player_y_percent": 52.0,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.22,
+        16.48,
+        6,
+        4,
+        0,
+        0,
+        1,
+        296,
+        0,
+        0.72,
+        0.01,
+        0,
+        0.296,
+        0,
+        0.91,
+        0.57,
+        0.072,
+        -0.26
+      ],
+      "gameState": {
+        "player_y_percent": 47.8,
+        "player_x_percent": 19.2,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.19,
+        16.3,
+        2,
+        5,
+        0,
+        0,
+        4,
+        262,
+        0,
+        0.97,
+        -0.18,
+        0,
+        0.262,
+        0,
+        3.93,
+        0.34,
+        0.001,
+        0.12
+      ],
+      "gameState": {
+        "player_y_percent": 61.4,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.476
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.83,
+        16.49,
+        2,
+        6,
+        0,
+        0,
+        3,
+        282,
+        0,
+        -0.36,
+        0.19,
+        0,
+        0.282,
+        0,
+        3.06,
+        0.37,
+        0.032,
+        -0.17
+      ],
+      "gameState": {
+        "player_y_percent": 58.4,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.595
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.4,
+        16.73,
+        1,
+        7,
+        0,
+        0,
+        3,
+        189,
+        0,
+        -0.43,
+        0.24,
+        0,
+        0.189,
+        0,
+        2.74,
+        0.57,
+        0.058,
+        -0.24
+      ],
+      "gameState": {
+        "player_y_percent": 63.8,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.46
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.3,
+        16.85,
+        1,
+        8,
+        0,
+        0,
+        4,
+        278,
+        0,
+        -0.1,
+        0.12,
+        0,
+        0.278,
+        0,
+        4.34,
+        0.89,
+        0.091,
+        -0.2
+      ],
+      "gameState": {
+        "player_y_percent": 67.1,
+        "player_x_percent": 21.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.332
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.87,
+        16.76,
+        6,
+        9,
+        0,
+        0,
+        5,
+        308,
+        0,
+        0.57,
+        -0.09,
+        0,
+        0.308,
+        0,
+        5.0,
+        0.35,
+        0.066,
+        -0.03
+      ],
+      "gameState": {
+        "player_y_percent": 67.9,
+        "player_x_percent": 21.2,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.266
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.52,
+        16.74,
+        1,
+        10,
+        0,
+        0,
+        1,
+        541,
+        0,
+        -0.35,
+        -0.02,
+        0,
+        0.541,
+        0,
+        0.94,
+        0.6,
+        0.085,
+        -0.05
+      ],
+      "gameState": {
+        "player_y_percent": 70.3,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.411
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.05,
+        16.67,
+        2,
+        11,
+        1,
+        0,
+        2,
+        364,
+        1,
+        -0.47,
+        -0.07,
+        0,
+        0.364,
+        0,
+        2.02,
+        0.81,
+        0.007,
+        0.81
+      ],
+      "gameState": {
+        "player_y_percent": 72.7,
+        "player_x_percent": 21.2,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.461
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.86,
+        16.71,
+        2,
+        12,
+        2,
+        0,
+        2,
+        392,
+        1,
+        -1.19,
+        0.04,
+        0,
+        0.392,
+        0,
+        1.93,
+        0.4,
+        0.057,
+        0.45
+      ],
+      "gameState": {
+        "player_y_percent": 72.1,
+        "player_x_percent": 20.9,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.484
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.17,
+        16.88,
+        1,
+        13,
+        2,
+        0,
+        1,
+        510,
+        0,
+        -0.69,
+        0.17,
+        0,
+        0.51,
+        0,
+        1.07,
+        0.84,
+        0.035,
+        0.01
+      ],
+      "gameState": {
+        "player_y_percent": 66.5,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.555
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.79,
+        17.08,
+        1,
+        14,
+        2,
+        0,
+        3,
+        279,
+        0,
+        0.62,
+        0.2,
+        0,
+        0.279,
+        0,
+        3.27,
+        0,
+        0.123,
+        0.06
+      ],
+      "gameState": {
+        "player_y_percent": 68.8,
+        "player_x_percent": 18.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.492
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.6,
+        17.3,
+        5,
+        15,
+        2,
+        0,
+        1,
+        579,
+        0,
+        1.81,
+        0.22,
+        0,
+        0.579,
+        0,
+        0.9,
+        0.7,
+        0.096,
+        0.3
+      ],
+      "gameState": {
+        "player_y_percent": 58.1,
+        "player_x_percent": 19.1,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.647
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.41,
+        16.87,
+        6,
+        16,
+        2,
+        0,
+        5,
+        592,
+        0,
+        0.81,
+        -0.43,
+        0,
+        0.592,
+        0,
+        4.73,
+        0.49,
+        0.108,
+        0.02
+      ],
+      "gameState": {
+        "player_y_percent": 55.2,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.518
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.17,
+        17.73,
+        4,
+        17,
+        2,
+        1,
+        0,
+        110,
+        0,
+        1.76,
+        0.86,
+        1,
+        0.11,
+        1,
+        0.0,
+        0.19,
+        0.134,
+        -0.14
+      ],
+      "gameState": {
+        "player_y_percent": 52.8,
+        "player_x_percent": 20.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.2
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.38,
+        17.54,
+        1,
+        18,
+        2,
+        1,
+        3,
+        205,
+        0,
+        -0.79,
+        -0.19,
+        0,
+        0.205,
+        1,
+        3.16,
+        0.55,
+        0,
+        -0.16
+      ],
+      "gameState": {
+        "player_y_percent": 51.1,
+        "player_x_percent": 18.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.347
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.84,
+        17.61,
+        5,
+        19,
+        2,
+        1,
+        2,
+        500,
+        0,
+        0.46,
+        0.07,
+        0,
+        0.5,
+        1,
+        1.84,
+        0.66,
+        0.023,
+        -0.1
+      ],
+      "gameState": {
+        "player_y_percent": 39.0,
+        "player_x_percent": 22.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.563
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.94,
+        16.96,
+        1,
+        20,
+        2,
+        1,
+        2,
+        283,
+        0,
+        0.1,
+        -0.65,
+        0,
+        0.283,
+        1,
+        1.84,
+        0.39,
+        0.028,
+        -0.08
+      ],
+      "gameState": {
+        "player_y_percent": 36.5,
+        "player_x_percent": 21.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.416
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.23,
+        17.2,
+        5,
+        21,
+        2,
+        1,
+        3,
+        532,
+        0,
+        -0.71,
+        0.24,
+        0,
+        0.532,
+        1,
+        2.83,
+        0.2,
+        0.093,
+        -0.37
+      ],
+      "gameState": {
+        "player_y_percent": 25.3,
+        "player_x_percent": 19.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.406
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.32,
+        17.36,
+        5,
+        22,
+        2,
+        1,
+        2,
+        233,
+        0,
+        0.09,
+        0.16,
+        0,
+        0.233,
+        1,
+        1.99,
+        0.55,
+        0.15,
+        0.19
+      ],
+      "gameState": {
+        "player_y_percent": 22.4,
+        "player_x_percent": 20.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.563
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.59,
+        17.39,
+        3,
+        23,
+        2,
+        2,
+        1,
+        140,
+        0,
+        0.27,
+        0.03,
+        1,
+        0.14,
+        2,
+        0.95,
+        0.22,
+        0.162,
+        -0.36
+      ],
+      "gameState": {
+        "player_y_percent": 21.6,
+        "player_x_percent": 21.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.265
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.47,
+        17.28,
+        1,
+        24,
+        2,
+        2,
+        8,
+        450,
+        0,
+        -1.12,
+        -0.11,
+        0,
+        0.45,
+        2,
+        7.3,
+        0.71,
+        0.035,
+        0.03
+      ],
+      "gameState": {
+        "player_y_percent": 7.8,
+        "player_x_percent": 19.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.543
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.12,
+        16.82,
+        5,
+        25,
+        2,
+        2,
+        3,
+        552,
+        0,
+        -0.35,
+        -0.46,
+        0,
+        0.552,
+        2,
+        2.9,
+        0.72,
+        0.041,
+        -0.05
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.446
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.19,
+        16.81,
+        1,
+        26,
+        2,
+        2,
+        7,
+        373,
+        0,
+        1.07,
+        -0.01,
+        0,
+        0.373,
+        2,
+        6.33,
+        0.8,
+        0.133,
+        -0.12
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.542
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.14,
+        17.07,
+        1,
+        27,
+        2,
+        2,
+        1,
+        523,
+        0,
+        -1.05,
+        0.26,
+        0,
+        0.523,
+        2,
+        1.11,
+        0.45,
+        0.081,
+        0.05
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.581
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.5,
+        16.87,
+        1,
+        28,
+        2,
+        2,
+        1,
+        248,
+        0,
+        -0.64,
+        -0.2,
+        0,
+        0.248,
+        2,
+        0.93,
+        0.48,
+        0.092,
+        0.15
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.472
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.53,
+        16.85,
+        1,
+        29,
+        2,
+        2,
+        2,
+        222,
+        0,
+        -0.97,
+        -0.02,
+        0,
+        0.222,
+        2,
+        2.16,
+        0.61,
+        0.068,
+        -0.21
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.359
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.76,
+        16.78,
+        1,
+        30,
+        2,
+        2,
+        6,
+        378,
+        0,
+        1.23,
+        -0.07,
+        0,
+        0.378,
+        2,
+        6.29,
+        0.37,
+        0.051,
+        0.01
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.369
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.65,
+        16.56,
+        1,
+        31,
+        2,
+        2,
+        2,
+        544,
+        0,
+        -0.11,
+        -0.22,
+        0,
+        0.544,
+        2,
+        2.23,
+        0.0,
+        0.01,
+        0.31
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.5,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.372
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.12,
+        16.48,
+        1,
+        32,
+        2,
+        2,
+        2,
+        254,
+        0,
+        -1.53,
+        -0.08,
+        0,
+        0.254,
+        2,
+        1.77,
+        0.36,
+        0.059,
+        -0.15
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 22.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.399
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.1,
+        16.53,
+        1,
+        33,
+        2,
+        2,
+        4,
+        302,
+        0,
+        -0.02,
+        0.05,
+        0,
+        0.302,
+        2,
+        4.03,
+        0.41,
+        0.079,
+        0.01
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.54
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.36,
+        16.88,
+        2,
+        34,
+        3,
+        2,
+        4,
+        582,
+        1,
+        0.26,
+        0.35,
+        0,
+        0.582,
+        2,
+        3.41,
+        0.28,
+        0.044,
+        0.4
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.416
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.66,
+        17.25,
+        1,
+        35,
+        3,
+        2,
+        3,
+        175,
+        0,
+        1.3,
+        0.37,
+        0,
+        0.175,
+        2,
+        3.29,
+        0.65,
+        0.085,
+        0.2
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 22.0,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.481
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.04,
+        17.47,
+        1,
+        36,
+        3,
+        2,
+        6,
+        597,
+        0,
+        -0.62,
+        0.22,
+        0,
+        0.597,
+        2,
+        5.78,
+        0.55,
+        0.069,
+        -0.1
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.351
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.93,
+        16.96,
+        2,
+        37,
+        3,
+        2,
+        3,
+        489,
+        0,
+        -1.11,
+        -0.51,
+        0,
+        0.489,
+        2,
+        3.3,
+        0.45,
+        0.015,
+        -0.14
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.521
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.58,
+        16.54,
+        1,
+        38,
+        3,
+        2,
+        7,
+        371,
+        0,
+        -0.35,
+        -0.42,
+        0,
+        0.371,
+        2,
+        6.73,
+        0.17,
+        0.054,
+        -0.02
+      ],
+      "gameState": {
+        "player_y_percent": 7.1,
+        "player_x_percent": 20.7,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.559
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.74,
+        16.63,
+        2,
+        39,
+        3,
+        2,
+        1,
+        483,
+        0,
+        1.16,
+        0.09,
+        0,
+        0.483,
+        2,
+        0.86,
+        0.58,
+        0.062,
+        -0.11
+      ],
+      "gameState": {
+        "player_y_percent": 11.5,
+        "player_x_percent": 21.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.445
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.14,
+        16.79,
+        1,
+        40,
+        3,
+        2,
+        3,
+        442,
+        0,
+        1.4,
+        0.16,
+        0,
+        0.442,
+        2,
+        2.7,
+        0.41,
+        0.066,
+        0.02
+      ],
+      "gameState": {
+        "player_y_percent": 22.9,
+        "player_x_percent": 21.9,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.503
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.99,
+        17.01,
+        1,
+        41,
+        3,
+        2,
+        5,
+        481,
+        0,
+        -0.15,
+        0.22,
+        0,
+        0.481,
+        2,
+        5.2,
+        0.21,
+        0.026,
+        0.15
+      ],
+      "gameState": {
+        "player_y_percent": 29.0,
+        "player_x_percent": 19.5,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.385
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.97,
+        16.75,
+        1,
+        42,
+        3,
+        2,
+        5,
+        218,
+        0,
+        -0.02,
+        -0.26,
+        0,
+        0.218,
+        2,
+        5.58,
+        0.2,
+        0.056,
+        -0.07
+      ],
+      "gameState": {
+        "player_y_percent": 28.9,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.562
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.37,
+        16.56,
+        2,
+        43,
+        3,
+        2,
+        5,
+        352,
+        0,
+        0.4,
+        -0.19,
+        0,
+        0.352,
+        2,
+        5.54,
+        0.4,
+        0.069,
+        0.05
+      ],
+      "gameState": {
+        "player_y_percent": 39.6,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.304
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.31,
+        16.45,
+        1,
+        44,
+        3,
+        2,
+        5,
+        255,
+        0,
+        0.94,
+        -0.11,
+        0,
+        0.255,
+        2,
+        5.48,
+        0.69,
+        0.096,
+        -0.21
+      ],
+      "gameState": {
+        "player_y_percent": 46.4,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.349
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.79,
+        16.68,
+        1,
+        45,
+        3,
+        2,
+        6,
+        462,
+        0,
+        -0.52,
+        0.23,
+        0,
+        0.462,
+        2,
+        6.72,
+        0.86,
+        0.054,
+        -0.26
+      ],
+      "gameState": {
+        "player_y_percent": 52.2,
+        "player_x_percent": 21.2,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.495
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.68,
+        16.21,
+        6,
+        46,
+        3,
+        2,
+        3,
+        553,
+        0,
+        -1.11,
+        -0.47,
+        0,
+        0.553,
+        2,
+        3.24,
+        0.7,
+        0.077,
+        -0.1
+      ],
+      "gameState": {
+        "player_y_percent": 55.3,
+        "player_x_percent": 20.1,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.426
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.16,
+        16.11,
+        1,
+        47,
+        3,
+        2,
+        1,
+        345,
+        0,
+        0.48,
+        -0.1,
+        0,
+        0.345,
+        2,
+        0.98,
+        0.42,
+        0.09,
+        -0.11
+      ],
+      "gameState": {
+        "player_y_percent": 58.5,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.455
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.55,
+        16.06,
+        2,
+        48,
+        3,
+        2,
+        1,
+        563,
+        0,
+        -0.61,
+        -0.05,
+        0,
+        0.563,
+        2,
+        0.89,
+        0.7,
+        0.053,
+        -0.32
+      ],
+      "gameState": {
+        "player_y_percent": 57.8,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.503
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.15,
+        16.19,
+        1,
+        49,
+        3,
+        2,
+        1,
+        551,
+        0,
+        -0.4,
+        0.13,
+        0,
+        0.551,
+        2,
+        1.01,
+        0.34,
+        0.053,
+        0.01
+      ],
+      "gameState": {
+        "player_y_percent": 62.3,
+        "player_x_percent": 21.3,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.313
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.94,
+        16.12,
+        2,
+        50,
+        3,
+        2,
+        1,
+        252,
+        0,
+        -0.21,
+        -0.07,
+        0,
+        0.252,
+        2,
+        1.01,
+        0.56,
+        0.056,
+        -0.38
+      ],
+      "gameState": {
+        "player_y_percent": 65.3,
+        "player_x_percent": 18.1,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.431
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.62,
+        16.07,
+        2,
+        51,
+        3,
+        2,
+        1,
+        522,
+        0,
+        -0.32,
+        -0.05,
+        0,
+        0.522,
+        2,
+        1.05,
+        0.51,
+        0.083,
+        0.01
+      ],
+      "gameState": {
+        "player_y_percent": 69.5,
+        "player_x_percent": 20.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.491
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.27,
+        16.33,
+        2,
+        52,
+        4,
+        2,
+        6,
+        458,
+        1,
+        -0.35,
+        0.26,
+        0,
+        0.458,
+        2,
+        6.75,
+        0.29,
+        0.061,
+        0.4
+      ],
+      "gameState": {
+        "player_y_percent": 73.4,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.463
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.61,
+        15.94,
+        2,
+        53,
+        5,
+        2,
+        1,
+        339,
+        1,
+        -0.66,
+        -0.39,
+        0,
+        0.339,
+        2,
+        1.15,
+        0.74,
+        0.049,
+        0.58
+      ],
+      "gameState": {
+        "player_y_percent": 70.0,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.51
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.96,
+        15.69,
+        1,
+        54,
+        5,
+        2,
+        1,
+        583,
+        0,
+        0.35,
+        -0.25,
+        0,
+        0.583,
+        2,
+        1.13,
+        0.53,
+        0.074,
+        -0.07
+      ],
+      "gameState": {
+        "player_y_percent": 66.1,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.292
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.83,
+        16.24,
+        1,
+        55,
+        5,
+        2,
+        4,
+        303,
+        0,
+        0.87,
+        0.55,
+        0,
+        0.303,
+        2,
+        3.71,
+        0.55,
+        0.096,
+        -0.04
+      ],
+      "gameState": {
+        "player_y_percent": 70.8,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.394
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.77,
+        16.18,
+        1,
+        56,
+        5,
+        2,
+        8,
+        364,
+        0,
+        -0.06,
+        -0.06,
+        0,
+        0.364,
+        2,
+        7.11,
+        0.36,
+        0.061,
+        0.19
+      ],
+      "gameState": {
+        "player_y_percent": 68.2,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.608
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.05,
+        16.43,
+        1,
+        57,
+        5,
+        2,
+        3,
+        372,
+        0,
+        0.28,
+        0.25,
+        0,
+        0.372,
+        2,
+        2.79,
+        0.6,
+        0.07,
+        0.2
+      ],
+      "gameState": {
+        "player_y_percent": 63.0,
+        "player_x_percent": 21.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.478
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.74,
+        16.44,
+        6,
+        58,
+        5,
+        2,
+        1,
+        467,
+        0,
+        -0.31,
+        0.01,
+        0,
+        0.467,
+        2,
+        1.02,
+        0.53,
+        0.029,
+        -0.11
+      ],
+      "gameState": {
+        "player_y_percent": 56.8,
+        "player_x_percent": 18.5,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.403
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.26,
+        16.46,
+        2,
+        59,
+        6,
+        2,
+        4,
+        498,
+        1,
+        0.52,
+        0.02,
+        0,
+        0.498,
+        2,
+        3.56,
+        0.51,
+        0.08,
+        0.35
+      ],
+      "gameState": {
+        "player_y_percent": 51.0,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.472
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.29,
+        16.43,
+        1,
+        60,
+        6,
+        2,
+        8,
+        299,
+        0,
+        0.03,
+        -0.03,
+        0,
+        0.299,
+        2,
+        7.35,
+        0.42,
+        0.079,
+        0.15
+      ],
+      "gameState": {
+        "player_y_percent": 44.2,
+        "player_x_percent": 20.9,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.324
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.24,
+        16.7,
+        1,
+        61,
+        6,
+        2,
+        3,
+        402,
+        0,
+        0.95,
+        0.27,
+        0,
+        0.402,
+        2,
+        2.93,
+        0.68,
+        0.053,
+        -0.35
+      ],
+      "gameState": {
+        "player_y_percent": 36.7,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.704
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.42,
+        16.39,
+        6,
+        62,
+        6,
+        2,
+        3,
+        599,
+        0,
+        -0.82,
+        -0.31,
+        0,
+        0.599,
+        2,
+        3.4,
+        0.49,
+        0.044,
+        -0.01
+      ],
+      "gameState": {
+        "player_y_percent": 31.4,
+        "player_x_percent": 21.1,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.353
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.7,
+        16.35,
+        1,
+        63,
+        6,
+        2,
+        1,
+        158,
+        0,
+        -0.72,
+        -0.04,
+        0,
+        0.158,
+        2,
+        0.85,
+        0.56,
+        0.078,
+        -0.05
+      ],
+      "gameState": {
+        "player_y_percent": 30.3,
+        "player_x_percent": 18.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.518
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.99,
+        16.69,
+        1,
+        64,
+        6,
+        2,
+        3,
+        512,
+        0,
+        0.29,
+        0.34,
+        0,
+        0.512,
+        2,
+        2.96,
+        0.55,
+        0.085,
+        0.1
+      ],
+      "gameState": {
+        "player_y_percent": 26.2,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.487
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.2,
+        16.7,
+        2,
+        65,
+        6,
+        2,
+        3,
+        262,
+        0,
+        1.21,
+        0.01,
+        0,
+        0.262,
+        2,
+        3.42,
+        0.48,
+        0.088,
+        -0.59
+      ],
+      "gameState": {
+        "player_y_percent": 20.4,
+        "player_x_percent": 18.1,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.381
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.12,
+        16.41,
+        1,
+        66,
+        6,
+        2,
+        4,
+        259,
+        0,
+        0.92,
+        -0.29,
+        0,
+        0.259,
+        2,
+        3.61,
+        0.48,
+        0.102,
+        -0.08
+      ],
+      "gameState": {
+        "player_y_percent": 16.1,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.449
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.14,
+        16.58,
+        1,
+        67,
+        6,
+        2,
+        5,
+        299,
+        0,
+        0.02,
+        0.17,
+        0,
+        0.299,
+        2,
+        5.58,
+        0.53,
+        0.073,
+        0.07
+      ],
+      "gameState": {
+        "player_y_percent": 7.1,
+        "player_x_percent": 18.8,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.3
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.57,
+        17.35,
+        4,
+        68,
+        6,
+        3,
+        2,
+        106,
+        0,
+        1.43,
+        0.77,
+        1,
+        0.106,
+        3,
+        2.07,
+        0.31,
+        0.086,
+        -0.67
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.3,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.096
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.54,
+        17.3,
+        2,
+        69,
+        7,
+        3,
+        7,
+        206,
+        1,
+        -0.03,
+        -0.05,
+        0,
+        0.206,
+        3,
+        7.61,
+        0.21,
+        0.076,
+        0.29
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.595
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.42,
+        17.97,
+        1,
+        70,
+        7,
+        3,
+        2,
+        293,
+        0,
+        -0.12,
+        0.67,
+        0,
+        0.293,
+        3,
+        1.98,
+        0.38,
+        0.07,
+        -0.36
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.317
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.9,
+        17.29,
+        6,
+        71,
+        7,
+        3,
+        1,
+        288,
+        0,
+        0.48,
+        -0.68,
+        0,
+        0.288,
+        3,
+        1.0,
+        0.75,
+        0.044,
+        -0.08
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.7,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.559
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.57,
+        17.1,
+        5,
+        72,
+        7,
+        3,
+        8,
+        547,
+        0,
+        -0.33,
+        -0.19,
+        0,
+        0.547,
+        3,
+        7.74,
+        0.24,
+        0.086,
+        0.03
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.3,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.42
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.99,
+        17.03,
+        6,
+        73,
+        7,
+        3,
+        1,
+        598,
+        0,
+        -0.58,
+        -0.07,
+        0,
+        0.598,
+        3,
+        0.85,
+        0.48,
+        0.162,
+        -0.01
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.444
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.28,
+        16.57,
+        6,
+        74,
+        7,
+        3,
+        7,
+        321,
+        0,
+        -0.71,
+        -0.46,
+        0,
+        0.321,
+        3,
+        7.85,
+        0.43,
+        0.077,
+        -0.33
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.3,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.599
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.16,
+        16.3,
+        1,
+        75,
+        7,
+        3,
+        2,
+        184,
+        0,
+        -1.12,
+        -0.27,
+        0,
+        0.184,
+        3,
+        2.23,
+        0.63,
+        0.068,
+        -0.22
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.8,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.45
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.8,
+        16.01,
+        1,
+        76,
+        7,
+        3,
+        5,
+        284,
+        0,
+        -0.36,
+        -0.29,
+        0,
+        0.284,
+        3,
+        5.03,
+        0.34,
+        0.01,
+        0.18
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.439
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.98,
+        15.7,
+        2,
+        77,
+        7,
+        3,
+        6,
+        444,
+        0,
+        -0.82,
+        -0.31,
+        0,
+        0.444,
+        2,
+        5.96,
+        0.21,
+        0.149,
+        -0.21
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.1,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.491
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.62,
+        15.99,
+        2,
+        78,
+        7,
+        3,
+        3,
+        325,
+        0,
+        -0.36,
+        0.29,
+        0,
+        0.325,
+        2,
+        3.12,
+        0.66,
+        0.075,
+        -0.01
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.1,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.503
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.69,
+        16.06,
+        2,
+        79,
+        8,
+        3,
+        4,
+        155,
+        1,
+        0.07,
+        0.07,
+        0,
+        0.155,
+        2,
+        4.58,
+        0.69,
+        0.086,
+        0.41
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.49
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.16,
+        16.04,
+        1,
+        80,
+        8,
+        3,
+        8,
+        496,
+        0,
+        -0.53,
+        -0.02,
+        0,
+        0.496,
+        2,
+        7.69,
+        0.6,
+        0.059,
+        -0.1
+      ],
+      "gameState": {
+        "player_y_percent": 8.5,
+        "player_x_percent": 18.1,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.491
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.38,
+        16.08,
+        2,
+        81,
+        9,
+        3,
+        1,
+        204,
+        1,
+        1.22,
+        0.04,
+        0,
+        0.204,
+        2,
+        0.96,
+        0.5,
+        0.042,
+        0.45
+      ],
+      "gameState": {
+        "player_y_percent": 13.2,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.561
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.93,
+        16.32,
+        1,
+        82,
+        9,
+        3,
+        3,
+        299,
+        0,
+        -0.45,
+        0.24,
+        0,
+        0.299,
+        2,
+        3.22,
+        0.22,
+        0.1,
+        -0.15
+      ],
+      "gameState": {
+        "player_y_percent": 22.4,
+        "player_x_percent": 18.8,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.587
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.21,
+        16.86,
+        2,
+        83,
+        9,
+        3,
+        1,
+        382,
+        0,
+        1.28,
+        0.54,
+        0,
+        0.382,
+        1,
+        0.91,
+        0.55,
+        0,
+        -0.17
+      ],
+      "gameState": {
+        "player_y_percent": 24.7,
+        "player_x_percent": 20.5,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.431
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.14,
+        16.96,
+        1,
+        84,
+        9,
+        3,
+        5,
+        221,
+        0,
+        0.93,
+        0.1,
+        0,
+        0.221,
+        1,
+        5.64,
+        0.49,
+        0.09,
+        -0.27
+      ],
+      "gameState": {
+        "player_y_percent": 29.3,
+        "player_x_percent": 21.2,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.411
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.04,
+        17.31,
+        3,
+        85,
+        9,
+        4,
+        1,
+        114,
+        0,
+        -0.1,
+        0.35,
+        1,
+        0.114,
+        2,
+        1.0,
+        0.31,
+        0.156,
+        -0.31
+      ],
+      "gameState": {
+        "player_y_percent": 33.0,
+        "player_x_percent": 19.9,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.21
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.19,
+        17.56,
+        2,
+        86,
+        10,
+        4,
+        6,
+        379,
+        1,
+        -0.85,
+        0.25,
+        0,
+        0.379,
+        2,
+        5.4,
+        0.37,
+        0.125,
+        0.35
+      ],
+      "gameState": {
+        "player_y_percent": 41.5,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.492
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.74,
+        17.24,
+        1,
+        87,
+        10,
+        4,
+        3,
+        284,
+        0,
+        0.55,
+        -0.32,
+        0,
+        0.284,
+        2,
+        3.14,
+        0.46,
+        0.13,
+        -0.2
+      ],
+      "gameState": {
+        "player_y_percent": 44.8,
+        "player_x_percent": 21.7,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.329
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.44,
+        16.84,
+        5,
+        88,
+        10,
+        4,
+        6,
+        458,
+        0,
+        -0.3,
+        -0.4,
+        0,
+        0.458,
+        2,
+        6.5,
+        0.55,
+        0.049,
+        -0.01
+      ],
+      "gameState": {
+        "player_y_percent": 54.9,
+        "player_x_percent": 19.5,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.529
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.69,
+        16.9,
+        2,
+        89,
+        11,
+        4,
+        5,
+        166,
+        1,
+        -0.75,
+        0.06,
+        0,
+        0.166,
+        2,
+        5.66,
+        0.57,
+        0.093,
+        0.27
+      ],
+      "gameState": {
+        "player_y_percent": 61.5,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.428
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.97,
+        17.25,
+        2,
+        90,
+        12,
+        4,
+        5,
+        287,
+        1,
+        -0.72,
+        0.35,
+        0,
+        0.287,
+        2,
+        4.64,
+        0.7,
+        0.056,
+        0.48
+      ],
+      "gameState": {
+        "player_y_percent": 58.2,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.463
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.7,
+        16.99,
+        1,
+        91,
+        12,
+        4,
+        7,
+        361,
+        0,
+        0.73,
+        -0.26,
+        0,
+        0.361,
+        2,
+        7.15,
+        0.28,
+        0.12,
+        0.09
+      ],
+      "gameState": {
+        "player_y_percent": 62.1,
+        "player_x_percent": 18.6,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.654
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.02,
+        16.72,
+        2,
+        92,
+        12,
+        4,
+        6,
+        536,
+        0,
+        -0.68,
+        -0.27,
+        0,
+        0.536,
+        2,
+        5.82,
+        0.54,
+        0.051,
+        -0.17
+      ],
+      "gameState": {
+        "player_y_percent": 72.2,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.308
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.16,
+        16.58,
+        1,
+        93,
+        12,
+        4,
+        3,
+        467,
+        0,
+        0.14,
+        -0.14,
+        0,
+        0.467,
+        2,
+        3.0,
+        0.54,
+        0.048,
+        0.06
+      ],
+      "gameState": {
+        "player_y_percent": 64.5,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.413
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.72,
+        16.17,
+        2,
+        94,
+        13,
+        4,
+        4,
+        527,
+        1,
+        -1.44,
+        -0.41,
+        0,
+        0.527,
+        2,
+        4.49,
+        0.42,
+        0.092,
+        0.53
+      ],
+      "gameState": {
+        "player_y_percent": 66.8,
+        "player_x_percent": 20.4,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.49
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.83,
+        16.35,
+        2,
+        95,
+        13,
+        4,
+        3,
+        269,
+        0,
+        1.11,
+        0.18,
+        0,
+        0.269,
+        2,
+        2.62,
+        0.58,
+        0.136,
+        0.06
+      ],
+      "gameState": {
+        "player_y_percent": 69.5,
+        "player_x_percent": 18.2,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.443
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.18,
+        16.13,
+        6,
+        96,
+        13,
+        4,
+        6,
+        156,
+        0,
+        -0.65,
+        -0.22,
+        0,
+        0.156,
+        2,
+        6.74,
+        0.55,
+        0.081,
+        0.0
+      ],
+      "gameState": {
+        "player_y_percent": 71.4,
+        "player_x_percent": 20.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.42
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.69,
+        16.07,
+        2,
+        97,
+        13,
+        4,
+        6,
+        361,
+        0,
+        -0.49,
+        -0.06,
+        0,
+        0.361,
+        2,
+        5.76,
+        0.61,
+        0.021,
+        -0.13
+      ],
+      "gameState": {
+        "player_y_percent": 65.4,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.394
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.46,
+        16.67,
+        1,
+        98,
+        13,
+        4,
+        2,
+        229,
+        0,
+        0.77,
+        0.6,
+        0,
+        0.229,
+        2,
+        2.16,
+        0.79,
+        0.053,
+        -0.12
+      ],
+      "gameState": {
+        "player_y_percent": 64.1,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.543
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.21,
+        16.78,
+        1,
+        99,
+        13,
+        4,
+        4,
+        486,
+        0,
+        0.75,
+        0.11,
+        0,
+        0.486,
+        2,
+        4.44,
+        1,
+        0.059,
+        -0.25
+      ],
+      "gameState": {
+        "player_y_percent": 63.0,
+        "player_x_percent": 19.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.335
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.93,
+        16.7,
+        2,
+        100,
+        13,
+        4,
+        8,
+        213,
+        0,
+        0.72,
+        -0.08,
+        0,
+        0.213,
+        2,
+        9.09,
+        0.53,
+        0.069,
+        0.02
+      ],
+      "gameState": {
+        "player_y_percent": 51.4,
+        "player_x_percent": 19.5,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.47
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.0,
+        16.7,
+        1,
+        101,
+        13,
+        4,
+        4,
+        246,
+        0,
+        0.07,
+        0.0,
+        0,
+        0.246,
+        2,
+        4.48,
+        0.43,
+        0.068,
+        -0.11
+      ],
+      "gameState": {
+        "player_y_percent": 49.1,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.34
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.63,
+        16.37,
+        2,
+        102,
+        14,
+        4,
+        1,
+        208,
+        1,
+        -0.37,
+        -0.33,
+        0,
+        0.208,
+        2,
+        0.86,
+        0.45,
+        0.037,
+        0.68
+      ],
+      "gameState": {
+        "player_y_percent": 42.9,
+        "player_x_percent": 20.7,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.96,
+        16.33,
+        6,
+        103,
+        14,
+        4,
+        3,
+        152,
+        0,
+        0.33,
+        -0.04,
+        0,
+        0.152,
+        2,
+        2.55,
+        0.77,
+        0.11,
+        0.27
+      ],
+      "gameState": {
+        "player_y_percent": 36.6,
+        "player_x_percent": 21.9,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.524
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.99,
+        16.34,
+        2,
+        104,
+        14,
+        4,
+        3,
+        511,
+        0,
+        0.03,
+        0.01,
+        0,
+        0.511,
+        2,
+        3.03,
+        0.51,
+        0.054,
+        0.04
+      ],
+      "gameState": {
+        "player_y_percent": 37.0,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.524
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.15,
+        16.22,
+        6,
+        105,
+        14,
+        4,
+        3,
+        262,
+        0,
+        -0.84,
+        -0.12,
+        0,
+        0.262,
+        2,
+        3.17,
+        0.48,
+        0.084,
+        -0.48
+      ],
+      "gameState": {
+        "player_y_percent": 28.0,
+        "player_x_percent": 18.6,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.349
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.93,
+        16.04,
+        2,
+        106,
+        14,
+        4,
+        1,
+        232,
+        0,
+        0.78,
+        -0.18,
+        0,
+        0.232,
+        2,
+        1.04,
+        0.55,
+        0.058,
+        -0.27
+      ],
+      "gameState": {
+        "player_y_percent": 22.4,
+        "player_x_percent": 19.4,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.438
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.44,
+        16.11,
+        2,
+        107,
+        15,
+        4,
+        5,
+        460,
+        1,
+        -0.49,
+        0.07,
+        0,
+        0.46,
+        2,
+        5.73,
+        0.59,
+        0.0,
+        0.57
+      ],
+      "gameState": {
+        "player_y_percent": 15.9,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.49
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.44,
+        16.12,
+        1,
+        108,
+        15,
+        4,
+        1,
+        481,
+        0,
+        0.0,
+        0.01,
+        0,
+        0.481,
+        2,
+        1.01,
+        0.53,
+        0.043,
+        -0.16
+      ],
+      "gameState": {
+        "player_y_percent": 12.5,
+        "player_x_percent": 18.3,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.538
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.32,
+        16.43,
+        1,
+        109,
+        15,
+        4,
+        4,
+        542,
+        0,
+        -1.12,
+        0.31,
+        0,
+        0.542,
+        2,
+        3.49,
+        0.43,
+        0.029,
+        -0.17
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.6,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.462
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.03,
+        15.99,
+        1,
+        110,
+        15,
+        4,
+        5,
+        433,
+        0,
+        -0.29,
+        -0.44,
+        0,
+        0.433,
+        2,
+        4.34,
+        0.66,
+        0.078,
+        -0.06
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.461
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.47,
+        16.43,
+        1,
+        111,
+        15,
+        4,
+        2,
+        335,
+        0,
+        0.44,
+        0.44,
+        0,
+        0.335,
+        2,
+        2.09,
+        0.49,
+        0.029,
+        -0.27
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.4,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.518
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.21,
+        16.53,
+        1,
+        112,
+        15,
+        4,
+        4,
+        267,
+        0,
+        -0.26,
+        0.1,
+        0,
+        0.267,
+        2,
+        4.21,
+        0.32,
+        0.032,
+        0.12
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.481
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.19,
+        16.9,
+        2,
+        113,
+        15,
+        4,
+        3,
+        177,
+        0,
+        0.98,
+        0.37,
+        0,
+        0.177,
+        2,
+        3.11,
+        0.77,
+        0.078,
+        -0.15
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.4,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.376
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.15,
+        16.64,
+        2,
+        114,
+        15,
+        4,
+        2,
+        584,
+        0,
+        -1.04,
+        -0.26,
+        0,
+        0.584,
+        2,
+        1.78,
+        0.37,
+        0.126,
+        0.09
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.3,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.495
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.68,
+        16.74,
+        1,
+        115,
+        15,
+        4,
+        2,
+        496,
+        0,
+        -0.47,
+        0.1,
+        0,
+        0.496,
+        2,
+        2.25,
+        0.77,
+        0.067,
+        0.17
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.465
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        71.78,
+        16.71,
+        1,
+        116,
+        15,
+        4,
+        4,
+        391,
+        0,
+        -0.9,
+        -0.03,
+        0,
+        0.391,
+        2,
+        3.51,
+        0.51,
+        0.089,
+        0.18
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.6,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.472
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.34,
+        17.14,
+        5,
+        117,
+        15,
+        4,
+        3,
+        225,
+        0,
+        1.56,
+        0.43,
+        0,
+        0.225,
+        2,
+        2.98,
+        0.43,
+        0.114,
+        -0.05
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 20.4,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.367
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.77,
+        17.3,
+        1,
+        118,
+        15,
+        4,
+        5,
+        377,
+        0,
+        1.43,
+        0.16,
+        0,
+        0.377,
+        2,
+        5.65,
+        0.29,
+        0.075,
+        0.11
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.1,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.548
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.56,
+        17.18,
+        2,
+        119,
+        15,
+        4,
+        1,
+        214,
+        0,
+        -0.21,
+        -0.12,
+        0,
+        0.214,
+        2,
+        1.0,
+        0.2,
+        0.157,
+        -0.09
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.0,
+        "pipe_pair_count": 4
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.531
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.73,
+        17.54,
+        1,
+        120,
+        15,
+        4,
+        3,
+        253,
+        0,
+        1.17,
+        0.36,
+        0,
+        0.253,
+        2,
+        2.8,
+        0.67,
+        0.073,
+        -0.03
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 22.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.338
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.59,
+        17.75,
+        3,
+        121,
+        15,
+        5,
+        0,
+        149,
+        0,
+        2.86,
+        0.21,
+        1,
+        0.149,
+        3,
+        0.0,
+        0.35,
+        0.126,
+        -0.31
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.1,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.335
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.04,
+        17.41,
+        1,
+        122,
+        15,
+        5,
+        1,
+        314,
+        0,
+        -0.55,
+        -0.34,
+        0,
+        0.314,
+        3,
+        1.06,
+        0.37,
+        0.074,
+        -0.06
+      ],
+      "gameState": {
+        "player_y_percent": 7.3,
+        "player_x_percent": 18.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.317
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.18,
+        17.08,
+        6,
+        123,
+        15,
+        5,
+        2,
+        275,
+        0,
+        -0.86,
+        -0.33,
+        0,
+        0.275,
+        3,
+        1.8,
+        0.51,
+        0.087,
+        -0.26
+      ],
+      "gameState": {
+        "player_y_percent": 10.5,
+        "player_x_percent": 21.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.311
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.13,
+        17.18,
+        1,
+        124,
+        15,
+        5,
+        7,
+        509,
+        0,
+        -1.05,
+        0.1,
+        0,
+        0.509,
+        3,
+        7.97,
+        0.3,
+        0.077,
+        -0.12
+      ],
+      "gameState": {
+        "player_y_percent": 23.6,
+        "player_x_percent": 20.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.438
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.0,
+        17.15,
+        1,
+        125,
+        15,
+        5,
+        5,
+        572,
+        0,
+        -0.13,
+        -0.03,
+        0,
+        0.572,
+        3,
+        5.29,
+        0.18,
+        0.154,
+        -0.4
+      ],
+      "gameState": {
+        "player_y_percent": 24.9,
+        "player_x_percent": 18.1,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.274
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.25,
+        17.11,
+        6,
+        126,
+        15,
+        5,
+        2,
+        154,
+        0,
+        -0.75,
+        -0.04,
+        0,
+        0.154,
+        3,
+        1.96,
+        0.46,
+        0.064,
+        -0.01
+      ],
+      "gameState": {
+        "player_y_percent": 33.5,
+        "player_x_percent": 20.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.412
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.45,
+        16.86,
+        6,
+        127,
+        15,
+        5,
+        1,
+        572,
+        0,
+        0.2,
+        -0.25,
+        0,
+        0.572,
+        3,
+        1.08,
+        0.67,
+        0.035,
+        0.29
+      ],
+      "gameState": {
+        "player_y_percent": 37.3,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.476
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.58,
+        16.84,
+        1,
+        128,
+        15,
+        5,
+        8,
+        517,
+        0,
+        0.13,
+        -0.02,
+        0,
+        0.517,
+        2,
+        7.59,
+        0.66,
+        0.039,
+        -0.33
+      ],
+      "gameState": {
+        "player_y_percent": 43.8,
+        "player_x_percent": 19.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.438
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.7,
+        16.73,
+        1,
+        129,
+        15,
+        5,
+        5,
+        337,
+        0,
+        -0.88,
+        -0.11,
+        0,
+        0.337,
+        2,
+        4.58,
+        0.45,
+        0.02,
+        -0.3
+      ],
+      "gameState": {
+        "player_y_percent": 52.7,
+        "player_x_percent": 21.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.338
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.17,
+        16.72,
+        1,
+        130,
+        15,
+        5,
+        3,
+        299,
+        0,
+        -0.53,
+        -0.01,
+        0,
+        0.299,
+        2,
+        3.05,
+        0.44,
+        0.045,
+        0.04
+      ],
+      "gameState": {
+        "player_y_percent": 50.1,
+        "player_x_percent": 20.9,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.564
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.36,
+        16.65,
+        1,
+        131,
+        15,
+        5,
+        6,
+        585,
+        0,
+        0.19,
+        -0.07,
+        0,
+        0.585,
+        2,
+        6.08,
+        0.27,
+        0.01,
+        -0.2
+      ],
+      "gameState": {
+        "player_y_percent": 58.8,
+        "player_x_percent": 18.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.606
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.07,
+        16.58,
+        2,
+        132,
+        15,
+        5,
+        4,
+        259,
+        0,
+        0.71,
+        -0.07,
+        0,
+        0.259,
+        2,
+        4.31,
+        0.06,
+        0.094,
+        -0.27
+      ],
+      "gameState": {
+        "player_y_percent": 60.6,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.296
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.33,
+        16.74,
+        5,
+        133,
+        15,
+        5,
+        4,
+        365,
+        0,
+        1.26,
+        0.16,
+        0,
+        0.365,
+        2,
+        3.61,
+        0.55,
+        0.129,
+        -0.02
+      ],
+      "gameState": {
+        "player_y_percent": 63.2,
+        "player_x_percent": 20.1,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.454
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.3,
+        16.72,
+        1,
+        134,
+        15,
+        5,
+        3,
+        298,
+        0,
+        0.97,
+        -0.02,
+        0,
+        0.298,
+        2,
+        2.61,
+        0.53,
+        0.095,
+        -0.22
+      ],
+      "gameState": {
+        "player_y_percent": 66.4,
+        "player_x_percent": 20.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.491
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.93,
+        16.96,
+        5,
+        135,
+        15,
+        5,
+        7,
+        245,
+        0,
+        0.63,
+        0.24,
+        0,
+        0.245,
+        2,
+        6.05,
+        0.44,
+        0.115,
+        0.03
+      ],
+      "gameState": {
+        "player_y_percent": 68.2,
+        "player_x_percent": 18.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.477
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.79,
+        17.15,
+        6,
+        136,
+        15,
+        5,
+        3,
+        368,
+        0,
+        0.86,
+        0.19,
+        0,
+        0.368,
+        2,
+        2.95,
+        0.59,
+        0.091,
+        0.24
+      ],
+      "gameState": {
+        "player_y_percent": 67.1,
+        "player_x_percent": 21.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.508
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        79.19,
+        17.92,
+        3,
+        137,
+        15,
+        6,
+        0,
+        81,
+        0,
+        0.4,
+        0.77,
+        1,
+        0.081,
+        3,
+        0.0,
+        0.5,
+        0.104,
+        -0.07
+      ],
+      "gameState": {
+        "player_y_percent": 73.5,
+        "player_x_percent": 19.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.296
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        79.97,
+        17.37,
+        6,
+        138,
+        15,
+        6,
+        4,
+        367,
+        0,
+        0.78,
+        -0.55,
+        0,
+        0.367,
+        3,
+        4.55,
+        0.21,
+        0.133,
+        0.14
+      ],
+      "gameState": {
+        "player_y_percent": 69.2,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.562
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.33,
+        17.35,
+        2,
+        139,
+        16,
+        6,
+        3,
+        453,
+        1,
+        -2.64,
+        -0.02,
+        0,
+        0.453,
+        3,
+        3.4,
+        0.66,
+        0.082,
+        0.35
+      ],
+      "gameState": {
+        "player_y_percent": 70.8,
+        "player_x_percent": 18.9,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.561
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.16,
+        17.4,
+        1,
+        140,
+        16,
+        6,
+        4,
+        399,
+        0,
+        -1.17,
+        0.05,
+        0,
+        0.399,
+        3,
+        3.74,
+        0.34,
+        0.111,
+        -0.21
+      ],
+      "gameState": {
+        "player_y_percent": 67.0,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.363
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.45,
+        17.74,
+        1,
+        141,
+        16,
+        6,
+        7,
+        593,
+        0,
+        0.29,
+        0.34,
+        0,
+        0.593,
+        3,
+        7.14,
+        0.95,
+        0.066,
+        -0.08
+      ],
+      "gameState": {
+        "player_y_percent": 58.4,
+        "player_x_percent": 21.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.359
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.79,
+        17.42,
+        2,
+        142,
+        16,
+        6,
+        7,
+        294,
+        0,
+        0.34,
+        -0.32,
+        0,
+        0.294,
+        3,
+        6.32,
+        0.55,
+        0.047,
+        -0.21
+      ],
+      "gameState": {
+        "player_y_percent": 57.1,
+        "player_x_percent": 20.2,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.538
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.26,
+        17.31,
+        2,
+        143,
+        17,
+        6,
+        4,
+        190,
+        1,
+        -0.53,
+        -0.11,
+        0,
+        0.19,
+        3,
+        3.86,
+        0.37,
+        0.057,
+        0.55
+      ],
+      "gameState": {
+        "player_y_percent": 48.4,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.427
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.3,
+        17.12,
+        6,
+        144,
+        17,
+        6,
+        2,
+        438,
+        0,
+        -0.96,
+        -0.19,
+        0,
+        0.438,
+        3,
+        2.03,
+        0.46,
+        0.073,
+        0.19
+      ],
+      "gameState": {
+        "player_y_percent": 48.5,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.405
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.73,
+        17.01,
+        6,
+        145,
+        17,
+        6,
+        2,
+        288,
+        0,
+        -0.57,
+        -0.11,
+        0,
+        0.288,
+        2,
+        1.92,
+        0.22,
+        0.063,
+        0.36
+      ],
+      "gameState": {
+        "player_y_percent": 39.9,
+        "player_x_percent": 21.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.337
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.66,
+        17.04,
+        6,
+        146,
+        17,
+        6,
+        3,
+        176,
+        0,
+        -0.07,
+        0.03,
+        0,
+        0.176,
+        2,
+        3.37,
+        0.67,
+        0.067,
+        -0.01
+      ],
+      "gameState": {
+        "player_y_percent": 31.5,
+        "player_x_percent": 19.5,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.531
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.14,
+        16.75,
+        1,
+        147,
+        17,
+        6,
+        1,
+        310,
+        0,
+        -0.52,
+        -0.29,
+        0,
+        0.31,
+        2,
+        1.09,
+        0.3,
+        0.111,
+        -0.25
+      ],
+      "gameState": {
+        "player_y_percent": 24.7,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.402
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.91,
+        16.9,
+        2,
+        148,
+        18,
+        6,
+        1,
+        228,
+        1,
+        0.77,
+        0.15,
+        0,
+        0.228,
+        2,
+        0.92,
+        0.46,
+        0.059,
+        0.38
+      ],
+      "gameState": {
+        "player_y_percent": 21.8,
+        "player_x_percent": 20.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.41,
+        16.68,
+        2,
+        149,
+        19,
+        6,
+        3,
+        531,
+        1,
+        -0.5,
+        -0.22,
+        0,
+        0.531,
+        2,
+        2.97,
+        1,
+        0.093,
+        0.52
+      ],
+      "gameState": {
+        "player_y_percent": 12.8,
+        "player_x_percent": 18.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.508
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.79,
+        16.41,
+        6,
+        150,
+        19,
+        6,
+        1,
+        488,
+        0,
+        -0.62,
+        -0.27,
+        0,
+        0.488,
+        2,
+        1.04,
+        0.35,
+        0.118,
+        -0.33
+      ],
+      "gameState": {
+        "player_y_percent": 6.8,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.45
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.89,
+        16.63,
+        6,
+        151,
+        19,
+        6,
+        4,
+        331,
+        0,
+        -0.9,
+        0.22,
+        0,
+        0.331,
+        2,
+        3.72,
+        0.32,
+        0.093,
+        -0.05
+      ],
+      "gameState": {
+        "player_y_percent": 6.7,
+        "player_x_percent": 20.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.284
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.36,
+        16.45,
+        6,
+        152,
+        19,
+        6,
+        4,
+        485,
+        0,
+        1.47,
+        -0.18,
+        0,
+        0.485,
+        2,
+        3.56,
+        0.41,
+        0.018,
+        0.2
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.0,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.43
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.08,
+        16.51,
+        2,
+        153,
+        19,
+        6,
+        5,
+        418,
+        0,
+        0.72,
+        0.06,
+        0,
+        0.418,
+        2,
+        5.67,
+        0.33,
+        0.036,
+        -0.31
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.2,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.495
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.48,
+        16.33,
+        6,
+        154,
+        19,
+        6,
+        3,
+        377,
+        0,
+        1.4,
+        -0.18,
+        0,
+        0.377,
+        2,
+        2.91,
+        0.36,
+        0.078,
+        0.14
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.2,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.397
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.5,
+        16.61,
+        1,
+        155,
+        19,
+        6,
+        7,
+        210,
+        0,
+        0.02,
+        0.28,
+        0,
+        0.21,
+        2,
+        7.62,
+        0.52,
+        0.125,
+        0.38
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.474
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.86,
+        17.03,
+        5,
+        156,
+        19,
+        6,
+        5,
+        439,
+        0,
+        0.36,
+        0.42,
+        0,
+        0.439,
+        2,
+        4.35,
+        0.06,
+        0.088,
+        -0.02
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.413
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.0,
+        17.5,
+        3,
+        157,
+        19,
+        7,
+        2,
+        86,
+        0,
+        1.14,
+        0.47,
+        1,
+        0.086,
+        3,
+        2.27,
+        0.52,
+        0.2,
+        -0.4
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.144
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.63,
+        17.93,
+        1,
+        158,
+        19,
+        7,
+        1,
+        246,
+        0,
+        -0.37,
+        0.43,
+        0,
+        0.246,
+        3,
+        1.06,
+        0.76,
+        0.056,
+        -0.27
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.6,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.507
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.76,
+        17.91,
+        1,
+        159,
+        19,
+        7,
+        2,
+        533,
+        0,
+        0.13,
+        -0.02,
+        0,
+        0.533,
+        3,
+        2.1,
+        0.66,
+        0.077,
+        -0.17
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 18.2,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.585
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.16,
+        17.5,
+        6,
+        160,
+        19,
+        7,
+        4,
+        175,
+        0,
+        -1.6,
+        -0.41,
+        0,
+        0.175,
+        3,
+        3.9,
+        0.58,
+        0.022,
+        0.2
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.5,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.498
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.94,
+        17.55,
+        5,
+        161,
+        19,
+        7,
+        8,
+        334,
+        0,
+        -0.22,
+        0.05,
+        0,
+        0.334,
+        3,
+        7.14,
+        0.25,
+        0.042,
+        0.12
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.6,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.425
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.01,
+        17.3,
+        6,
+        162,
+        19,
+        7,
+        2,
+        349,
+        0,
+        -0.93,
+        -0.25,
+        0,
+        0.349,
+        3,
+        1.79,
+        0.5,
+        0.051,
+        -0.0
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.49
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.82,
+        17.32,
+        1,
+        163,
+        19,
+        7,
+        7,
+        521,
+        0,
+        -0.19,
+        0.02,
+        0,
+        0.521,
+        3,
+        6.29,
+        0.52,
+        0.165,
+        -0.16
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.2,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.489
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.28,
+        17.04,
+        2,
+        164,
+        20,
+        7,
+        3,
+        446,
+        1,
+        0.46,
+        -0.28,
+        0,
+        0.446,
+        3,
+        2.85,
+        0.74,
+        0.069,
+        0.44
+      ],
+      "gameState": {
+        "player_y_percent": 10.6,
+        "player_x_percent": 20.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.386
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.9,
+        16.69,
+        1,
+        165,
+        20,
+        7,
+        1,
+        216,
+        0,
+        -0.38,
+        -0.35,
+        0,
+        0.216,
+        3,
+        0.96,
+        0.27,
+        0.089,
+        0.02
+      ],
+      "gameState": {
+        "player_y_percent": 10.5,
+        "player_x_percent": 20.1,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.456
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.53,
+        16.31,
+        2,
+        166,
+        21,
+        7,
+        1,
+        249,
+        1,
+        0.63,
+        -0.38,
+        0,
+        0.249,
+        3,
+        0.98,
+        0.59,
+        0.102,
+        0.65
+      ],
+      "gameState": {
+        "player_y_percent": 17.0,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.575
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.06,
+        16.52,
+        1,
+        167,
+        21,
+        7,
+        5,
+        418,
+        0,
+        -1.47,
+        0.21,
+        0,
+        0.418,
+        3,
+        4.28,
+        0.33,
+        0.041,
+        0.11
+      ],
+      "gameState": {
+        "player_y_percent": 21.7,
+        "player_x_percent": 19.2,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.461
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.1,
+        16.57,
+        2,
+        168,
+        21,
+        7,
+        4,
+        363,
+        0,
+        0.04,
+        0.05,
+        0,
+        0.363,
+        3,
+        3.87,
+        0.23,
+        0.025,
+        -0.19
+      ],
+      "gameState": {
+        "player_y_percent": 27.9,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.521
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.89,
+        16.4,
+        2,
+        169,
+        21,
+        7,
+        5,
+        577,
+        0,
+        -0.21,
+        -0.17,
+        0,
+        0.577,
+        3,
+        4.55,
+        0.54,
+        0,
+        -0.12
+      ],
+      "gameState": {
+        "player_y_percent": 34.6,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.494
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.07,
+        16.17,
+        1,
+        170,
+        21,
+        7,
+        1,
+        393,
+        0,
+        0.18,
+        -0.23,
+        0,
+        0.393,
+        3,
+        0.9,
+        0.54,
+        0.002,
+        -0.29
+      ],
+      "gameState": {
+        "player_y_percent": 42.3,
+        "player_x_percent": 18.5,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.412
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.82,
+        16.46,
+        1,
+        171,
+        21,
+        7,
+        5,
+        535,
+        0,
+        -1.25,
+        0.29,
+        0,
+        0.535,
+        3,
+        4.52,
+        0.41,
+        0.047,
+        -0.03
+      ],
+      "gameState": {
+        "player_y_percent": 46.5,
+        "player_x_percent": 19.5,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.53
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.09,
+        16.49,
+        6,
+        172,
+        21,
+        7,
+        5,
+        581,
+        0,
+        0.27,
+        0.03,
+        0,
+        0.581,
+        3,
+        4.43,
+        1,
+        0.053,
+        -0.1
+      ],
+      "gameState": {
+        "player_y_percent": 57.2,
+        "player_x_percent": 19.1,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.385
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.15,
+        16.7,
+        2,
+        173,
+        22,
+        7,
+        1,
+        307,
+        1,
+        0.06,
+        0.21,
+        0,
+        0.307,
+        3,
+        1.04,
+        0.27,
+        0,
+        0.15
+      ],
+      "gameState": {
+        "player_y_percent": 61.5,
+        "player_x_percent": 21.6,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.407
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.73,
+        17.04,
+        1,
+        174,
+        22,
+        7,
+        7,
+        352,
+        0,
+        0.58,
+        0.34,
+        0,
+        0.352,
+        3,
+        7.81,
+        0.73,
+        0.1,
+        0.16
+      ],
+      "gameState": {
+        "player_y_percent": 60.5,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.515
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.84,
+        17.05,
+        2,
+        175,
+        22,
+        7,
+        4,
+        169,
+        0,
+        -0.89,
+        0.01,
+        0,
+        0.169,
+        3,
+        4.48,
+        0.58,
+        0.115,
+        -0.01
+      ],
+      "gameState": {
+        "player_y_percent": 64.8,
+        "player_x_percent": 20.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.419
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.66,
+        16.81,
+        2,
+        176,
+        23,
+        7,
+        1,
+        553,
+        1,
+        -0.18,
+        -0.24,
+        0,
+        0.553,
+        3,
+        1.04,
+        0.17,
+        0.075,
+        0.54
+      ],
+      "gameState": {
+        "player_y_percent": 71.4,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.492
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.05,
+        16.74,
+        2,
+        177,
+        23,
+        7,
+        3,
+        507,
+        0,
+        0.39,
+        -0.07,
+        0,
+        0.507,
+        3,
+        3.11,
+        0.18,
+        0.011,
+        -0.12
+      ],
+      "gameState": {
+        "player_y_percent": 66.0,
+        "player_x_percent": 21.8,
+        "pipe_pair_count": 1
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.462
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.23,
+        16.98,
+        5,
+        178,
+        23,
+        7,
+        5,
+        591,
+        0,
+        0.18,
+        0.24,
+        0,
+        0.591,
+        3,
+        5.23,
+        0.69,
+        0.073,
+        -0.46
+      ],
+      "gameState": {
+        "player_y_percent": 69.1,
+        "player_x_percent": 20.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.401
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.03,
+        17.0,
+        6,
+        179,
+        23,
+        7,
+        3,
+        552,
+        0,
+        0.8,
+        0.02,
+        0,
+        0.552,
+        3,
+        3.05,
+        0.57,
+        0.107,
+        -0.16
+      ],
+      "gameState": {
+        "player_y_percent": 74.5,
+        "player_x_percent": 21.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.58
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.37,
+        16.77,
+        2,
+        180,
+        24,
+        7,
+        1,
+        152,
+        1,
+        0.34,
+        -0.23,
+        0,
+        0.152,
+        3,
+        1.14,
+        0.68,
+        0.081,
+        0.76
+      ],
+      "gameState": {
+        "player_y_percent": 63.9,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.629
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.69,
+        16.74,
+        2,
+        181,
+        25,
+        7,
+        5,
+        385,
+        1,
+        0.32,
+        -0.03,
+        0,
+        0.385,
+        2,
+        4.27,
+        0.41,
+        0.111,
+        0.68
+      ],
+      "gameState": {
+        "player_y_percent": 69.2,
+        "player_x_percent": 20.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.469
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.88,
+        17.24,
+        4,
+        182,
+        25,
+        8,
+        2,
+        86,
+        0,
+        0.19,
+        0.5,
+        1,
+        0.086,
+        3,
+        1.83,
+        0.31,
+        0.089,
+        -0.57
+      ],
+      "gameState": {
+        "player_y_percent": 65.7,
+        "player_x_percent": 19.7,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.233
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.5,
+        17.39,
+        1,
+        183,
+        25,
+        8,
+        8,
+        537,
+        0,
+        0.62,
+        0.15,
+        0,
+        0.537,
+        3,
+        6.88,
+        0.53,
+        0.084,
+        0.04
+      ],
+      "gameState": {
+        "player_y_percent": 62.8,
+        "player_x_percent": 18.3,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.47
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.69,
+        17.32,
+        5,
+        184,
+        25,
+        8,
+        1,
+        407,
+        0,
+        1.19,
+        -0.07,
+        0,
+        0.407,
+        3,
+        1.06,
+        0.33,
+        0.088,
+        -0.08
+      ],
+      "gameState": {
+        "player_y_percent": 59.4,
+        "player_x_percent": 19.2,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.425
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.07,
+        16.89,
+        5,
+        185,
+        25,
+        8,
+        4,
+        519,
+        0,
+        -0.62,
+        -0.43,
+        0,
+        0.519,
+        3,
+        4.43,
+        0.64,
+        0.163,
+        -0.09
+      ],
+      "gameState": {
+        "player_y_percent": 50.8,
+        "player_x_percent": 20.3,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.533
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.29,
+        16.83,
+        1,
+        186,
+        25,
+        8,
+        3,
+        335,
+        0,
+        -0.78,
+        -0.06,
+        0,
+        0.335,
+        3,
+        3.32,
+        0.6,
+        0.083,
+        -0.23
+      ],
+      "gameState": {
+        "player_y_percent": 46.4,
+        "player_x_percent": 21.3,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.447
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.58,
+        16.55,
+        2,
+        187,
+        25,
+        8,
+        2,
+        377,
+        0,
+        -0.71,
+        -0.28,
+        0,
+        0.377,
+        3,
+        1.97,
+        0.81,
+        0.111,
+        -0.14
+      ],
+      "gameState": {
+        "player_y_percent": 43.3,
+        "player_x_percent": 19.9,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.469
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.19,
+        16.55,
+        1,
+        188,
+        25,
+        8,
+        1,
+        372,
+        0,
+        -0.39,
+        0.0,
+        0,
+        0.372,
+        3,
+        1.1,
+        0.68,
+        0.01,
+        -0.02
+      ],
+      "gameState": {
+        "player_y_percent": 29.3,
+        "player_x_percent": 21.9,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.493
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.37,
+        16.52,
+        2,
+        189,
+        25,
+        8,
+        2,
+        589,
+        0,
+        -0.82,
+        -0.03,
+        0,
+        0.589,
+        3,
+        1.97,
+        0.51,
+        0.079,
+        0.05
+      ],
+      "gameState": {
+        "player_y_percent": 23.9,
+        "player_x_percent": 20.0,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.498
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.73,
+        16.71,
+        6,
+        190,
+        25,
+        8,
+        1,
+        214,
+        0,
+        0.36,
+        0.19,
+        0,
+        0.214,
+        3,
+        0.94,
+        0.45,
+        0.059,
+        -0.18
+      ],
+      "gameState": {
+        "player_y_percent": 23.9,
+        "player_x_percent": 18.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.36
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.64,
+        16.43,
+        2,
+        191,
+        26,
+        8,
+        1,
+        164,
+        1,
+        -0.09,
+        -0.28,
+        0,
+        0.164,
+        3,
+        0.92,
+        0.36,
+        0.075,
+        0.48
+      ],
+      "gameState": {
+        "player_y_percent": 19.3,
+        "player_x_percent": 18.1,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.476
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.75,
+        16.31,
+        1,
+        192,
+        26,
+        8,
+        1,
+        172,
+        0,
+        -0.89,
+        -0.12,
+        0,
+        0.172,
+        3,
+        0.88,
+        0.86,
+        0.077,
+        0.07
+      ],
+      "gameState": {
+        "player_y_percent": 7.7,
+        "player_x_percent": 19.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.421
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.41,
+        16.31,
+        1,
+        193,
+        26,
+        8,
+        5,
+        340,
+        0,
+        0.66,
+        0.0,
+        0,
+        0.34,
+        3,
+        4.29,
+        0.9,
+        0.081,
+        0.1
+      ],
+      "gameState": {
+        "player_y_percent": 8.0,
+        "player_x_percent": 19.3,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.431
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.87,
+        16.05,
+        1,
+        194,
+        26,
+        8,
+        5,
+        541,
+        0,
+        0.46,
+        -0.26,
+        0,
+        0.541,
+        3,
+        4.9,
+        0.36,
+        0.108,
+        -0.08
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.1,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.393
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.82,
+        16.1,
+        1,
+        195,
+        26,
+        8,
+        5,
+        410,
+        0,
+        -0.05,
+        0.05,
+        0,
+        0.41,
+        3,
+        4.33,
+        0.61,
+        0.055,
+        -0.32
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 22.0,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.491
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.58,
+        15.92,
+        1,
+        196,
+        26,
+        8,
+        5,
+        360,
+        0,
+        0.76,
+        -0.18,
+        0,
+        0.36,
+        3,
+        4.82,
+        0.73,
+        0.059,
+        0.41
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.1,
+        "pipe_pair_count": 2
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.37
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.11,
+        15.83,
+        1,
+        197,
+        26,
+        8,
+        3,
+        591,
+        0,
+        -0.47,
+        -0.09,
+        0,
+        0.591,
+        2,
+        2.56,
+        0.55,
+        0.074,
+        -0.1
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 19.9,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.356
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.86,
+        16.18,
+        2,
+        198,
+        26,
+        8,
+        4,
+        284,
+        0,
+        0.75,
+        0.35,
+        0,
+        0.284,
+        2,
+        4.56,
+        0.33,
+        0.094,
+        -0.12
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.2,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.355
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.9,
+        16.19,
+        1,
+        199,
+        26,
+        8,
+        1,
+        438,
+        0,
+        0.04,
+        0.01,
+        0,
+        0.438,
+        2,
+        0.89,
+        0.2,
+        0.069,
+        -0.04
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.5,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.439
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.61,
+        16.06,
+        1,
+        200,
+        26,
+        8,
+        6,
+        333,
+        0,
+        -0.29,
+        -0.13,
+        0,
+        0.333,
+        2,
+        5.7,
+        0.1,
+        0.073,
+        0.13
+      ],
+      "gameState": {
+        "player_y_percent": 5,
+        "player_x_percent": 21.4,
+        "pipe_pair_count": 3
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.55
+      },
+      "mods_applied": []
+    }
+  ],
+  "summary": {
+    "avg_engagement": 0.448,
+    "flow_pct": 40,
+    "frustration_pct": 30,
+    "avg_score_delta": 0.129,
+    "tick_count": 201
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "state": [
+    {
+      "key": "distance_ran",
+      "description": "Total distance the T-Rex has run in pixels.",
+      "js_expression": "window.Runner.instance_.distanceRan",
+      "type": "number"
+    },
+    {
+      "key": "high_score",
+      "description": "The highest score achieved in 'real' distance units.",
+      "js_expression": "window.Runner.instance_.highestScore",
+      "type": "number"
+    },
+    {
+      "key": "current_speed",
+      "description": "The current speed of the game in pixels per frame.",
+      "js_expression": "window.Runner.instance_.currentSpeed",
+      "type": "number"
+    },
+    {
+      "key": "is_crashed",
+      "description": "True if the T-Rex has crashed and the game is over.",
+      "js_expression": "window.Runner.instance_.crashed",
+      "type": "boolean"
+    },
+    {
+      "key": "is_paused",
+      "description": "True if the game is currently paused.",
+      "js_expression": "window.Runner.instance_.paused",
+      "type": "boolean"
+    },
+    {
+      "key": "is_game_active",
+      "description": "True if the game is activated and running.",
+      "js_expression": "window.Runner.instance_.activated",
+      "type": "boolean"
+    },
+    {
+      "key": "trex_y_pos",
+      "description": "The current Y position of the T-Rex character.",
+      "js_expression": "window.Runner.instance_.tRex.yPos",
+      "type": "number"
+    },
+    {
+      "key": "trex_is_jumping",
+      "description": "True if the T-Rex is currently in a jump state.",
+      "js_expression": "window.Runner.instance_.tRex.jumping",
+      "type": "boolean"
+    },
+    {
+      "key": "obstacle_count",
+      "description": "The number of active obstacles currently on screen.",
+      "js_expression": "window.Runner.instance_.obstacles.length",
+      "type": "number"
+    },
+    {
+      "key": "nearest_obstacle_x",
+      "description": "The X position of the closest obstacle. -1 if no obstacles.",
+      "js_expression": "window.Runner.instance_.obstacles.length > 0 ? window.Runner.instance_.obstacles[0].xPos : -1",
+      "type": "number"
+    },
+    {
+      "key": "game_running_time",
+      "description": "The total time the game has been running in milliseconds.",
+      "js_expression": "window.Runner.instance_.runningTime",
+      "type": "number"
+    }
+  ],
+  "mods": [
+    {
+      "key": "initial_game_speed",
+      "label": "Initial Game Speed",
+      "description": "The speed at which the game starts.",
+      "js_get": "window.Runner.instance_.config.SPEED",
+      "js_set": "window.Runner.instance_.updateConfigSetting('SPEED', VALUE)",
+      "default": 6,
+      "min": 1,
+      "max": 20,
+      "step": 0.5,
+      "category": "speed"
+    },
+    {
+      "key": "game_acceleration",
+      "label": "Game Acceleration",
+      "description": "How quickly the game speeds up over time.",
+      "js_get": "window.Runner.instance_.config.ACCELERATION",
+      "js_set": "window.Runner.instance_.updateConfigSetting('ACCELERATION', VALUE)",
+      "default": 0.001,
+      "min": 0,
+      "max": 0.01,
+      "step": 0.0001,
+      "category": "difficulty"
+    },
+    {
+      "key": "max_game_speed",
+      "label": "Max Game Speed",
+      "description": "The maximum speed the game can reach.",
+      "js_get": "window.Runner.instance_.config.MAX_SPEED",
+      "js_set": "window.Runner.instance_.updateConfigSetting('MAX_SPEED', VALUE)",
+      "default": 12,
+      "min": 6,
+      "max": 30,
+      "step": 1,
+      "category": "speed"
+    },
+    {
+      "key": "gravity",
+      "label": "Gravity",
+      "description": "The strength of gravity affecting the T-Rex's jump.",
+      "js_get": "window.Runner.instance_.config.GRAVITY",
+      "js_set": "window.Runner.instance_.updateConfigSetting('GRAVITY', VALUE)",
+      "default": 0.6,
+      "min": 0.1,
+      "max": 2,
+      "step": 0.1,
+      "category": "gravity"
+    },
+    {
+      "key": "initial_jump_velocity",
+      "label": "Initial Jump Velocity",
+      "description": "The initial upward velocity when the T-Rex jumps.",
+      "js_get": "window.Runner.instance_.config.INITIAL_JUMP_VELOCITY",
+      "js_set": "window.Runner.instance_.updateConfigSetting('INITIAL_JUMP_VELOCITY', VALUE)",
+      "default": 12,
+      "min": 5,
+      "max": 20,
+      "step": 1,
+      "category": "gravity"
+    },
+    {
+      "key": "min_jump_height",
+      "label": "Min Jump Height",
+      "description": "Minimum height the T-Rex must reach before it can start falling faster.",
+      "js_get": "window.Runner.instance_.config.MIN_JUMP_HEIGHT",
+      "js_set": "window.Runner.instance_.updateConfigSetting('MIN_JUMP_HEIGHT', VALUE)",
+      "default": 35,
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "category": "forgiveness"
+    },
+    {
+      "key": "speed_drop_coefficient",
+      "label": "Speed Drop Coefficient",
+      "description": "Multiplier for faster falling when ducking during a jump.",
+      "js_get": "window.Runner.instance_.config.SPEED_DROP_COEFFICIENT",
+      "js_set": "window.Runner.instance_.updateConfigSetting('SPEED_DROP_COEFFICIENT', VALUE)",
+      "default": 3,
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "category": "gravity"
+    },
+    {
+      "key": "obstacle_gap_coefficient",
+      "label": "Obstacle Gap Coefficient",
+      "description": "Determines the gap between obstacles. Higher value means larger gaps.",
+      "js_get": "window.Runner.instance_.config.GAP_COEFFICIENT",
+      "js_set": "window.Runner.instance_.updateConfigSetting('GAP_COEFFICIENT', VALUE)",
+      "default": 0.6,
+      "min": 0.1,
+      "max": 2,
+      "step": 0.1,
+      "category": "obstacle"
+    },
+    {
+      "key": "max_clouds",
+      "label": "Max Clouds",
+      "description": "Maximum number of background clouds that can appear on screen.",
+      "js_get": "window.Runner.instance_.config.MAX_CLOUDS",
+      "js_set": "window.Runner.instance_.config.MAX_CLOUDS = VALUE",
+      "default": 6,
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "category": "visual"
+    },
+    {
+      "key": "cloud_frequency",
+      "label": "Cloud Frequency",
+      "description": "Frequency (0.0-1.0) of new background clouds appearing.",
+      "js_get": "window.Runner.instance_.config.CLOUD_FREQUENCY",
+      "js_set": "window.Runner.instance_.config.CLOUD_FREQUENCY = VALUE",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "category": "visual"
+    },
+    {
+      "key": "achievement_distance",
+      "label": "Achievement Distance",
+      "description": "Distance (in 'real' units) required to trigger an achievement sound and score flash.",
+      "js_get": "window.Runner.instance_.distanceMeter.config.ACHIEVEMENT_DISTANCE",
+      "js_set": "window.Runner.instance_.distanceMeter.config.ACHIEVEMENT_DISTANCE = VALUE",
+      "default": 100,
+      "min": 10,
+      "max": 500,
+      "step": 10,
+      "category": "reward"
+    },
+    {
+      "key": "score_conversion_coefficient",
+      "label": "Score Conversion Coefficient",
+      "description": "Multiplier for converting pixel distance to displayed score.",
+      "js_get": "window.Runner.instance_.distanceMeter.config.COEFFICIENT",
+      "js_set": "window.Runner.instance_.distanceMeter.config.COEFFICIENT = VALUE",
+      "default": 0.025,
+      "min": 0.005,
+      "max": 0.1,
+      "step": 0.005,
+      "category": "reward"
+    },
+    {
+      "key": "gameover_clear_time",
+      "label": "Game Over Clear Time",
+      "description": "Time in milliseconds after game over before restart is allowed with jump key.",
+      "js_get": "window.Runner.instance_.config.GAMEOVER_CLEAR_TIME",
+      "js_set": "window.Runner.instance_.config.GAMEOVER_CLEAR_TIME = VALUE",
+      "default": 750,
+      "min": 0,
+      "max": 2000,
+      "step": 50,
+      "category": "forgiveness"
+    }
+  ],
+  "engagement_mod_keys": [
+    "initial_game_speed",
+    "game_acceleration",
+    "gravity",
+    "initial_jump_velocity",
+    "obstacle_gap_coefficient",
+    "gameover_clear_time",
+    "achievement_distance"
+  ]
+}

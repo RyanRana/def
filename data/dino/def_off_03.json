@@ -1,0 +1,6784 @@
+{
+  "game": "dino",
+  "def_enabled": false,
+  "session_id": "dino_def_off_03",
+  "duration_sec": 173,
+  "final_score": 487,
+  "deaths": 7,
+  "vector_fields": [
+    "heartRate",
+    "breathingRate",
+    "expressionIdx",
+    "sessionTimeSec",
+    "score",
+    "deaths",
+    "tapCount",
+    "activeTouchMs",
+    "scoreDelta",
+    "hrDelta",
+    "brDelta",
+    "deathsDelta",
+    "touchRatio",
+    "deathRate60s",
+    "keyVelocity",
+    "keyRhythm",
+    "faceMovement",
+    "emotionValence"
+  ],
+  "ticks": [
+    {
+      "vector": [
+        74.17,
+        14.98,
+        1,
+        0,
+        0,
+        0,
+        0,
+        97,
+        0,
+        -0.46,
+        -0.11,
+        0,
+        0.097,
+        0,
+        0.0,
+        0.72,
+        0.108,
+        -0.05
+      ],
+      "gameState": {
+        "distance_ran": -1.0,
+        "current_speed": 6.0,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 501.1,
+        "game_running_time": 0
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.86,
+        15.09,
+        2,
+        1,
+        2,
+        0,
+        0,
+        38,
+        2,
+        -0.31,
+        0.11,
+        0,
+        0.038,
+        0,
+        0.0,
+        0.32,
+        0.084,
+        0.53
+      ],
+      "gameState": {
+        "distance_ran": 7.4,
+        "current_speed": 6.02,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 124.5,
+        "game_running_time": 1000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.87,
+        15.38,
+        2,
+        2,
+        5,
+        0,
+        1,
+        241,
+        3,
+        0.01,
+        0.29,
+        0,
+        0.241,
+        0,
+        1.03,
+        0.46,
+        0.06,
+        0.59
+      ],
+      "gameState": {
+        "distance_ran": 11.6,
+        "current_speed": 6.04,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 55.7,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 275.4,
+        "game_running_time": 2000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.15,
+        15.48,
+        2,
+        3,
+        8,
+        0,
+        2,
+        194,
+        3,
+        -0.72,
+        0.1,
+        0,
+        0.194,
+        0,
+        2.24,
+        0,
+        0.115,
+        0.34
+      ],
+      "gameState": {
+        "distance_ran": 19.3,
+        "current_speed": 6.06,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 569.6,
+        "game_running_time": 3000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.46,
+        15.34,
+        2,
+        4,
+        10,
+        0,
+        1,
+        170,
+        2,
+        0.31,
+        -0.14,
+        0,
+        0.17,
+        0,
+        0.91,
+        0.53,
+        0,
+        0.5
+      ],
+      "gameState": {
+        "distance_ran": 22.1,
+        "current_speed": 6.08,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 537.8,
+        "game_running_time": 4000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.88,
+        15.52,
+        2,
+        5,
+        13,
+        0,
+        0,
+        99,
+        3,
+        0.42,
+        0.18,
+        0,
+        0.099,
+        0,
+        0.0,
+        0.77,
+        0.023,
+        0.22
+      ],
+      "gameState": {
+        "distance_ran": 31.8,
+        "current_speed": 6.1,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 57.1,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 394.0,
+        "game_running_time": 5000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.443
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.52,
+        15.58,
+        2,
+        6,
+        17,
+        0,
+        0,
+        68,
+        4,
+        0.64,
+        0.06,
+        0,
+        0.068,
+        0,
+        0.0,
+        0.83,
+        0.057,
+        0.3
+      ],
+      "gameState": {
+        "distance_ran": 34.6,
+        "current_speed": 6.12,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 449.8,
+        "game_running_time": 6000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.46
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.06,
+        15.61,
+        2,
+        7,
+        18,
+        0,
+        0,
+        79,
+        1,
+        0.54,
+        0.03,
+        0,
+        0.079,
+        0,
+        0.0,
+        0.85,
+        0.105,
+        0.42
+      ],
+      "gameState": {
+        "distance_ran": 40.1,
+        "current_speed": 6.14,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 391.3,
+        "game_running_time": 7000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.447
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.41,
+        15.63,
+        2,
+        8,
+        23,
+        0,
+        0,
+        77,
+        5,
+        0.35,
+        0.02,
+        0,
+        0.077,
+        0,
+        0.0,
+        0.53,
+        0.051,
+        0.52
+      ],
+      "gameState": {
+        "distance_ran": 46.2,
+        "current_speed": 6.16,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 332.1,
+        "game_running_time": 8000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.446
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.76,
+        15.92,
+        2,
+        9,
+        24,
+        0,
+        1,
+        565,
+        1,
+        1.35,
+        0.29,
+        0,
+        0.565,
+        0,
+        0.9,
+        0.49,
+        0.014,
+        0.46
+      ],
+      "gameState": {
+        "distance_ran": 53.3,
+        "current_speed": 6.18,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 55.9,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 125.7,
+        "game_running_time": 9000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.517
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.62,
+        15.99,
+        2,
+        10,
+        28,
+        0,
+        2,
+        513,
+        4,
+        0.86,
+        0.07,
+        0,
+        0.513,
+        0,
+        1.73,
+        0.48,
+        0.069,
+        0.5
+      ],
+      "gameState": {
+        "distance_ran": 58.6,
+        "current_speed": 6.2,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 348.9,
+        "game_running_time": 10000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.618
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        80.05,
+        16.42,
+        4,
+        11,
+        31,
+        1,
+        2,
+        120,
+        3,
+        2.43,
+        0.43,
+        1,
+        0.12,
+        1,
+        1.71,
+        0.7,
+        0.155,
+        -0.33
+      ],
+      "gameState": {
+        "distance_ran": 65.5,
+        "current_speed": 6.22,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 219.2,
+        "game_running_time": 11000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.322
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        79.34,
+        16.12,
+        2,
+        12,
+        33,
+        1,
+        1,
+        172,
+        2,
+        -0.71,
+        -0.3,
+        0,
+        0.172,
+        1,
+        0.93,
+        0.55,
+        0.114,
+        0.5
+      ],
+      "gameState": {
+        "distance_ran": 73.6,
+        "current_speed": 6.24,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 298.5,
+        "game_running_time": 12000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.449
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.47,
+        16.02,
+        2,
+        13,
+        37,
+        1,
+        0,
+        58,
+        4,
+        -1.87,
+        -0.1,
+        0,
+        0.058,
+        1,
+        0.0,
+        0.37,
+        0.143,
+        0.48
+      ],
+      "gameState": {
+        "distance_ran": 78.5,
+        "current_speed": 6.26,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 512.5,
+        "game_running_time": 13000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.537
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.64,
+        15.72,
+        2,
+        14,
+        39,
+        1,
+        2,
+        530,
+        2,
+        0.17,
+        -0.3,
+        0,
+        0.53,
+        1,
+        2.21,
+        0.58,
+        0.117,
+        0.39
+      ],
+      "gameState": {
+        "distance_ran": 83.3,
+        "current_speed": 6.28,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 417.9,
+        "game_running_time": 14000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.549
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.22,
+        15.4,
+        2,
+        15,
+        42,
+        1,
+        0,
+        53,
+        3,
+        0.58,
+        -0.32,
+        0,
+        0.053,
+        1,
+        0.0,
+        0.39,
+        0.124,
+        0.44
+      ],
+      "gameState": {
+        "distance_ran": 90.4,
+        "current_speed": 6.3,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 42.8,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 253.3,
+        "game_running_time": 15000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.519
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.44,
+        14.99,
+        2,
+        16,
+        46,
+        1,
+        2,
+        594,
+        4,
+        -0.78,
+        -0.41,
+        0,
+        0.594,
+        1,
+        1.96,
+        0.08,
+        0.04,
+        0.55
+      ],
+      "gameState": {
+        "distance_ran": 97.9,
+        "current_speed": 6.32,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 524.2,
+        "game_running_time": 16000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.424
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.59,
+        15.08,
+        2,
+        17,
+        48,
+        1,
+        2,
+        246,
+        2,
+        0.15,
+        0.09,
+        0,
+        0.246,
+        1,
+        1.93,
+        0.83,
+        0.034,
+        0.29
+      ],
+      "gameState": {
+        "distance_ran": 101.8,
+        "current_speed": 6.34,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 546.9,
+        "game_running_time": 17000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.651
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.35,
+        15.27,
+        2,
+        18,
+        50,
+        1,
+        2,
+        216,
+        2,
+        -0.24,
+        0.19,
+        0,
+        0.216,
+        1,
+        1.77,
+        0.84,
+        0.066,
+        0.14
+      ],
+      "gameState": {
+        "distance_ran": 109.2,
+        "current_speed": 6.36,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 55.0,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 575.5,
+        "game_running_time": 18000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.551
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.79,
+        14.92,
+        2,
+        19,
+        55,
+        1,
+        2,
+        336,
+        5,
+        -0.56,
+        -0.35,
+        0,
+        0.336,
+        1,
+        2.28,
+        0.7,
+        0.089,
+        0.46
+      ],
+      "gameState": {
+        "distance_ran": 114.4,
+        "current_speed": 6.38,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 498.6,
+        "game_running_time": 19000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.388
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.07,
+        14.72,
+        1,
+        20,
+        55,
+        1,
+        2,
+        587,
+        0,
+        -0.72,
+        -0.2,
+        0,
+        0.587,
+        1,
+        2.0,
+        0.36,
+        0.003,
+        -0.28
+      ],
+      "gameState": {
+        "distance_ran": 118.1,
+        "current_speed": 6.4,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 344.7,
+        "game_running_time": 20000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.487
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.77,
+        14.72,
+        2,
+        21,
+        58,
+        1,
+        1,
+        355,
+        3,
+        -1.3,
+        0.0,
+        0,
+        0.355,
+        1,
+        1.0,
+        0.25,
+        0.09,
+        0.65
+      ],
+      "gameState": {
+        "distance_ran": 125.6,
+        "current_speed": 6.42,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 255.7,
+        "game_running_time": 21000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.629
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.88,
+        14.92,
+        2,
+        22,
+        65,
+        1,
+        0,
+        64,
+        7,
+        1.11,
+        0.2,
+        0,
+        0.064,
+        1,
+        0.0,
+        0.48,
+        0.088,
+        0.34
+      ],
+      "gameState": {
+        "distance_ran": 131.1,
+        "current_speed": 6.44,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 45.8,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 265.7,
+        "game_running_time": 22000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.546
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.18,
+        15.14,
+        2,
+        23,
+        68,
+        1,
+        1,
+        413,
+        3,
+        0.3,
+        0.22,
+        0,
+        0.413,
+        1,
+        0.93,
+        0.46,
+        0.105,
+        0.33
+      ],
+      "gameState": {
+        "distance_ran": 138.8,
+        "current_speed": 6.46,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 527.9,
+        "game_running_time": 23000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.496
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.68,
+        15.06,
+        5,
+        24,
+        68,
+        1,
+        1,
+        256,
+        0,
+        -0.5,
+        -0.08,
+        0,
+        0.256,
+        1,
+        1.11,
+        0.41,
+        0.09,
+        -0.02
+      ],
+      "gameState": {
+        "distance_ran": 144.5,
+        "current_speed": 6.48,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 68.4,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 596.1,
+        "game_running_time": 24000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.571
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.8,
+        15.62,
+        4,
+        25,
+        68,
+        2,
+        1,
+        106,
+        0,
+        2.12,
+        0.56,
+        1,
+        0.106,
+        2,
+        1.12,
+        0.44,
+        0.105,
+        -0.47
+      ],
+      "gameState": {
+        "distance_ran": 151.6,
+        "current_speed": 6.5,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 51.6,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 209.7,
+        "game_running_time": 25000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.377
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.43,
+        15.8,
+        2,
+        26,
+        75,
+        2,
+        2,
+        223,
+        7,
+        -0.37,
+        0.18,
+        0,
+        0.223,
+        2,
+        2.03,
+        0.13,
+        0.085,
+        0.53
+      ],
+      "gameState": {
+        "distance_ran": 157.1,
+        "current_speed": 6.52,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 371.3,
+        "game_running_time": 26000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.572
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.93,
+        15.75,
+        2,
+        27,
+        79,
+        2,
+        2,
+        399,
+        4,
+        -0.5,
+        -0.05,
+        0,
+        0.399,
+        2,
+        2.02,
+        0.76,
+        0.053,
+        0.36
+      ],
+      "gameState": {
+        "distance_ran": 161.8,
+        "current_speed": 6.54,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 352.0,
+        "game_running_time": 27000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.594
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.95,
+        15.98,
+        1,
+        28,
+        76,
+        2,
+        1,
+        563,
+        -3,
+        1.02,
+        0.23,
+        0,
+        0.563,
+        2,
+        0.9,
+        0.38,
+        0.053,
+        -0.01
+      ],
+      "gameState": {
+        "distance_ran": 166.4,
+        "current_speed": 6.56,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 578.6,
+        "game_running_time": 28000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.485
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.81,
+        15.37,
+        2,
+        29,
+        85,
+        2,
+        2,
+        584,
+        9,
+        -1.14,
+        -0.61,
+        0,
+        0.584,
+        2,
+        2.14,
+        0.18,
+        0.112,
+        0.76
+      ],
+      "gameState": {
+        "distance_ran": 173.2,
+        "current_speed": 6.58,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 231.0,
+        "game_running_time": 29000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.588
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.15,
+        15.16,
+        2,
+        30,
+        88,
+        2,
+        1,
+        584,
+        3,
+        -0.66,
+        -0.21,
+        0,
+        0.584,
+        2,
+        0.91,
+        0.56,
+        0.142,
+        0.33
+      ],
+      "gameState": {
+        "distance_ran": 179.1,
+        "current_speed": 6.6,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 504.5,
+        "game_running_time": 30000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.623
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.51,
+        15.38,
+        2,
+        31,
+        85,
+        2,
+        0,
+        29,
+        -3,
+        0.36,
+        0.22,
+        0,
+        0.029,
+        2,
+        0.0,
+        0.64,
+        0.046,
+        0.09
+      ],
+      "gameState": {
+        "distance_ran": 185.9,
+        "current_speed": 6.62,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 58.2,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 439.8,
+        "game_running_time": 31000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.483
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.87,
+        15.47,
+        2,
+        32,
+        88,
+        2,
+        3,
+        179,
+        3,
+        -1.64,
+        0.09,
+        0,
+        0.179,
+        2,
+        3.17,
+        0.4,
+        0.029,
+        0.43
+      ],
+      "gameState": {
+        "distance_ran": 192.4,
+        "current_speed": 6.64,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 580.2,
+        "game_running_time": 32000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.538
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.66,
+        15.83,
+        2,
+        33,
+        97,
+        2,
+        2,
+        283,
+        9,
+        -0.21,
+        0.36,
+        0,
+        0.283,
+        2,
+        1.97,
+        0.16,
+        0.087,
+        0.3
+      ],
+      "gameState": {
+        "distance_ran": 198.8,
+        "current_speed": 6.66,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 219.0,
+        "game_running_time": 33000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.528
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.92,
+        15.48,
+        6,
+        34,
+        96,
+        2,
+        4,
+        466,
+        -1,
+        0.26,
+        -0.35,
+        0,
+        0.466,
+        2,
+        3.7,
+        0.59,
+        0.009,
+        -0.25
+      ],
+      "gameState": {
+        "distance_ran": 203.7,
+        "current_speed": 6.68,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 397.8,
+        "game_running_time": 34000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.46
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.66,
+        15.34,
+        2,
+        35,
+        98,
+        2,
+        1,
+        362,
+        2,
+        -0.26,
+        -0.14,
+        0,
+        0.362,
+        2,
+        1.09,
+        0.33,
+        0.077,
+        0.57
+      ],
+      "gameState": {
+        "distance_ran": 208.0,
+        "current_speed": 6.7,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 50.3,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 114.6,
+        "game_running_time": 35000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.599
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.43,
+        14.92,
+        2,
+        36,
+        97,
+        2,
+        1,
+        407,
+        -1,
+        -0.23,
+        -0.42,
+        0,
+        0.407,
+        2,
+        0.98,
+        0.64,
+        0.061,
+        -0.12
+      ],
+      "gameState": {
+        "distance_ran": 216.0,
+        "current_speed": 6.72,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 173.7,
+        "game_running_time": 36000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.474
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.84,
+        14.87,
+        2,
+        37,
+        99,
+        2,
+        0,
+        20,
+        2,
+        0.41,
+        -0.05,
+        0,
+        0.02,
+        2,
+        0.0,
+        0.29,
+        0.061,
+        0.56
+      ],
+      "gameState": {
+        "distance_ran": 221.2,
+        "current_speed": 6.74,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 235.8,
+        "game_running_time": 37000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.48
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.08,
+        15.03,
+        2,
+        38,
+        109,
+        2,
+        3,
+        504,
+        10,
+        0.24,
+        0.16,
+        0,
+        0.504,
+        2,
+        2.75,
+        0.64,
+        0.054,
+        0.47
+      ],
+      "gameState": {
+        "distance_ran": 228.8,
+        "current_speed": 6.76,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 515.2,
+        "game_running_time": 38000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.417
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.26,
+        15.52,
+        2,
+        39,
+        112,
+        2,
+        0,
+        31,
+        3,
+        0.18,
+        0.49,
+        0,
+        0.031,
+        2,
+        0.0,
+        0.54,
+        0,
+        0.53
+      ],
+      "gameState": {
+        "distance_ran": 233.0,
+        "current_speed": 6.78,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 355.8,
+        "game_running_time": 39000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.51
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.06,
+        15.56,
+        2,
+        40,
+        115,
+        2,
+        2,
+        488,
+        3,
+        0.8,
+        0.04,
+        0,
+        0.488,
+        2,
+        2.2,
+        0.67,
+        0.025,
+        0.54
+      ],
+      "gameState": {
+        "distance_ran": 240.5,
+        "current_speed": 6.8,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 72.7,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 319.3,
+        "game_running_time": 40000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.642
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.33,
+        15.24,
+        2,
+        41,
+        110,
+        2,
+        0,
+        57,
+        -5,
+        0.27,
+        -0.32,
+        0,
+        0.057,
+        2,
+        0.0,
+        0.67,
+        0.055,
+        0.24
+      ],
+      "gameState": {
+        "distance_ran": 244.3,
+        "current_speed": 6.82,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 38.6,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 431.3,
+        "game_running_time": 41000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.576
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.83,
+        15.15,
+        2,
+        42,
+        116,
+        2,
+        1,
+        570,
+        6,
+        -0.5,
+        -0.09,
+        0,
+        0.57,
+        2,
+        0.86,
+        0.39,
+        0.04,
+        0.22
+      ],
+      "gameState": {
+        "distance_ran": 251.7,
+        "current_speed": 6.84,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 46.1,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 593.7,
+        "game_running_time": 42000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.521
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.28,
+        15.5,
+        2,
+        43,
+        123,
+        2,
+        2,
+        165,
+        7,
+        0.45,
+        0.35,
+        0,
+        0.165,
+        2,
+        2.07,
+        0.33,
+        0.051,
+        0.33
+      ],
+      "gameState": {
+        "distance_ran": 257.4,
+        "current_speed": 6.86,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 311.3,
+        "game_running_time": 43000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.587
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.67,
+        15.17,
+        2,
+        44,
+        127,
+        2,
+        0,
+        72,
+        4,
+        -0.61,
+        -0.33,
+        0,
+        0.072,
+        2,
+        0.0,
+        0.39,
+        0.002,
+        0.19
+      ],
+      "gameState": {
+        "distance_ran": 263.1,
+        "current_speed": 6.88,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 548.8,
+        "game_running_time": 44000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.624
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.78,
+        14.86,
+        2,
+        45,
+        130,
+        2,
+        2,
+        387,
+        3,
+        0.11,
+        -0.31,
+        0,
+        0.387,
+        2,
+        1.78,
+        1,
+        0.092,
+        0.38
+      ],
+      "gameState": {
+        "distance_ran": 268.7,
+        "current_speed": 6.9,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 399.4,
+        "game_running_time": 45000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.502
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.73,
+        15.05,
+        2,
+        46,
+        124,
+        2,
+        2,
+        313,
+        -6,
+        -0.05,
+        0.19,
+        0,
+        0.313,
+        2,
+        2.25,
+        0.22,
+        0.052,
+        0.21
+      ],
+      "gameState": {
+        "distance_ran": 275.0,
+        "current_speed": 6.92,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 45.2,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 530.0,
+        "game_running_time": 46000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.348
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.55,
+        15.06,
+        2,
+        47,
+        128,
+        2,
+        2,
+        372,
+        4,
+        -1.18,
+        0.01,
+        0,
+        0.372,
+        2,
+        2.27,
+        0.26,
+        0.05,
+        0.67
+      ],
+      "gameState": {
+        "distance_ran": 280.1,
+        "current_speed": 6.94,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 568.2,
+        "game_running_time": 47000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.615
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.29,
+        15.65,
+        2,
+        48,
+        138,
+        2,
+        3,
+        223,
+        10,
+        1.74,
+        0.59,
+        0,
+        0.223,
+        2,
+        2.61,
+        0.55,
+        0.018,
+        0.43
+      ],
+      "gameState": {
+        "distance_ran": 286.7,
+        "current_speed": 6.96,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 519.2,
+        "game_running_time": 48000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.476
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.98,
+        15.59,
+        2,
+        49,
+        145,
+        2,
+        1,
+        258,
+        7,
+        -1.31,
+        -0.06,
+        0,
+        0.258,
+        2,
+        0.86,
+        0,
+        0.096,
+        0.39
+      ],
+      "gameState": {
+        "distance_ran": 295.1,
+        "current_speed": 6.98,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 131.8,
+        "game_running_time": 49000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.491
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.25,
+        15.65,
+        1,
+        50,
+        145,
+        2,
+        1,
+        347,
+        0,
+        0.27,
+        0.06,
+        0,
+        0.347,
+        2,
+        1.06,
+        0.71,
+        0.057,
+        -0.22
+      ],
+      "gameState": {
+        "distance_ran": 298.8,
+        "current_speed": 7.0,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 49.9,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 542.0,
+        "game_running_time": 50000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.582
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.06,
+        15.34,
+        1,
+        51,
+        138,
+        2,
+        1,
+        178,
+        -7,
+        0.81,
+        -0.31,
+        0,
+        0.178,
+        2,
+        1.1,
+        0.67,
+        0.02,
+        -0.31
+      ],
+      "gameState": {
+        "distance_ran": 305.0,
+        "current_speed": 7.02,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 116.7,
+        "game_running_time": 51000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.521
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.15,
+        15.16,
+        2,
+        52,
+        151,
+        2,
+        0,
+        84,
+        13,
+        0.09,
+        -0.18,
+        0,
+        0.084,
+        2,
+        0.0,
+        0.28,
+        0.126,
+        0.15
+      ],
+      "gameState": {
+        "distance_ran": 310.7,
+        "current_speed": 7.04,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 307.7,
+        "game_running_time": 52000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.637
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.48,
+        15.1,
+        6,
+        53,
+        142,
+        2,
+        1,
+        391,
+        -9,
+        0.33,
+        -0.06,
+        0,
+        0.391,
+        2,
+        1.04,
+        0.4,
+        0.074,
+        0.15
+      ],
+      "gameState": {
+        "distance_ran": 317.1,
+        "current_speed": 7.06,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 261.6,
+        "game_running_time": 53000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.441
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.24,
+        14.98,
+        2,
+        54,
+        150,
+        2,
+        0,
+        74,
+        8,
+        -0.24,
+        -0.12,
+        0,
+        0.074,
+        2,
+        0.0,
+        0.51,
+        0.102,
+        0.77
+      ],
+      "gameState": {
+        "distance_ran": 324.7,
+        "current_speed": 7.08,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 400.1,
+        "game_running_time": 54000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.619
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.38,
+        14.72,
+        2,
+        55,
+        158,
+        2,
+        1,
+        541,
+        8,
+        0.14,
+        -0.26,
+        0,
+        0.541,
+        2,
+        1.02,
+        0.21,
+        0.064,
+        0.36
+      ],
+      "gameState": {
+        "distance_ran": 328.8,
+        "current_speed": 7.1,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 529.4,
+        "game_running_time": 55000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.6
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.72,
+        14.69,
+        2,
+        56,
+        151,
+        2,
+        4,
+        522,
+        -7,
+        -0.66,
+        -0.03,
+        0,
+        0.522,
+        2,
+        4.28,
+        0.92,
+        0.041,
+        -0.23
+      ],
+      "gameState": {
+        "distance_ran": 336.1,
+        "current_speed": 7.12,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 226.3,
+        "game_running_time": 56000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.513
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.21,
+        14.05,
+        2,
+        57,
+        159,
+        2,
+        1,
+        184,
+        8,
+        -0.51,
+        -0.64,
+        0,
+        0.184,
+        2,
+        1.14,
+        0.36,
+        0.023,
+        0.48
+      ],
+      "gameState": {
+        "distance_ran": 340.4,
+        "current_speed": 7.14,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 575.9,
+        "game_running_time": 57000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.554
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.9,
+        14.44,
+        2,
+        58,
+        164,
+        2,
+        3,
+        454,
+        5,
+        -0.31,
+        0.39,
+        0,
+        0.454,
+        2,
+        2.71,
+        0.39,
+        0.024,
+        0.37
+      ],
+      "gameState": {
+        "distance_ran": 349.3,
+        "current_speed": 7.16,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 475.4,
+        "game_running_time": 58000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.553
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.82,
+        14.87,
+        2,
+        59,
+        173,
+        2,
+        2,
+        287,
+        9,
+        0.92,
+        0.43,
+        0,
+        0.287,
+        2,
+        1.7,
+        0.79,
+        0.04,
+        0.44
+      ],
+      "gameState": {
+        "distance_ran": 353.1,
+        "current_speed": 7.18,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 49.4,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 398.1,
+        "game_running_time": 59000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.46
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.36,
+        15.17,
+        6,
+        60,
+        162,
+        2,
+        1,
+        254,
+        -11,
+        -0.46,
+        0.3,
+        0,
+        0.254,
+        2,
+        1.11,
+        0.64,
+        0.031,
+        -0.08
+      ],
+      "gameState": {
+        "distance_ran": 361.4,
+        "current_speed": 7.2,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 70.0,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 183.2,
+        "game_running_time": 60000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.411
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.9,
+        15.03,
+        2,
+        61,
+        167,
+        2,
+        3,
+        193,
+        5,
+        0.54,
+        -0.14,
+        0,
+        0.193,
+        2,
+        2.82,
+        0.83,
+        0,
+        0.33
+      ],
+      "gameState": {
+        "distance_ran": 367.7,
+        "current_speed": 7.22,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 172.8,
+        "game_running_time": 61000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.519
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.34,
+        14.99,
+        2,
+        62,
+        168,
+        2,
+        1,
+        387,
+        1,
+        -0.56,
+        -0.04,
+        0,
+        0.387,
+        2,
+        0.95,
+        0.65,
+        0.057,
+        0.57
+      ],
+      "gameState": {
+        "distance_ran": 371.9,
+        "current_speed": 7.24,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 188.5,
+        "game_running_time": 62000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.597
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.94,
+        15.04,
+        2,
+        63,
+        179,
+        2,
+        1,
+        378,
+        11,
+        -1.4,
+        0.05,
+        0,
+        0.378,
+        2,
+        0.96,
+        0.51,
+        0.068,
+        0.29
+      ],
+      "gameState": {
+        "distance_ran": 379.2,
+        "current_speed": 7.26,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 109.1,
+        "game_running_time": 63000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.468
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.01,
+        15.34,
+        2,
+        64,
+        187,
+        2,
+        4,
+        370,
+        8,
+        0.07,
+        0.3,
+        0,
+        0.37,
+        2,
+        3.55,
+        0.47,
+        0.009,
+        0.55
+      ],
+      "gameState": {
+        "distance_ran": 384.3,
+        "current_speed": 7.28,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 588.4,
+        "game_running_time": 64000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.51
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.31,
+        15.04,
+        6,
+        65,
+        178,
+        2,
+        1,
+        588,
+        -9,
+        -0.7,
+        -0.3,
+        0,
+        0.588,
+        2,
+        1.0,
+        0.35,
+        0.025,
+        0.04
+      ],
+      "gameState": {
+        "distance_ran": 389.4,
+        "current_speed": 7.3,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 174.6,
+        "game_running_time": 65000
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.655
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.33,
+        15.08,
+        2,
+        66,
+        193,
+        2,
+        4,
+        320,
+        15,
+        0.02,
+        0.04,
+        0,
+        0.32,
+        2,
+        4.08,
+        0.52,
+        0.029,
+        0.31
+      ],
+      "gameState": {
+        "distance_ran": 397.5,
+        "current_speed": 7.32,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 45.7,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 109.7,
+        "game_running_time": 66000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.58
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.24,
+        15.1,
+        6,
+        67,
+        181,
+        2,
+        1,
+        264,
+        -12,
+        -0.09,
+        0.02,
+        0,
+        0.264,
+        2,
+        0.97,
+        0.66,
+        0.041,
+        -0.07
+      ],
+      "gameState": {
+        "distance_ran": 402.7,
+        "current_speed": 7.34,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 441.0,
+        "game_running_time": 67000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.379
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.76,
+        14.7,
+        2,
+        68,
+        199,
+        2,
+        0,
+        85,
+        18,
+        0.52,
+        -0.4,
+        0,
+        0.085,
+        2,
+        0.0,
+        0.57,
+        0.069,
+        0.51
+      ],
+      "gameState": {
+        "distance_ran": 407.2,
+        "current_speed": 7.36,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 397.3,
+        "game_running_time": 68000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.645
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.1,
+        15.15,
+        2,
+        69,
+        196,
+        2,
+        4,
+        245,
+        -3,
+        0.34,
+        0.45,
+        0,
+        0.245,
+        2,
+        4.18,
+        0.62,
+        0.072,
+        0.27
+      ],
+      "gameState": {
+        "distance_ran": 414.1,
+        "current_speed": 7.38,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 60.7,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 311.6,
+        "game_running_time": 69000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.438
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.7,
+        15.02,
+        1,
+        70,
+        192,
+        2,
+        0,
+        89,
+        -4,
+        0.6,
+        -0.13,
+        0,
+        0.089,
+        2,
+        0.0,
+        0.2,
+        0.054,
+        0.08
+      ],
+      "gameState": {
+        "distance_ran": 420.6,
+        "current_speed": 7.4,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 564.4,
+        "game_running_time": 70000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.379
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.62,
+        15.29,
+        2,
+        71,
+        206,
+        2,
+        0,
+        83,
+        14,
+        -0.08,
+        0.27,
+        0,
+        0.083,
+        1,
+        0.0,
+        0.3,
+        0.098,
+        0.75
+      ],
+      "gameState": {
+        "distance_ran": 425.9,
+        "current_speed": 7.42,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 173.4,
+        "game_running_time": 71000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.499
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.94,
+        15.37,
+        1,
+        72,
+        194,
+        2,
+        2,
+        463,
+        -12,
+        -0.68,
+        0.08,
+        0,
+        0.463,
+        1,
+        2.22,
+        0.77,
+        0.093,
+        -0.06
+      ],
+      "gameState": {
+        "distance_ran": 431.6,
+        "current_speed": 7.44,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 280.6,
+        "game_running_time": 72000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.434
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.09,
+        15.32,
+        2,
+        73,
+        211,
+        2,
+        1,
+        259,
+        17,
+        -0.85,
+        -0.05,
+        0,
+        0.259,
+        1,
+        1.01,
+        0.81,
+        0.056,
+        0.46
+      ],
+      "gameState": {
+        "distance_ran": 436.4,
+        "current_speed": 7.46,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 379.4,
+        "game_running_time": 73000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.554
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.59,
+        15.48,
+        2,
+        74,
+        215,
+        2,
+        0,
+        77,
+        4,
+        0.5,
+        0.16,
+        0,
+        0.077,
+        1,
+        0.0,
+        0.06,
+        0.056,
+        0.21
+      ],
+      "gameState": {
+        "distance_ran": 445.1,
+        "current_speed": 7.48,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 190.8,
+        "game_running_time": 74000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.56
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.82,
+        14.96,
+        6,
+        75,
+        215,
+        2,
+        0,
+        35,
+        0,
+        1.23,
+        -0.52,
+        0,
+        0.035,
+        1,
+        0.0,
+        0.6,
+        0.037,
+        0.22
+      ],
+      "gameState": {
+        "distance_ran": 449.5,
+        "current_speed": 7.5,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 444.8,
+        "game_running_time": 75000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.385
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.64,
+        15.22,
+        6,
+        76,
+        210,
+        2,
+        3,
+        504,
+        -5,
+        0.82,
+        0.26,
+        0,
+        0.504,
+        1,
+        2.72,
+        0.8,
+        0.053,
+        0.1
+      ],
+      "gameState": {
+        "distance_ran": 454.4,
+        "current_speed": 7.52,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 510.4,
+        "game_running_time": 76000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.397
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.76,
+        15.01,
+        2,
+        77,
+        217,
+        2,
+        0,
+        70,
+        7,
+        0.12,
+        -0.21,
+        0,
+        0.07,
+        1,
+        0.0,
+        0.27,
+        0.103,
+        0.47
+      ],
+      "gameState": {
+        "distance_ran": 462.2,
+        "current_speed": 7.54,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 509.1,
+        "game_running_time": 77000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.421
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.15,
+        15.14,
+        6,
+        78,
+        213,
+        2,
+        1,
+        216,
+        -4,
+        0.39,
+        0.13,
+        0,
+        0.216,
+        1,
+        0.88,
+        0.73,
+        0.03,
+        0.05
+      ],
+      "gameState": {
+        "distance_ran": 469.1,
+        "current_speed": 7.56,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 70.4,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 185.3,
+        "game_running_time": 78000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.567
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.4,
+        15.19,
+        2,
+        79,
+        232,
+        2,
+        2,
+        455,
+        19,
+        1.25,
+        0.05,
+        0,
+        0.455,
+        1,
+        2.22,
+        0.43,
+        0.061,
+        0.57
+      ],
+      "gameState": {
+        "distance_ran": 473.5,
+        "current_speed": 7.58,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 275.7,
+        "game_running_time": 79000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.566
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.1,
+        15.44,
+        1,
+        80,
+        229,
+        2,
+        2,
+        498,
+        -3,
+        0.7,
+        0.25,
+        0,
+        0.498,
+        1,
+        1.77,
+        0.24,
+        0.1,
+        0.02
+      ],
+      "gameState": {
+        "distance_ran": 481.3,
+        "current_speed": 7.6,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 419.7,
+        "game_running_time": 80000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.585
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.81,
+        15.58,
+        3,
+        81,
+        236,
+        3,
+        0,
+        84,
+        7,
+        0.71,
+        0.14,
+        1,
+        0.084,
+        2,
+        0.0,
+        0.27,
+        0.125,
+        -0.58
+      ],
+      "gameState": {
+        "distance_ran": 487.5,
+        "current_speed": 7.62,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 189.1,
+        "game_running_time": 81000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.359
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.09,
+        15.46,
+        5,
+        82,
+        231,
+        3,
+        1,
+        418,
+        -5,
+        -0.72,
+        -0.12,
+        0,
+        0.418,
+        2,
+        0.91,
+        0.42,
+        0.084,
+        0.31
+      ],
+      "gameState": {
+        "distance_ran": 493.2,
+        "current_speed": 7.64,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 288.4,
+        "game_running_time": 82000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.427
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.57,
+        15.79,
+        2,
+        83,
+        232,
+        3,
+        0,
+        96,
+        1,
+        -0.52,
+        0.33,
+        0,
+        0.096,
+        2,
+        0.0,
+        0.56,
+        0.063,
+        0.31
+      ],
+      "gameState": {
+        "distance_ran": 498.9,
+        "current_speed": 7.66,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 351.1,
+        "game_running_time": 83000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.604
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.03,
+        15.67,
+        2,
+        84,
+        237,
+        3,
+        2,
+        156,
+        5,
+        0.46,
+        -0.12,
+        0,
+        0.156,
+        2,
+        2.25,
+        0.46,
+        0.05,
+        0.54
+      ],
+      "gameState": {
+        "distance_ran": 504.4,
+        "current_speed": 7.68,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 56.7,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 493.6,
+        "game_running_time": 84000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.561
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.21,
+        15.69,
+        2,
+        85,
+        251,
+        3,
+        3,
+        312,
+        14,
+        -0.82,
+        0.02,
+        0,
+        0.312,
+        1,
+        2.67,
+        0.43,
+        0.111,
+        0.62
+      ],
+      "gameState": {
+        "distance_ran": 510.4,
+        "current_speed": 7.7,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 203.3,
+        "game_running_time": 85000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.521
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.9,
+        15.5,
+        2,
+        86,
+        238,
+        3,
+        2,
+        237,
+        -13,
+        -0.31,
+        -0.19,
+        0,
+        0.237,
+        1,
+        1.73,
+        0.07,
+        0.103,
+        -0.0
+      ],
+      "gameState": {
+        "distance_ran": 516.4,
+        "current_speed": 7.72,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 63.8,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 563.6,
+        "game_running_time": 86000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.486
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.69,
+        15.6,
+        2,
+        87,
+        244,
+        3,
+        1,
+        239,
+        6,
+        -1.21,
+        0.1,
+        0,
+        0.239,
+        1,
+        0.96,
+        0.8,
+        0.119,
+        0.59
+      ],
+      "gameState": {
+        "distance_ran": 520.8,
+        "current_speed": 7.74,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 399.0,
+        "game_running_time": 87000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.607
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.06,
+        15.47,
+        2,
+        88,
+        254,
+        3,
+        1,
+        517,
+        10,
+        -1.63,
+        -0.13,
+        0,
+        0.517,
+        1,
+        1.12,
+        0.98,
+        0.05,
+        0.43
+      ],
+      "gameState": {
+        "distance_ran": 529.8,
+        "current_speed": 7.76,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 41.4,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 527.1,
+        "game_running_time": 88000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.534
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.22,
+        15.15,
+        2,
+        89,
+        260,
+        3,
+        3,
+        184,
+        6,
+        0.16,
+        -0.32,
+        0,
+        0.184,
+        1,
+        2.85,
+        0.44,
+        0.079,
+        0.6
+      ],
+      "gameState": {
+        "distance_ran": 533.5,
+        "current_speed": 7.78,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 304.8,
+        "game_running_time": 89000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.466
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.67,
+        15.48,
+        1,
+        90,
+        254,
+        3,
+        0,
+        23,
+        -6,
+        0.45,
+        0.33,
+        0,
+        0.023,
+        1,
+        0.0,
+        0.14,
+        0.126,
+        -0.34
+      ],
+      "gameState": {
+        "distance_ran": 540.4,
+        "current_speed": 7.8,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 405.8,
+        "game_running_time": 90000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.547
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.52,
+        15.24,
+        6,
+        91,
+        251,
+        3,
+        0,
+        80,
+        -3,
+        -0.15,
+        -0.24,
+        0,
+        0.08,
+        1,
+        0.0,
+        0.27,
+        0.077,
+        -0.22
+      ],
+      "gameState": {
+        "distance_ran": 546.7,
+        "current_speed": 7.82,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 153.7,
+        "game_running_time": 91000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.542
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.15,
+        15.43,
+        2,
+        92,
+        255,
+        3,
+        1,
+        226,
+        4,
+        0.63,
+        0.19,
+        0,
+        0.226,
+        1,
+        0.92,
+        0.55,
+        0.066,
+        0.45
+      ],
+      "gameState": {
+        "distance_ran": 551.7,
+        "current_speed": 7.84,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 266.3,
+        "game_running_time": 92000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.649
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.39,
+        15.66,
+        4,
+        93,
+        262,
+        4,
+        2,
+        88,
+        7,
+        2.24,
+        0.23,
+        1,
+        0.088,
+        2,
+        2.29,
+        0.43,
+        0.111,
+        -0.49
+      ],
+      "gameState": {
+        "distance_ran": 556.2,
+        "current_speed": 7.86,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 213.5,
+        "game_running_time": 93000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.354
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.06,
+        15.85,
+        2,
+        94,
+        266,
+        4,
+        2,
+        312,
+        4,
+        0.67,
+        0.19,
+        0,
+        0.312,
+        2,
+        1.77,
+        0.17,
+        0.082,
+        0.53
+      ],
+      "gameState": {
+        "distance_ran": 562.4,
+        "current_speed": 7.88,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 118.0,
+        "game_running_time": 94000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.593
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.25,
+        15.66,
+        2,
+        95,
+        267,
+        4,
+        0,
+        44,
+        1,
+        -0.81,
+        -0.19,
+        0,
+        0.044,
+        2,
+        0.0,
+        0.47,
+        0.076,
+        0.59
+      ],
+      "gameState": {
+        "distance_ran": 570.5,
+        "current_speed": 7.9,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 456.4,
+        "game_running_time": 95000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.587
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.88,
+        15.65,
+        2,
+        96,
+        277,
+        4,
+        0,
+        69,
+        10,
+        -1.37,
+        -0.01,
+        0,
+        0.069,
+        2,
+        0.0,
+        0.7,
+        0.058,
+        0.6
+      ],
+      "gameState": {
+        "distance_ran": 578.0,
+        "current_speed": 7.92,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 411.4,
+        "game_running_time": 96000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.618
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.85,
+        15.75,
+        1,
+        97,
+        260,
+        4,
+        1,
+        341,
+        -17,
+        0.97,
+        0.1,
+        0,
+        0.341,
+        2,
+        0.97,
+        0.6,
+        0.139,
+        0.25
+      ],
+      "gameState": {
+        "distance_ran": 582.5,
+        "current_speed": 7.94,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 591.5,
+        "game_running_time": 97000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.58
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.96,
+        15.75,
+        2,
+        98,
+        286,
+        4,
+        0,
+        41,
+        26,
+        0.11,
+        0.0,
+        0,
+        0.041,
+        2,
+        0.0,
+        0.37,
+        0.099,
+        0.47
+      ],
+      "gameState": {
+        "distance_ran": 586.5,
+        "current_speed": 7.96,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 180.2,
+        "game_running_time": 98000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.733
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.68,
+        15.68,
+        1,
+        99,
+        285,
+        4,
+        0,
+        68,
+        -1,
+        0.72,
+        -0.07,
+        0,
+        0.068,
+        2,
+        0.0,
+        0.63,
+        0.056,
+        0.25
+      ],
+      "gameState": {
+        "distance_ran": 595.8,
+        "current_speed": 7.98,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 56.1,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 365.7,
+        "game_running_time": 99000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.461
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.21,
+        15.9,
+        3,
+        100,
+        280,
+        5,
+        2,
+        140,
+        -5,
+        -1.47,
+        0.22,
+        1,
+        0.14,
+        3,
+        2.15,
+        0.48,
+        0.079,
+        -0.2
+      ],
+      "gameState": {
+        "distance_ran": 601.3,
+        "current_speed": 8.0,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 38.1,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 450.2,
+        "game_running_time": 100000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.328
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.01,
+        15.62,
+        2,
+        101,
+        286,
+        5,
+        0,
+        98,
+        6,
+        -0.2,
+        -0.28,
+        0,
+        0.098,
+        3,
+        0.0,
+        0.35,
+        0.066,
+        0.71
+      ],
+      "gameState": {
+        "distance_ran": 606.6,
+        "current_speed": 8.02,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 120.9,
+        "game_running_time": 101000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.454
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.5,
+        16.19,
+        2,
+        102,
+        297,
+        5,
+        4,
+        345,
+        11,
+        -0.51,
+        0.57,
+        0,
+        0.345,
+        3,
+        3.79,
+        0.93,
+        0.026,
+        0.31
+      ],
+      "gameState": {
+        "distance_ran": 611.2,
+        "current_speed": 8.04,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 494.8,
+        "game_running_time": 102000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.51
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.5,
+        16.07,
+        1,
+        103,
+        282,
+        5,
+        2,
+        209,
+        -15,
+        1.0,
+        -0.12,
+        0,
+        0.209,
+        3,
+        1.76,
+        0.44,
+        0.097,
+        0.01
+      ],
+      "gameState": {
+        "distance_ran": 616.2,
+        "current_speed": 8.06,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 468.9,
+        "game_running_time": 103000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.466
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.49,
+        16.25,
+        2,
+        104,
+        302,
+        5,
+        2,
+        502,
+        20,
+        -0.01,
+        0.18,
+        0,
+        0.502,
+        3,
+        2.22,
+        0.68,
+        0.089,
+        0.47
+      ],
+      "gameState": {
+        "distance_ran": 623.9,
+        "current_speed": 8.08,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 328.6,
+        "game_running_time": 104000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.595
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.35,
+        16.32,
+        2,
+        105,
+        308,
+        5,
+        2,
+        533,
+        6,
+        -0.14,
+        0.07,
+        0,
+        0.533,
+        3,
+        1.76,
+        0.48,
+        0.085,
+        0.35
+      ],
+      "gameState": {
+        "distance_ran": 628.2,
+        "current_speed": 8.1,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 50.3,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 354.7,
+        "game_running_time": 105000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.603
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.29,
+        16.06,
+        2,
+        106,
+        310,
+        5,
+        2,
+        428,
+        2,
+        -0.06,
+        -0.26,
+        0,
+        0.428,
+        3,
+        2.0,
+        0.74,
+        0.038,
+        0.5
+      ],
+      "gameState": {
+        "distance_ran": 636.3,
+        "current_speed": 8.12,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 102.4,
+        "game_running_time": 106000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.315
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.54,
+        15.98,
+        2,
+        107,
+        308,
+        5,
+        2,
+        297,
+        -2,
+        0.25,
+        -0.08,
+        0,
+        0.297,
+        3,
+        2.14,
+        0.78,
+        0.023,
+        0.13
+      ],
+      "gameState": {
+        "distance_ran": 643.3,
+        "current_speed": 8.14,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 264.8,
+        "game_running_time": 107000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.416
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.89,
+        15.73,
+        1,
+        108,
+        306,
+        5,
+        2,
+        296,
+        -2,
+        0.35,
+        -0.25,
+        0,
+        0.296,
+        3,
+        2.02,
+        0.82,
+        0.07,
+        -0.02
+      ],
+      "gameState": {
+        "distance_ran": 646.7,
+        "current_speed": 8.16,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 60.1,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 462.2,
+        "game_running_time": 108000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.465
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.63,
+        15.35,
+        2,
+        109,
+        308,
+        5,
+        2,
+        418,
+        2,
+        -0.26,
+        -0.38,
+        0,
+        0.418,
+        3,
+        1.88,
+        0.74,
+        0.056,
+        0.56
+      ],
+      "gameState": {
+        "distance_ran": 655.0,
+        "current_speed": 8.18,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 65.9,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 402.3,
+        "game_running_time": 109000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.56
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.85,
+        15.3,
+        1,
+        110,
+        300,
+        5,
+        1,
+        582,
+        -8,
+        -0.78,
+        -0.05,
+        0,
+        0.582,
+        3,
+        1.09,
+        0.35,
+        0.073,
+        0.15
+      ],
+      "gameState": {
+        "distance_ran": 660.9,
+        "current_speed": 8.2,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 572.0,
+        "game_running_time": 110000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.412
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.05,
+        15.28,
+        2,
+        111,
+        308,
+        5,
+        0,
+        61,
+        8,
+        -0.8,
+        -0.02,
+        0,
+        0.061,
+        3,
+        0.0,
+        0.5,
+        0.012,
+        0.28
+      ],
+      "gameState": {
+        "distance_ran": 667.3,
+        "current_speed": 8.22,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 239.9,
+        "game_running_time": 111000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.528
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.37,
+        15.44,
+        2,
+        112,
+        329,
+        5,
+        1,
+        509,
+        21,
+        -0.68,
+        0.16,
+        0,
+        0.509,
+        3,
+        1.07,
+        0.58,
+        0.093,
+        0.64
+      ],
+      "gameState": {
+        "distance_ran": 671.1,
+        "current_speed": 8.24,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 224.5,
+        "game_running_time": 112000
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.455
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.89,
+        15.51,
+        2,
+        113,
+        334,
+        5,
+        2,
+        211,
+        5,
+        0.52,
+        0.07,
+        0,
+        0.211,
+        3,
+        1.98,
+        0.63,
+        0.018,
+        0.41
+      ],
+      "gameState": {
+        "distance_ran": 676.1,
+        "current_speed": 8.26,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 44.3,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 184.4,
+        "game_running_time": 113000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.549
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.88,
+        15.14,
+        1,
+        114,
+        317,
+        5,
+        2,
+        441,
+        -17,
+        -0.01,
+        -0.37,
+        0,
+        0.441,
+        3,
+        2.09,
+        0.49,
+        0,
+        -0.18
+      ],
+      "gameState": {
+        "distance_ran": 684.3,
+        "current_speed": 8.28,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 148.6,
+        "game_running_time": 114000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.552
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.69,
+        15.16,
+        2,
+        115,
+        334,
+        5,
+        0,
+        63,
+        17,
+        -0.19,
+        0.02,
+        0,
+        0.063,
+        3,
+        0.0,
+        0.5,
+        0.084,
+        0.38
+      ],
+      "gameState": {
+        "distance_ran": 689.8,
+        "current_speed": 8.3,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 515.5,
+        "game_running_time": 115000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.494
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.7,
+        15.1,
+        2,
+        116,
+        342,
+        5,
+        1,
+        249,
+        8,
+        0.01,
+        -0.06,
+        0,
+        0.249,
+        3,
+        0.95,
+        0.97,
+        0.006,
+        0.58
+      ],
+      "gameState": {
+        "distance_ran": 696.7,
+        "current_speed": 8.32,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 101.0,
+        "game_running_time": 116000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.511
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.69,
+        14.46,
+        2,
+        117,
+        330,
+        5,
+        3,
+        595,
+        -12,
+        0.99,
+        -0.64,
+        0,
+        0.595,
+        3,
+        3.27,
+        0.12,
+        0.048,
+        -0.25
+      ],
+      "gameState": {
+        "distance_ran": 702.0,
+        "current_speed": 8.34,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 465.4,
+        "game_running_time": 117000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.385
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.42,
+        14.5,
+        2,
+        118,
+        346,
+        5,
+        3,
+        241,
+        16,
+        -0.27,
+        0.04,
+        0,
+        0.241,
+        3,
+        3.4,
+        0.06,
+        0.061,
+        0.43
+      ],
+      "gameState": {
+        "distance_ran": 708.8,
+        "current_speed": 8.36,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 555.2,
+        "game_running_time": 118000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.55
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.31,
+        14.25,
+        6,
+        119,
+        338,
+        5,
+        0,
+        24,
+        -8,
+        -0.11,
+        -0.25,
+        0,
+        0.024,
+        3,
+        0.0,
+        0.48,
+        0.01,
+        0.11
+      ],
+      "gameState": {
+        "distance_ran": 714.6,
+        "current_speed": 8.38,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 170.5,
+        "game_running_time": 119000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.491
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.09,
+        14.1,
+        1,
+        120,
+        332,
+        5,
+        1,
+        213,
+        -6,
+        -1.22,
+        -0.15,
+        0,
+        0.213,
+        3,
+        1.1,
+        0.2,
+        0.045,
+        -0.29
+      ],
+      "gameState": {
+        "distance_ran": 720.6,
+        "current_speed": 8.4,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 37.5,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 121.2,
+        "game_running_time": 120000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.415
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.25,
+        14.46,
+        1,
+        121,
+        329,
+        5,
+        0,
+        65,
+        -3,
+        0.16,
+        0.36,
+        0,
+        0.065,
+        3,
+        0.0,
+        0.31,
+        0.046,
+        -0.08
+      ],
+      "gameState": {
+        "distance_ran": 725.0,
+        "current_speed": 8.42,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 449.0,
+        "game_running_time": 121000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.429
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.49,
+        14.8,
+        2,
+        122,
+        349,
+        5,
+        0,
+        91,
+        20,
+        0.24,
+        0.34,
+        0,
+        0.091,
+        3,
+        0.0,
+        0.62,
+        0.145,
+        0.57
+      ],
+      "gameState": {
+        "distance_ran": 733.4,
+        "current_speed": 8.44,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 191.6,
+        "game_running_time": 122000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.697
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.36,
+        14.65,
+        2,
+        123,
+        361,
+        5,
+        2,
+        245,
+        12,
+        0.87,
+        -0.15,
+        0,
+        0.245,
+        3,
+        1.7,
+        0.81,
+        0.061,
+        0.51
+      ],
+      "gameState": {
+        "distance_ran": 739.2,
+        "current_speed": 8.46,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 56.4,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 299.8,
+        "game_running_time": 123000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.56
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.99,
+        14.81,
+        5,
+        124,
+        345,
+        5,
+        2,
+        157,
+        -16,
+        -0.37,
+        0.16,
+        0,
+        0.157,
+        3,
+        1.77,
+        0.79,
+        0.087,
+        -0.39
+      ],
+      "gameState": {
+        "distance_ran": 744.9,
+        "current_speed": 8.48,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 69.3,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 283.2,
+        "game_running_time": 124000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.577
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        79.27,
+        15.57,
+        3,
+        125,
+        344,
+        6,
+        1,
+        51,
+        -1,
+        4.28,
+        0.76,
+        1,
+        0.051,
+        4,
+        1.12,
+        0.64,
+        0.142,
+        -0.1
+      ],
+      "gameState": {
+        "distance_ran": 749.8,
+        "current_speed": 8.5,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 224.8,
+        "game_running_time": 125000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.227
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        79.03,
+        15.54,
+        2,
+        126,
+        357,
+        6,
+        0,
+        99,
+        13,
+        -0.24,
+        -0.03,
+        0,
+        0.099,
+        4,
+        0.0,
+        0.45,
+        0.068,
+        0.2
+      ],
+      "gameState": {
+        "distance_ran": 755.1,
+        "current_speed": 8.52,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 69.0,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 139.2,
+        "game_running_time": 126000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.507
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.94,
+        15.8,
+        1,
+        127,
+        353,
+        6,
+        1,
+        161,
+        -4,
+        -1.09,
+        0.26,
+        0,
+        0.161,
+        4,
+        0.87,
+        0.86,
+        0.03,
+        0.22
+      ],
+      "gameState": {
+        "distance_ran": 764.0,
+        "current_speed": 8.54,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 36.3,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 111.3,
+        "game_running_time": 127000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.239
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.34,
+        15.55,
+        2,
+        128,
+        372,
+        6,
+        0,
+        57,
+        19,
+        -0.6,
+        -0.25,
+        0,
+        0.057,
+        4,
+        0.0,
+        0.41,
+        0.084,
+        0.39
+      ],
+      "gameState": {
+        "distance_ran": 769.8,
+        "current_speed": 8.56,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 344.6,
+        "game_running_time": 128000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.371
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        78.92,
+        15.91,
+        1,
+        129,
+        368,
+        6,
+        1,
+        486,
+        -4,
+        1.58,
+        0.36,
+        0,
+        0.486,
+        4,
+        1.12,
+        0.52,
+        0.07,
+        -0.01
+      ],
+      "gameState": {
+        "distance_ran": 773.7,
+        "current_speed": 8.58,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 403.9,
+        "game_running_time": 129000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.373
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        77.32,
+        15.77,
+        2,
+        130,
+        374,
+        6,
+        2,
+        589,
+        6,
+        -1.6,
+        -0.14,
+        0,
+        0.589,
+        4,
+        2.27,
+        0.78,
+        0.038,
+        0.49
+      ],
+      "gameState": {
+        "distance_ran": 778.5,
+        "current_speed": 8.6,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 282.0,
+        "game_running_time": 130000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.372
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.14,
+        15.38,
+        1,
+        131,
+        364,
+        6,
+        0,
+        81,
+        -10,
+        -1.18,
+        -0.39,
+        0,
+        0.081,
+        4,
+        0.0,
+        0.87,
+        0.109,
+        -0.31
+      ],
+      "gameState": {
+        "distance_ran": 786.2,
+        "current_speed": 8.62,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 46.8,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 209.6,
+        "game_running_time": 131000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.364
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.41,
+        15.18,
+        2,
+        132,
+        368,
+        6,
+        0,
+        90,
+        4,
+        -0.73,
+        -0.2,
+        0,
+        0.09,
+        4,
+        0.0,
+        0.65,
+        0.054,
+        0.35
+      ],
+      "gameState": {
+        "distance_ran": 792.5,
+        "current_speed": 8.64,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 589.1,
+        "game_running_time": 132000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.398
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.6,
+        15.49,
+        2,
+        133,
+        380,
+        6,
+        0,
+        35,
+        12,
+        -0.81,
+        0.31,
+        0,
+        0.035,
+        4,
+        0.0,
+        0.18,
+        0.048,
+        0.47
+      ],
+      "gameState": {
+        "distance_ran": 798.4,
+        "current_speed": 8.66,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 56.0,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 559.8,
+        "game_running_time": 133000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.53
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.17,
+        15.54,
+        2,
+        134,
+        387,
+        6,
+        0,
+        53,
+        7,
+        -0.43,
+        0.05,
+        0,
+        0.053,
+        4,
+        0.0,
+        0.33,
+        0.055,
+        0.75
+      ],
+      "gameState": {
+        "distance_ran": 802.5,
+        "current_speed": 8.68,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 370.3,
+        "game_running_time": 134000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.463
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.84,
+        15.82,
+        1,
+        135,
+        382,
+        6,
+        0,
+        97,
+        -5,
+        -0.33,
+        0.28,
+        0,
+        0.097,
+        4,
+        0.0,
+        0.8,
+        0.061,
+        -0.13
+      ],
+      "gameState": {
+        "distance_ran": 809.7,
+        "current_speed": 8.7,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 451.4,
+        "game_running_time": 135000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.349
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.48,
+        15.47,
+        1,
+        136,
+        382,
+        6,
+        0,
+        33,
+        0,
+        -0.36,
+        -0.35,
+        0,
+        0.033,
+        4,
+        0.0,
+        0.24,
+        0.077,
+        -0.11
+      ],
+      "gameState": {
+        "distance_ran": 817.1,
+        "current_speed": 8.72,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 599.5,
+        "game_running_time": 136000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.25
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.37,
+        15.82,
+        2,
+        137,
+        389,
+        6,
+        1,
+        318,
+        7,
+        0.89,
+        0.35,
+        0,
+        0.318,
+        4,
+        1.12,
+        0.32,
+        0.097,
+        0.49
+      ],
+      "gameState": {
+        "distance_ran": 821.2,
+        "current_speed": 8.74,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 44.4,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 362.5,
+        "game_running_time": 137000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.42
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.83,
+        15.7,
+        2,
+        138,
+        380,
+        6,
+        2,
+        527,
+        -9,
+        -0.54,
+        -0.12,
+        0,
+        0.527,
+        4,
+        1.8,
+        0.39,
+        0.049,
+        0.05
+      ],
+      "gameState": {
+        "distance_ran": 826.2,
+        "current_speed": 8.76,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 360.5,
+        "game_running_time": 138000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.212
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.12,
+        15.47,
+        2,
+        139,
+        405,
+        6,
+        1,
+        451,
+        25,
+        0.29,
+        -0.23,
+        0,
+        0.451,
+        4,
+        1.13,
+        0.49,
+        0.067,
+        0.54
+      ],
+      "gameState": {
+        "distance_ran": 832.9,
+        "current_speed": 8.78,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 49.1,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 540.7,
+        "game_running_time": 139000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.431
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.45,
+        15.9,
+        1,
+        140,
+        398,
+        6,
+        1,
+        235,
+        -7,
+        0.33,
+        0.43,
+        0,
+        0.235,
+        4,
+        0.96,
+        0.48,
+        0.047,
+        -0.13
+      ],
+      "gameState": {
+        "distance_ran": 839.3,
+        "current_speed": 8.8,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 507.5,
+        "game_running_time": 140000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.311
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.64,
+        15.38,
+        2,
+        141,
+        401,
+        6,
+        0,
+        23,
+        3,
+        -0.81,
+        -0.52,
+        0,
+        0.023,
+        3,
+        0.0,
+        0.49,
+        0.046,
+        0.42
+      ],
+      "gameState": {
+        "distance_ran": 845.0,
+        "current_speed": 8.82,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 179.5,
+        "game_running_time": 141000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.651
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.95,
+        15.44,
+        2,
+        142,
+        413,
+        6,
+        3,
+        553,
+        12,
+        0.31,
+        0.06,
+        0,
+        0.553,
+        3,
+        2.88,
+        0.53,
+        0.116,
+        0.28
+      ],
+      "gameState": {
+        "distance_ran": 852.1,
+        "current_speed": 8.84,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 109.5,
+        "game_running_time": 142000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.566
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.18,
+        15.52,
+        2,
+        143,
+        423,
+        6,
+        3,
+        244,
+        10,
+        0.23,
+        0.08,
+        0,
+        0.244,
+        3,
+        3.33,
+        0.85,
+        0.11,
+        0.57
+      ],
+      "gameState": {
+        "distance_ran": 859.9,
+        "current_speed": 8.86,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 136.9,
+        "game_running_time": 143000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.404
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.62,
+        15.37,
+        5,
+        144,
+        390,
+        6,
+        3,
+        434,
+        -33,
+        0.44,
+        -0.15,
+        0,
+        0.434,
+        3,
+        2.82,
+        0.65,
+        0.057,
+        -0.22
+      ],
+      "gameState": {
+        "distance_ran": 864.9,
+        "current_speed": 8.88,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 378.4,
+        "game_running_time": 144000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.538
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.39,
+        15.74,
+        2,
+        145,
+        392,
+        6,
+        0,
+        57,
+        2,
+        0.77,
+        0.37,
+        0,
+        0.057,
+        3,
+        0.0,
+        0.42,
+        0.136,
+        0.33
+      ],
+      "gameState": {
+        "distance_ran": 869.3,
+        "current_speed": 8.9,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 158.0,
+        "game_running_time": 145000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.555
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.8,
+        15.75,
+        4,
+        146,
+        407,
+        7,
+        2,
+        122,
+        15,
+        0.41,
+        0.01,
+        1,
+        0.122,
+        4,
+        2.23,
+        0.68,
+        0.127,
+        -0.48
+      ],
+      "gameState": {
+        "distance_ran": 875.6,
+        "current_speed": 8.92,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 436.8,
+        "game_running_time": 146000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.231
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.67,
+        15.91,
+        2,
+        147,
+        426,
+        7,
+        2,
+        166,
+        19,
+        -0.13,
+        0.16,
+        0,
+        0.166,
+        4,
+        1.9,
+        0.42,
+        0.086,
+        0.43
+      ],
+      "gameState": {
+        "distance_ran": 883.0,
+        "current_speed": 8.94,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 61.2,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 554.7,
+        "game_running_time": 147000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.397
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.49,
+        15.69,
+        2,
+        148,
+        427,
+        7,
+        2,
+        480,
+        1,
+        -0.18,
+        -0.22,
+        0,
+        0.48,
+        4,
+        2.09,
+        0.66,
+        0.092,
+        0.75
+      ],
+      "gameState": {
+        "distance_ran": 889.0,
+        "current_speed": 8.96,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 173.3,
+        "game_running_time": 148000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.318
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.88,
+        15.85,
+        1,
+        149,
+        415,
+        7,
+        0,
+        24,
+        -12,
+        1.39,
+        0.16,
+        0,
+        0.024,
+        4,
+        0.0,
+        0.58,
+        0.074,
+        -0.18
+      ],
+      "gameState": {
+        "distance_ran": 892.4,
+        "current_speed": 8.98,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 320.0,
+        "game_running_time": 149000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.396
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.56,
+        16.02,
+        2,
+        150,
+        417,
+        7,
+        1,
+        294,
+        2,
+        -0.32,
+        0.17,
+        0,
+        0.294,
+        4,
+        1.04,
+        0.29,
+        0.063,
+        0.33
+      ],
+      "gameState": {
+        "distance_ran": 899.3,
+        "current_speed": 9.0,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 254.3,
+        "game_running_time": 150000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.402
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.73,
+        15.75,
+        6,
+        151,
+        414,
+        7,
+        0,
+        98,
+        -3,
+        -0.83,
+        -0.27,
+        0,
+        0.098,
+        4,
+        0.0,
+        0.3,
+        0.097,
+        -0.26
+      ],
+      "gameState": {
+        "distance_ran": 907.9,
+        "current_speed": 9.02,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 447.8,
+        "game_running_time": 151000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.365
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.62,
+        15.78,
+        2,
+        152,
+        444,
+        7,
+        2,
+        536,
+        30,
+        -1.11,
+        0.03,
+        0,
+        0.536,
+        4,
+        1.74,
+        0.9,
+        0.045,
+        0.43
+      ],
+      "gameState": {
+        "distance_ran": 911.6,
+        "current_speed": 9.04,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 252.7,
+        "game_running_time": 152000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.616
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.91,
+        15.06,
+        1,
+        153,
+        431,
+        7,
+        2,
+        203,
+        -13,
+        0.29,
+        -0.72,
+        0,
+        0.203,
+        3,
+        1.96,
+        0.67,
+        0.085,
+        0.13
+      ],
+      "gameState": {
+        "distance_ran": 919.4,
+        "current_speed": 9.06,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 67.1,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 439.6,
+        "game_running_time": 153000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.412
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.12,
+        15.16,
+        1,
+        154,
+        430,
+        7,
+        0,
+        100,
+        -1,
+        1.21,
+        0.1,
+        0,
+        0.1,
+        3,
+        0.0,
+        0.64,
+        0.053,
+        0.17
+      ],
+      "gameState": {
+        "distance_ran": 923.3,
+        "current_speed": 9.08,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 432.0,
+        "game_running_time": 154000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.637
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.7,
+        15.14,
+        2,
+        155,
+        448,
+        7,
+        2,
+        174,
+        18,
+        -0.42,
+        -0.02,
+        0,
+        0.174,
+        3,
+        1.8,
+        0.09,
+        0.083,
+        0.3
+      ],
+      "gameState": {
+        "distance_ran": 928.8,
+        "current_speed": 9.1,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 103.5,
+        "game_running_time": 155000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.596
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.83,
+        15.11,
+        1,
+        156,
+        437,
+        7,
+        0,
+        59,
+        -11,
+        -0.87,
+        -0.03,
+        0,
+        0.059,
+        3,
+        0.0,
+        0.45,
+        0.001,
+        0.07
+      ],
+      "gameState": {
+        "distance_ran": 935.7,
+        "current_speed": 9.12,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 490.2,
+        "game_running_time": 156000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.526
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.2,
+        15.16,
+        2,
+        157,
+        434,
+        7,
+        3,
+        159,
+        -3,
+        -0.63,
+        0.05,
+        0,
+        0.159,
+        3,
+        3.06,
+        0.41,
+        0.014,
+        -0.09
+      ],
+      "gameState": {
+        "distance_ran": 941.1,
+        "current_speed": 9.14,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 352.5,
+        "game_running_time": 157000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.593
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.52,
+        15.21,
+        6,
+        158,
+        431,
+        7,
+        2,
+        247,
+        -3,
+        0.32,
+        0.05,
+        0,
+        0.247,
+        3,
+        1.96,
+        0.68,
+        0.098,
+        0.05
+      ],
+      "gameState": {
+        "distance_ran": 949.7,
+        "current_speed": 9.16,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 582.2,
+        "game_running_time": 158000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.414
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.6,
+        15.23,
+        2,
+        159,
+        469,
+        7,
+        2,
+        288,
+        38,
+        0.08,
+        0.02,
+        0,
+        0.288,
+        3,
+        2.25,
+        0.15,
+        0.069,
+        0.37
+      ],
+      "gameState": {
+        "distance_ran": 952.4,
+        "current_speed": 9.18,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 70.8,
+        "trex_is_jumping": true,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 229.6,
+        "game_running_time": 159000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.504
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        76.08,
+        15.2,
+        1,
+        160,
+        458,
+        7,
+        2,
+        501,
+        -11,
+        1.48,
+        -0.03,
+        0,
+        0.501,
+        2,
+        1.73,
+        0.49,
+        0.059,
+        0.01
+      ],
+      "gameState": {
+        "distance_ran": 960.5,
+        "current_speed": 9.2,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 541.3,
+        "game_running_time": 160000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.46
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        75.44,
+        14.8,
+        1,
+        161,
+        451,
+        7,
+        4,
+        572,
+        -7,
+        -0.64,
+        -0.4,
+        0,
+        0.572,
+        2,
+        3.93,
+        0.67,
+        0.069,
+        -0.22
+      ],
+      "gameState": {
+        "distance_ran": 965.9,
+        "current_speed": 9.22,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 397.8,
+        "game_running_time": 161000
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.34
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.98,
+        14.7,
+        1,
+        162,
+        440,
+        7,
+        3,
+        394,
+        -11,
+        -1.46,
+        -0.1,
+        0,
+        0.394,
+        2,
+        2.64,
+        0.67,
+        0,
+        -0.0
+      ],
+      "gameState": {
+        "distance_ran": 973.9,
+        "current_speed": 9.24,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 534.7,
+        "game_running_time": 162000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.558
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.96,
+        14.96,
+        2,
+        163,
+        471,
+        7,
+        2,
+        464,
+        31,
+        -1.02,
+        0.26,
+        0,
+        0.464,
+        2,
+        2.17,
+        0.56,
+        0.069,
+        0.41
+      ],
+      "gameState": {
+        "distance_ran": 978.6,
+        "current_speed": 9.26,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 193.8,
+        "game_running_time": 163000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.599
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.06,
+        14.86,
+        1,
+        164,
+        463,
+        7,
+        1,
+        496,
+        -8,
+        0.1,
+        -0.1,
+        0,
+        0.496,
+        2,
+        0.96,
+        1,
+        0.067,
+        0.1
+      ],
+      "gameState": {
+        "distance_ran": 984.4,
+        "current_speed": 9.28,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 2,
+        "nearest_obstacle_x": 133.3,
+        "game_running_time": 164000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.545
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.01,
+        15.26,
+        2,
+        165,
+        489,
+        7,
+        0,
+        83,
+        26,
+        -0.05,
+        0.4,
+        0,
+        0.083,
+        2,
+        0.0,
+        0.69,
+        0.087,
+        0.58
+      ],
+      "gameState": {
+        "distance_ran": 991.4,
+        "current_speed": 9.3,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 100.8,
+        "game_running_time": 165000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.735
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.51,
+        15.43,
+        1,
+        166,
+        468,
+        7,
+        2,
+        289,
+        -21,
+        0.5,
+        0.17,
+        0,
+        0.289,
+        2,
+        2.13,
+        0.57,
+        0.073,
+        -0.23
+      ],
+      "gameState": {
+        "distance_ran": 997.5,
+        "current_speed": 9.32,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 41.5,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 329.1,
+        "game_running_time": 166000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.66
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.53,
+        15.58,
+        2,
+        167,
+        470,
+        7,
+        0,
+        40,
+        2,
+        0.02,
+        0.15,
+        0,
+        0.04,
+        2,
+        0.0,
+        0.41,
+        0.124,
+        0.44
+      ],
+      "gameState": {
+        "distance_ran": 1003.5,
+        "current_speed": 9.34,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 143.6,
+        "game_running_time": 167000
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.626
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.14,
+        15.64,
+        2,
+        168,
+        477,
+        7,
+        2,
+        582,
+        7,
+        0.61,
+        0.06,
+        0,
+        0.582,
+        2,
+        1.88,
+        0.2,
+        0.106,
+        0.57
+      ],
+      "gameState": {
+        "distance_ran": 1008.9,
+        "current_speed": 9.36,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 47.4,
+        "trex_is_jumping": true,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 259.8,
+        "game_running_time": 168000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.461
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        73.44,
+        15.62,
+        2,
+        169,
+        482,
+        7,
+        1,
+        340,
+        5,
+        -0.7,
+        -0.02,
+        0,
+        0.34,
+        2,
+        1.09,
+        0.69,
+        0.109,
+        0.54
+      ],
+      "gameState": {
+        "distance_ran": 1014.9,
+        "current_speed": 9.38,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 47.8,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 144.9,
+        "game_running_time": 169000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.468
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        72.86,
+        15.14,
+        2,
+        170,
+        490,
+        7,
+        0,
+        26,
+        8,
+        -0.58,
+        -0.48,
+        0,
+        0.026,
+        2,
+        0.0,
+        0.21,
+        0.065,
+        0.22
+      ],
+      "gameState": {
+        "distance_ran": 1020.7,
+        "current_speed": 9.4,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 55.0,
+        "trex_is_jumping": true,
+        "obstacle_count": 3,
+        "nearest_obstacle_x": 490.2,
+        "game_running_time": 170000
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.573
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.07,
+        15.01,
+        1,
+        171,
+        488,
+        7,
+        3,
+        178,
+        -2,
+        1.21,
+        -0.13,
+        0,
+        0.178,
+        2,
+        3.28,
+        0.77,
+        0,
+        -0.02
+      ],
+      "gameState": {
+        "distance_ran": 1024.7,
+        "current_speed": 9.42,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 485.7,
+        "game_running_time": 171000
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.473
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        74.18,
+        14.79,
+        6,
+        172,
+        487,
+        7,
+        2,
+        440,
+        -1,
+        0.11,
+        -0.22,
+        0,
+        0.44,
+        2,
+        2.25,
+        0.26,
+        0.109,
+        0.12
+      ],
+      "gameState": {
+        "distance_ran": 1031.8,
+        "current_speed": 9.44,
+        "is_crashed": false,
+        "is_paused": false,
+        "is_game_active": true,
+        "trex_y_pos": 93,
+        "trex_is_jumping": false,
+        "obstacle_count": 1,
+        "nearest_obstacle_x": 538.5,
+        "game_running_time": 172000
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.631
+      },
+      "mods_applied": []
+    }
+  ],
+  "summary": {
+    "avg_engagement": 0.499,
+    "flow_pct": 40,
+    "frustration_pct": 32,
+    "avg_score_delta": 2.815,
+    "tick_count": 173
+  }
+}

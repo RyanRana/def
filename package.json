@@ -1,0 +1,13 @@
+{
+  "name": "presage-games",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "node server.js",
+    "serve:port": "PORT=8766 node server.js",
+    "build": "node scripts/build-www.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

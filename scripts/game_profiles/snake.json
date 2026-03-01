@@ -1,0 +1,159 @@
+{
+  "state": [
+    {
+      "key": "snake_x",
+      "description": "Snake head X position",
+      "js_expression": "snake.x",
+      "type": "number"
+    },
+    {
+      "key": "snake_y",
+      "description": "Snake head Y position",
+      "js_expression": "snake.y",
+      "type": "number"
+    },
+    {
+      "key": "snake_velocity_x",
+      "description": "Snake X velocity (movement direction and speed)",
+      "js_expression": "snake.dx",
+      "type": "number"
+    },
+    {
+      "key": "snake_velocity_y",
+      "description": "Snake Y velocity (movement direction and speed)",
+      "js_expression": "snake.dy",
+      "type": "number"
+    },
+    {
+      "key": "snake_body_length",
+      "description": "Current number of cells in the snake's body",
+      "js_expression": "snake.cells.length",
+      "type": "number"
+    },
+    {
+      "key": "apples_eaten",
+      "description": "Number of apples eaten (score), calculated as snake.maxCells - 4 (since it starts at 4)",
+      "js_expression": "snake.maxCells - 4",
+      "type": "number"
+    },
+    {
+      "key": "apple_x",
+      "description": "Apple X position",
+      "js_expression": "apple.x",
+      "type": "number"
+    },
+    {
+      "key": "apple_y",
+      "description": "Apple Y position",
+      "js_expression": "apple.y",
+      "type": "number"
+    }
+  ],
+  "mods": [
+    {
+      "key": "game_frame_skip",
+      "label": "Game Frame Skip",
+      "description": "Number of animation frames to skip between game logic updates. Higher = slower. INVERTED: engine decreases this to speed up.",
+      "js_get": "window.__snakeFrameSkip != null ? window.__snakeFrameSkip : 4",
+      "js_set": "window.__snakeFrameSkip = VALUE",
+      "default": 4,
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "category": "speed",
+      "invert": true
+    },
+    {
+      "key": "grid_cell_size",
+      "label": "Grid Cell Size",
+      "description": "The size of each grid cell in pixels. Affects visual scale, movement granularity, and implicitly the number of cells on screen. Changes snake's movement speed proportional to cell size.",
+      "js_get": "grid",
+      "js_set": "snake.dx = (snake.dx / grid) * VALUE; snake.dy = (snake.dy / grid) * VALUE; grid = VALUE;",
+      "default": 16,
+      "min": 8,
+      "max": 40,
+      "step": 4,
+      "category": "difficulty"
+    },
+    {
+      "key": "snake_reset_x",
+      "label": "Snake Reset X Position",
+      "description": "The X position where the snake is initialized and resets after a game over. Changes the current snake X position, but the game's hardcoded reset (160) will overwrite this value on actual game over.",
+      "js_get": "snake.x",
+      "js_set": "snake.x = VALUE;",
+      "default": 160,
+      "min": 0,
+      "max": 384,
+      "step": 16,
+      "category": "forgiveness"
+    },
+    {
+      "key": "snake_reset_y",
+      "label": "Snake Reset Y Position",
+      "description": "The Y position where the snake is initialized and resets after a game over. Changes the current snake Y position, but the game's hardcoded reset (160) will overwrite this value on actual game over.",
+      "js_get": "snake.y",
+      "js_set": "snake.y = VALUE;",
+      "default": 160,
+      "min": 0,
+      "max": 384,
+      "step": 16,
+      "category": "forgiveness"
+    },
+    {
+      "key": "death_forgiveness",
+      "label": "Death Forgiveness",
+      "description": "Length the snake keeps after dying (normally resets to 4). A watcher enforces this on death events.",
+      "js_get": "window.__snakeDeathForgive != null ? window.__snakeDeathForgive : 4",
+      "js_set": "window.__snakeDeathForgive = VALUE",
+      "default": 4,
+      "min": 4,
+      "max": 12,
+      "step": 1,
+      "category": "forgiveness"
+    },
+    {
+      "key": "apple_attract_radius",
+      "label": "Apple Attract Radius",
+      "description": "When > 0, apple respawns within this many cells of the snake head (easier to reach). 0 = fully random.",
+      "js_get": "window.__snakeAppleRadius != null ? window.__snakeAppleRadius : 0",
+      "js_set": "window.__snakeAppleRadius = VALUE",
+      "default": 0,
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "category": "reward"
+    },
+    {
+      "key": "apple_initial_x",
+      "label": "Apple Initial X Position",
+      "description": "The X position of the apple at game start. Changes the current apple X position, but a new random position will be assigned when an apple is eaten or on game over.",
+      "js_get": "apple.x",
+      "js_set": "apple.x = VALUE;",
+      "default": 320,
+      "min": 0,
+      "max": 384,
+      "step": 16,
+      "category": "reward"
+    },
+    {
+      "key": "apple_initial_y",
+      "label": "Apple Initial Y Position",
+      "description": "The Y position of the apple at game start. Changes the current apple Y position, but a new random position will be assigned when an apple is eaten or on game over.",
+      "js_get": "apple.y",
+      "js_set": "apple.y = VALUE;",
+      "default": 320,
+      "min": 0,
+      "max": 384,
+      "step": 16,
+      "category": "reward"
+    }
+  ],
+  "engagement_mod_keys": [
+    "game_frame_skip",
+    "death_forgiveness",
+    "apple_attract_radius",
+    "bonus_apple_count",
+    "wall_obstacle_count",
+    "speed_burst"
+  ]
+}

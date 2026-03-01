@@ -1,0 +1,10259 @@
+{
+  "game": "snake",
+  "def_enabled": true,
+  "session_id": "snake_def_on_07",
+  "duration_sec": 274,
+  "final_score": 32,
+  "deaths": 4,
+  "vector_fields": [
+    "heartRate",
+    "breathingRate",
+    "expressionIdx",
+    "sessionTimeSec",
+    "score",
+    "deaths",
+    "tapCount",
+    "activeTouchMs",
+    "scoreDelta",
+    "hrDelta",
+    "brDelta",
+    "deathsDelta",
+    "touchRatio",
+    "deathRate60s",
+    "keyVelocity",
+    "keyRhythm",
+    "faceMovement",
+    "emotionValence"
+  ],
+  "ticks": [
+    {
+      "vector": [
+        66.09,
+        17.44,
+        1,
+        0,
+        0,
+        0,
+        1,
+        284,
+        0,
+        -0.78,
+        0.07,
+        0,
+        0.284,
+        0,
+        0.93,
+        0.85,
+        0.036,
+        0.04
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 4,
+        "apples_eaten": 0,
+        "apple_x": 176,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.87,
+        17.44,
+        1,
+        1,
+        0,
+        0,
+        6,
+        390,
+        0,
+        -0.22,
+        0.0,
+        0,
+        0.39,
+        0,
+        5.7,
+        0.72,
+        0.06,
+        0.06
+      ],
+      "gameState": {
+        "snake_x": 96,
+        "snake_y": 96,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 4,
+        "apples_eaten": 0,
+        "apple_x": 112,
+        "apple_y": 368
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.49,
+        17.51,
+        6,
+        2,
+        0,
+        0,
+        3,
+        480,
+        0,
+        0.62,
+        0.07,
+        0,
+        0.48,
+        0,
+        3.08,
+        1,
+        0.041,
+        0.36
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 4,
+        "apples_eaten": 0,
+        "apple_x": 256,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.2,
+        16.85,
+        2,
+        3,
+        1,
+        0,
+        1,
+        471,
+        1,
+        0.71,
+        -0.66,
+        0,
+        0.471,
+        0,
+        1.09,
+        0.65,
+        0.019,
+        0.55
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 5,
+        "apples_eaten": 1,
+        "apple_x": 16,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.71,
+        17.02,
+        2,
+        4,
+        2,
+        0,
+        5,
+        287,
+        1,
+        -0.49,
+        0.17,
+        0,
+        0.287,
+        0,
+        5.02,
+        0.68,
+        0.065,
+        0.44
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 6,
+        "apples_eaten": 2,
+        "apple_x": 336,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.5
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.95,
+        17.07,
+        1,
+        5,
+        2,
+        0,
+        4,
+        155,
+        0,
+        1.24,
+        0.05,
+        0,
+        0.155,
+        0,
+        3.63,
+        0.84,
+        0.09,
+        -0.05
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 6,
+        "apples_eaten": 2,
+        "apple_x": 368,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.705
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.26,
+        17.0,
+        1,
+        6,
+        2,
+        0,
+        4,
+        432,
+        0,
+        -0.69,
+        -0.07,
+        0,
+        0.432,
+        0,
+        4.07,
+        0.94,
+        0.033,
+        0.05
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 176,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 6,
+        "apples_eaten": 2,
+        "apple_x": 320,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.677
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.72,
+        17.15,
+        1,
+        7,
+        2,
+        0,
+        1,
+        231,
+        0,
+        -0.54,
+        0.15,
+        0,
+        0.231,
+        0,
+        0.91,
+        0.56,
+        0.068,
+        0.09
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 6,
+        "apples_eaten": 2,
+        "apple_x": 112,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.813
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.87,
+        17.29,
+        6,
+        8,
+        2,
+        0,
+        3,
+        151,
+        0,
+        1.15,
+        0.14,
+        0,
+        0.151,
+        0,
+        3.43,
+        0.81,
+        0.106,
+        0.16
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 208,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 6,
+        "apples_eaten": 2,
+        "apple_x": 96,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.56
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.0,
+        17.61,
+        2,
+        9,
+        3,
+        0,
+        7,
+        317,
+        1,
+        -0.87,
+        0.32,
+        0,
+        0.317,
+        0,
+        5.96,
+        0.62,
+        0.054,
+        0.53
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 224,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 7,
+        "apples_eaten": 3,
+        "apple_x": 144,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.708
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.31,
+        17.72,
+        1,
+        10,
+        3,
+        0,
+        3,
+        512,
+        0,
+        -0.69,
+        0.11,
+        0,
+        0.512,
+        0,
+        2.95,
+        0.7,
+        0.088,
+        0.03
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 240,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 7,
+        "apples_eaten": 3,
+        "apple_x": 352,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.684
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.73,
+        17.52,
+        2,
+        11,
+        3,
+        0,
+        2,
+        590,
+        0,
+        -0.58,
+        -0.2,
+        0,
+        0.59,
+        0,
+        2.11,
+        0.65,
+        0.067,
+        -0.24
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 256,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 7,
+        "apples_eaten": 3,
+        "apple_x": 80,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.621
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.21,
+        17.25,
+        1,
+        12,
+        3,
+        0,
+        4,
+        452,
+        0,
+        0.48,
+        -0.27,
+        0,
+        0.452,
+        0,
+        3.45,
+        0.8,
+        0.1,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 7,
+        "apples_eaten": 3,
+        "apple_x": 368,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.565
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.92,
+        17.29,
+        1,
+        13,
+        3,
+        0,
+        6,
+        449,
+        0,
+        -0.29,
+        0.04,
+        0,
+        0.449,
+        0,
+        6.43,
+        0.63,
+        0.111,
+        -0.11
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 272,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 7,
+        "apples_eaten": 3,
+        "apple_x": 352,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.672
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.41,
+        17.82,
+        2,
+        14,
+        4,
+        0,
+        3,
+        330,
+        1,
+        -0.51,
+        0.53,
+        0,
+        0.33,
+        0,
+        3.09,
+        0.76,
+        0.085,
+        0.18
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 8,
+        "apples_eaten": 4,
+        "apple_x": 224,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.697
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.19,
+        17.87,
+        1,
+        15,
+        4,
+        0,
+        3,
+        242,
+        0,
+        0.78,
+        0.05,
+        0,
+        0.242,
+        0,
+        2.88,
+        0.41,
+        0.073,
+        0.06
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 240,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 8,
+        "apples_eaten": 4,
+        "apple_x": 304,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.698
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.03,
+        17.7,
+        2,
+        16,
+        5,
+        0,
+        3,
+        308,
+        1,
+        0.84,
+        -0.17,
+        0,
+        0.308,
+        0,
+        3.06,
+        0.86,
+        0.057,
+        0.32
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 336,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 208,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.76
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.98,
+        17.48,
+        1,
+        17,
+        5,
+        0,
+        2,
+        370,
+        0,
+        0.95,
+        -0.22,
+        0,
+        0.37,
+        0,
+        1.97,
+        0.93,
+        0.016,
+        -0.1
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 336,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.651
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.93,
+        17.62,
+        1,
+        18,
+        5,
+        0,
+        2,
+        404,
+        0,
+        -0.05,
+        0.14,
+        0,
+        0.404,
+        0,
+        2.24,
+        0.74,
+        0.053,
+        0.08
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 192,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 176,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.572
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        69.01,
+        17.4,
+        1,
+        19,
+        5,
+        0,
+        6,
+        489,
+        0,
+        1.08,
+        -0.22,
+        0,
+        0.489,
+        0,
+        5.49,
+        0.85,
+        0,
+        0.46
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 176,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 272,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.612
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.67,
+        17.76,
+        2,
+        20,
+        5,
+        0,
+        5,
+        176,
+        0,
+        -1.34,
+        0.36,
+        0,
+        0.176,
+        0,
+        4.69,
+        0.64,
+        0.073,
+        0.16
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 288,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.782
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.97,
+        17.96,
+        1,
+        21,
+        5,
+        0,
+        1,
+        365,
+        0,
+        -0.7,
+        0.2,
+        0,
+        0.365,
+        0,
+        0.86,
+        0.42,
+        0,
+        -0.09
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 16,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 176,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.586
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.86,
+        17.73,
+        1,
+        22,
+        5,
+        0,
+        1,
+        357,
+        0,
+        -0.11,
+        -0.23,
+        0,
+        0.357,
+        0,
+        0.94,
+        0.61,
+        0.114,
+        0.18
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 288,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.629
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.93,
+        17.56,
+        6,
+        23,
+        5,
+        0,
+        4,
+        485,
+        0,
+        -0.93,
+        -0.17,
+        0,
+        0.485,
+        0,
+        4.59,
+        0.53,
+        0.1,
+        0.21
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 384,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.696
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.67,
+        17.85,
+        1,
+        24,
+        5,
+        0,
+        5,
+        412,
+        0,
+        0.74,
+        0.29,
+        0,
+        0.412,
+        0,
+        5.3,
+        0.36,
+        0.069,
+        0.23
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 96,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 128,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.689
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.06,
+        17.85,
+        6,
+        25,
+        5,
+        0,
+        7,
+        358,
+        0,
+        -0.61,
+        0.0,
+        0,
+        0.358,
+        0,
+        6.45,
+        0.98,
+        0.018,
+        -0.03
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 304,
+        "apple_y": 288
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.56
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.15,
+        17.64,
+        1,
+        26,
+        5,
+        0,
+        5,
+        261,
+        0,
+        0.09,
+        -0.21,
+        0,
+        0.261,
+        0,
+        5.72,
+        0.7,
+        0.011,
+        0.0
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 320,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.681
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.47,
+        17.87,
+        2,
+        27,
+        5,
+        0,
+        1,
+        439,
+        0,
+        1.32,
+        0.23,
+        0,
+        0.439,
+        0,
+        1.09,
+        0.56,
+        0.05,
+        0.57
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 112,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 64,
+        "apple_y": 288
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.616
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.74,
+        17.58,
+        1,
+        28,
+        5,
+        0,
+        3,
+        401,
+        0,
+        0.27,
+        -0.29,
+        0,
+        0.401,
+        0,
+        2.67,
+        0.4,
+        0.081,
+        0.05
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 9,
+        "apples_eaten": 5,
+        "apple_x": 336,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.704
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.22,
+        17.33,
+        2,
+        29,
+        6,
+        0,
+        7,
+        403,
+        1,
+        0.48,
+        -0.25,
+        0,
+        0.403,
+        0,
+        7.0,
+        0.68,
+        0.086,
+        0.48
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 10,
+        "apples_eaten": 6,
+        "apple_x": 320,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.707
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.61,
+        17.46,
+        1,
+        30,
+        6,
+        0,
+        1,
+        322,
+        0,
+        0.39,
+        0.13,
+        0,
+        0.322,
+        0,
+        0.87,
+        0.45,
+        0.053,
+        -0.28
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 10,
+        "apples_eaten": 6,
+        "apple_x": 208,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.621
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.63,
+        17.29,
+        1,
+        31,
+        6,
+        0,
+        4,
+        240,
+        0,
+        -0.98,
+        -0.17,
+        0,
+        0.24,
+        0,
+        3.45,
+        0.76,
+        0.056,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 384,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 10,
+        "apples_eaten": 6,
+        "apple_x": 16,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.646
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.83,
+        17.81,
+        1,
+        32,
+        6,
+        0,
+        3,
+        471,
+        0,
+        -0.8,
+        0.52,
+        0,
+        0.471,
+        0,
+        2.64,
+        0.99,
+        0.072,
+        0.49
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 192,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 10,
+        "apples_eaten": 6,
+        "apple_x": 80,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.656
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.79,
+        17.47,
+        1,
+        33,
+        6,
+        0,
+        3,
+        493,
+        0,
+        -0.04,
+        -0.34,
+        0,
+        0.493,
+        0,
+        3.08,
+        0.7,
+        0.047,
+        -0.19
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 10,
+        "apples_eaten": 6,
+        "apple_x": 368,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.717
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.11,
+        17.51,
+        2,
+        34,
+        7,
+        0,
+        6,
+        485,
+        1,
+        0.32,
+        0.04,
+        0,
+        0.485,
+        0,
+        6.5,
+        0.73,
+        0.1,
+        0.37
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 336,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 11,
+        "apples_eaten": 7,
+        "apple_x": 352,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.76
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.46,
+        17.56,
+        1,
+        35,
+        7,
+        0,
+        7,
+        172,
+        0,
+        -0.65,
+        0.05,
+        0,
+        0.172,
+        0,
+        6.61,
+        0.73,
+        0.093,
+        -0.07
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 240,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 11,
+        "apples_eaten": 7,
+        "apple_x": 208,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.511
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.74,
+        18.01,
+        2,
+        36,
+        8,
+        0,
+        6,
+        297,
+        1,
+        0.28,
+        0.45,
+        0,
+        0.297,
+        0,
+        5.71,
+        0.3,
+        0.12,
+        0.36
+      ],
+      "gameState": {
+        "snake_x": 256,
+        "snake_y": 304,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 12,
+        "apples_eaten": 8,
+        "apple_x": 32,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.947
+      },
+      "mods_applied": [
+        {
+          "mod": "reward",
+          "direction": "+",
+          "policy": "excited_ride"
+        }
+      ]
+    },
+    {
+      "vector": [
+        68.2,
+        17.89,
+        1,
+        37,
+        8,
+        0,
+        6,
+        239,
+        0,
+        1.46,
+        -0.12,
+        0,
+        0.239,
+        0,
+        5.5,
+        0.54,
+        0,
+        0.35
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 12,
+        "apples_eaten": 8,
+        "apple_x": 160,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.751
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.76,
+        18.21,
+        6,
+        38,
+        8,
+        0,
+        5,
+        223,
+        0,
+        -0.44,
+        0.32,
+        0,
+        0.223,
+        0,
+        4.93,
+        0.5,
+        0.058,
+        0.14
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 272,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 12,
+        "apples_eaten": 8,
+        "apple_x": 208,
+        "apple_y": 288
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.738
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.16,
+        18.07,
+        2,
+        39,
+        9,
+        0,
+        4,
+        346,
+        1,
+        -0.6,
+        -0.14,
+        0,
+        0.346,
+        0,
+        3.94,
+        0.71,
+        0.051,
+        0.38
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 320,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.791
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.51,
+        17.73,
+        6,
+        40,
+        9,
+        0,
+        3,
+        178,
+        0,
+        0.35,
+        -0.34,
+        0,
+        0.178,
+        0,
+        3.36,
+        0.57,
+        0.04,
+        0.06
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 240,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 192,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.76
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.6,
+        17.7,
+        1,
+        41,
+        9,
+        0,
+        4,
+        519,
+        0,
+        -0.91,
+        -0.03,
+        0,
+        0.519,
+        0,
+        3.44,
+        0.37,
+        0.115,
+        0.25
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 224,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 16,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.739
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.36,
+        17.68,
+        6,
+        42,
+        9,
+        0,
+        2,
+        153,
+        0,
+        -0.24,
+        -0.02,
+        0,
+        0.153,
+        0,
+        1.89,
+        0.32,
+        0.051,
+        -0.05
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 192,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.651
+      },
+      "mods_applied": [
+        {
+          "mod": "speed",
+          "direction": "+",
+          "policy": "bored_speed_up"
+        }
+      ]
+    },
+    {
+      "vector": [
+        67.15,
+        17.65,
+        1,
+        43,
+        9,
+        0,
+        3,
+        532,
+        0,
+        0.79,
+        -0.03,
+        0,
+        0.532,
+        0,
+        2.79,
+        0.65,
+        0.12,
+        0.25
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 32,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.613
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.9,
+        17.39,
+        2,
+        44,
+        9,
+        0,
+        4,
+        331,
+        0,
+        0.75,
+        -0.26,
+        0,
+        0.331,
+        0,
+        4.13,
+        0.86,
+        0.003,
+        0.13
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 384,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 368,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.815
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.42,
+        17.43,
+        1,
+        45,
+        9,
+        0,
+        1,
+        258,
+        0,
+        -0.48,
+        0.04,
+        0,
+        0.258,
+        0,
+        1.15,
+        0.37,
+        0.024,
+        0.3
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 176,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.787
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.43,
+        17.82,
+        1,
+        46,
+        9,
+        0,
+        5,
+        580,
+        0,
+        0.01,
+        0.39,
+        0,
+        0.58,
+        0,
+        4.8,
+        0.48,
+        0.101,
+        0.15
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 144,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 0,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.753
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.07,
+        17.42,
+        6,
+        47,
+        9,
+        0,
+        1,
+        569,
+        0,
+        -0.36,
+        -0.4,
+        0,
+        0.569,
+        0,
+        0.9,
+        0.81,
+        0.078,
+        0.14
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 256,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.783
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.66,
+        16.99,
+        1,
+        48,
+        9,
+        0,
+        6,
+        451,
+        0,
+        -0.41,
+        -0.43,
+        0,
+        0.451,
+        0,
+        5.6,
+        0.35,
+        0.002,
+        -0.02
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 352,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.762
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.0,
+        16.84,
+        2,
+        49,
+        9,
+        0,
+        4,
+        401,
+        0,
+        0.34,
+        -0.15,
+        0,
+        0.401,
+        0,
+        4.42,
+        1,
+        0.063,
+        0.05
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 288,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.637
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.35,
+        16.93,
+        1,
+        50,
+        9,
+        0,
+        4,
+        475,
+        0,
+        -0.65,
+        0.09,
+        0,
+        0.475,
+        0,
+        3.78,
+        0.19,
+        0.031,
+        0.02
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 176,
+        "apple_y": 48
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.716
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.58,
+        17.07,
+        6,
+        51,
+        9,
+        0,
+        4,
+        550,
+        0,
+        -0.77,
+        0.14,
+        0,
+        0.55,
+        0,
+        4.2,
+        1,
+        0.065,
+        0.17
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 96,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.642
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.91,
+        17.11,
+        2,
+        52,
+        9,
+        0,
+        6,
+        294,
+        0,
+        0.33,
+        0.04,
+        0,
+        0.294,
+        0,
+        6.0,
+        0.42,
+        0.034,
+        0.01
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 272,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.863
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.01,
+        16.86,
+        1,
+        53,
+        9,
+        0,
+        1,
+        463,
+        0,
+        0.1,
+        -0.25,
+        0,
+        0.463,
+        0,
+        0.91,
+        0.47,
+        0.036,
+        -0.24
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 288,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.586
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.6,
+        17.03,
+        1,
+        54,
+        9,
+        0,
+        2,
+        394,
+        0,
+        0.59,
+        0.17,
+        0,
+        0.394,
+        0,
+        2.03,
+        0.83,
+        0.109,
+        0.18
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 16,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 112,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.585
+      },
+      "mods_applied": [
+        {
+          "mod": "forgiveness",
+          "direction": "+",
+          "policy": "frustrated_ease"
+        }
+      ]
+    },
+    {
+      "vector": [
+        66.52,
+        17.09,
+        1,
+        55,
+        9,
+        0,
+        7,
+        279,
+        0,
+        -0.08,
+        0.06,
+        0,
+        0.279,
+        0,
+        6.96,
+        0.6,
+        0.076,
+        0.2
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 48,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.739
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.31,
+        17.19,
+        6,
+        56,
+        9,
+        0,
+        5,
+        321,
+        0,
+        0.79,
+        0.1,
+        0,
+        0.321,
+        0,
+        5.61,
+        0.56,
+        0.086,
+        0.13
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 384,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 160,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.609
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.43,
+        16.98,
+        1,
+        57,
+        9,
+        0,
+        4,
+        187,
+        0,
+        -0.88,
+        -0.21,
+        0,
+        0.187,
+        0,
+        4.5,
+        0.68,
+        0.048,
+        0.01
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 192,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 13,
+        "apples_eaten": 9,
+        "apple_x": 240,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.646
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.21,
+        17.28,
+        2,
+        58,
+        10,
+        0,
+        3,
+        525,
+        1,
+        -0.22,
+        0.3,
+        0,
+        0.525,
+        0,
+        3.26,
+        0.53,
+        0.02,
+        0.58
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 14,
+        "apples_eaten": 10,
+        "apple_x": 288,
+        "apple_y": 48
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.699
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.02,
+        17.42,
+        2,
+        59,
+        10,
+        0,
+        5,
+        158,
+        0,
+        0.81,
+        0.14,
+        0,
+        0.158,
+        0,
+        4.85,
+        0.45,
+        0.061,
+        -0.01
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 224,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 14,
+        "apples_eaten": 10,
+        "apple_x": 0,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.782
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.56,
+        17.4,
+        1,
+        60,
+        10,
+        0,
+        4,
+        226,
+        0,
+        -0.46,
+        -0.02,
+        0,
+        0.226,
+        0,
+        3.54,
+        0.42,
+        0.076,
+        0.1
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 240,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 14,
+        "apples_eaten": 10,
+        "apple_x": 64,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.65
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.6,
+        17.4,
+        1,
+        61,
+        10,
+        0,
+        5,
+        407,
+        0,
+        0.04,
+        0.0,
+        0,
+        0.407,
+        0,
+        5.58,
+        0.91,
+        0.073,
+        0.16
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 14,
+        "apples_eaten": 10,
+        "apple_x": 16,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.675
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.5,
+        17.03,
+        2,
+        62,
+        11,
+        0,
+        2,
+        304,
+        1,
+        -0.1,
+        -0.37,
+        0,
+        0.304,
+        0,
+        2.2,
+        0.89,
+        0.044,
+        0.54
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 15,
+        "apples_eaten": 11,
+        "apple_x": 192,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.733
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.78,
+        16.96,
+        1,
+        63,
+        11,
+        0,
+        4,
+        301,
+        0,
+        0.28,
+        -0.07,
+        0,
+        0.301,
+        0,
+        3.67,
+        0.43,
+        0.002,
+        0.38
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 272,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 15,
+        "apples_eaten": 11,
+        "apple_x": 368,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.805
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.68,
+        17.43,
+        2,
+        64,
+        12,
+        0,
+        1,
+        546,
+        1,
+        -0.1,
+        0.47,
+        0,
+        0.546,
+        0,
+        0.96,
+        0.55,
+        0.049,
+        0.52
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 16,
+        "apples_eaten": 12,
+        "apple_x": 144,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.863
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.41,
+        17.03,
+        2,
+        65,
+        13,
+        0,
+        4,
+        193,
+        1,
+        0.73,
+        -0.4,
+        0,
+        0.193,
+        0,
+        4.03,
+        0.63,
+        0.11,
+        0.42
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 320,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 17,
+        "apples_eaten": 13,
+        "apple_x": 304,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.764
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.28,
+        17.22,
+        1,
+        66,
+        13,
+        0,
+        4,
+        430,
+        0,
+        0.87,
+        0.19,
+        0,
+        0.43,
+        0,
+        3.6,
+        0.77,
+        0.111,
+        0.18
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 336,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 17,
+        "apples_eaten": 13,
+        "apple_x": 320,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.675
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.12,
+        17.19,
+        1,
+        67,
+        13,
+        0,
+        2,
+        335,
+        0,
+        -0.16,
+        -0.03,
+        0,
+        0.335,
+        0,
+        2.12,
+        0.67,
+        0.049,
+        0.26
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 208,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 17,
+        "apples_eaten": 13,
+        "apple_x": 0,
+        "apple_y": 48
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.695
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        69.26,
+        17.09,
+        4,
+        68,
+        13,
+        1,
+        1,
+        178,
+        0,
+        1.14,
+        -0.1,
+        1,
+        0.178,
+        1,
+        1.0,
+        0.81,
+        0.112,
+        -0.37
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 17,
+        "apples_eaten": 13,
+        "apple_x": 336,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.405
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        69.13,
+        17.77,
+        5,
+        69,
+        13,
+        1,
+        4,
+        310,
+        0,
+        -0.13,
+        0.68,
+        0,
+        0.31,
+        1,
+        3.63,
+        0.52,
+        0.098,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 176,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 17,
+        "apples_eaten": 13,
+        "apple_x": 96,
+        "apple_y": 48
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.585
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.3,
+        18.09,
+        5,
+        70,
+        13,
+        1,
+        1,
+        225,
+        0,
+        -0.83,
+        0.32,
+        0,
+        0.225,
+        1,
+        1.11,
+        1,
+        0.148,
+        -0.16
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 17,
+        "apples_eaten": 13,
+        "apple_x": 0,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.529
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        70.13,
+        18.22,
+        5,
+        71,
+        13,
+        1,
+        1,
+        392,
+        0,
+        1.83,
+        0.13,
+        0,
+        0.392,
+        1,
+        0.97,
+        0.58,
+        0.087,
+        0.21
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 144,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 17,
+        "apples_eaten": 13,
+        "apple_x": 240,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.726
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        69.97,
+        18.26,
+        2,
+        72,
+        14,
+        1,
+        1,
+        323,
+        1,
+        -0.16,
+        0.04,
+        0,
+        0.323,
+        1,
+        0.9,
+        0.48,
+        0.071,
+        0.63
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 32,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 352,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.909
+      },
+      "mods_applied": [
+        {
+          "mod": "speed",
+          "direction": "+",
+          "policy": "bored_speed_up"
+        }
+      ]
+    },
+    {
+      "vector": [
+        69.35,
+        17.98,
+        1,
+        73,
+        14,
+        1,
+        5,
+        220,
+        0,
+        -0.62,
+        -0.28,
+        0,
+        0.22,
+        1,
+        4.77,
+        0.42,
+        0.073,
+        0.27
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 208,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.744
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.29,
+        17.76,
+        1,
+        74,
+        14,
+        1,
+        2,
+        202,
+        0,
+        -1.06,
+        -0.22,
+        0,
+        0.202,
+        1,
+        2.18,
+        0.39,
+        0.099,
+        0.48
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 96,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 256,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.525
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.3,
+        17.82,
+        1,
+        75,
+        14,
+        1,
+        4,
+        383,
+        0,
+        -0.99,
+        0.06,
+        0,
+        0.383,
+        1,
+        4.33,
+        0.58,
+        0.065,
+        0.34
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 336,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.596
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.7,
+        17.61,
+        1,
+        76,
+        14,
+        1,
+        6,
+        485,
+        0,
+        -0.6,
+        -0.21,
+        0,
+        0.485,
+        1,
+        5.11,
+        0.9,
+        0.056,
+        0.12
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 176,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.513
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.24,
+        17.66,
+        2,
+        77,
+        14,
+        1,
+        1,
+        446,
+        0,
+        -0.46,
+        0.05,
+        0,
+        0.446,
+        1,
+        0.96,
+        0.64,
+        0.01,
+        -0.1
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 112,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 288,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.556
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.07,
+        17.67,
+        1,
+        78,
+        14,
+        1,
+        4,
+        300,
+        0,
+        -0.17,
+        0.01,
+        0,
+        0.3,
+        1,
+        3.52,
+        0.55,
+        0.016,
+        0.26
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 240,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.57
+      },
+      "mods_applied": [
+        {
+          "mod": "forgiveness",
+          "direction": "+",
+          "policy": "frustrated_ease"
+        }
+      ]
+    },
+    {
+      "vector": [
+        67.38,
+        18.0,
+        6,
+        79,
+        14,
+        1,
+        4,
+        155,
+        0,
+        1.31,
+        0.33,
+        0,
+        0.155,
+        1,
+        4.53,
+        0.61,
+        0.056,
+        0.16
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 144,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 128,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.734
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.44,
+        18.06,
+        1,
+        80,
+        14,
+        1,
+        3,
+        572,
+        0,
+        0.06,
+        0.06,
+        0,
+        0.572,
+        1,
+        3.16,
+        0.35,
+        0.074,
+        0.45
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 336,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.753
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.78,
+        17.84,
+        1,
+        81,
+        14,
+        1,
+        2,
+        312,
+        0,
+        0.34,
+        -0.22,
+        0,
+        0.312,
+        1,
+        2.27,
+        0.78,
+        0.008,
+        0.26
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 176,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 48,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.533
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.57,
+        17.81,
+        1,
+        82,
+        14,
+        1,
+        7,
+        494,
+        0,
+        -0.21,
+        -0.03,
+        0,
+        0.494,
+        1,
+        7.69,
+        0.81,
+        0.123,
+        0.18
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 352,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.587
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.24,
+        17.88,
+        1,
+        83,
+        14,
+        1,
+        1,
+        379,
+        0,
+        -0.33,
+        0.07,
+        0,
+        0.379,
+        1,
+        0.86,
+        0.86,
+        0,
+        0.07
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 384,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.785
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.49,
+        17.26,
+        1,
+        84,
+        14,
+        1,
+        1,
+        479,
+        0,
+        0.25,
+        -0.62,
+        0,
+        0.479,
+        1,
+        0.94,
+        0.74,
+        0.036,
+        0.12
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 336,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 16,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.699
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.85,
+        17.58,
+        1,
+        85,
+        14,
+        1,
+        2,
+        320,
+        0,
+        0.36,
+        0.32,
+        0,
+        0.32,
+        1,
+        2.28,
+        0.79,
+        0.031,
+        0.16
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 240,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 304,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.766
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.81,
+        17.48,
+        6,
+        86,
+        14,
+        1,
+        1,
+        559,
+        0,
+        -0.04,
+        -0.1,
+        0,
+        0.559,
+        1,
+        1.08,
+        0.56,
+        0.095,
+        -0.03
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 240,
+        "apple_y": 368
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.598
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.22,
+        17.7,
+        1,
+        87,
+        14,
+        1,
+        2,
+        460,
+        0,
+        -0.59,
+        0.22,
+        0,
+        0.46,
+        1,
+        2.02,
+        0.77,
+        0.015,
+        0.07
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 112,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.594
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.54,
+        17.61,
+        2,
+        88,
+        14,
+        1,
+        1,
+        554,
+        0,
+        -0.68,
+        -0.09,
+        0,
+        0.554,
+        1,
+        0.99,
+        0.87,
+        0.055,
+        -0.02
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 272,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 112,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.514
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.3,
+        17.84,
+        2,
+        89,
+        14,
+        1,
+        3,
+        204,
+        0,
+        -0.24,
+        0.23,
+        0,
+        0.204,
+        1,
+        3.24,
+        0.39,
+        0.03,
+        0.08
+      ],
+      "gameState": {
+        "snake_x": 256,
+        "snake_y": 256,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 384,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.613
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.6,
+        17.63,
+        6,
+        90,
+        14,
+        1,
+        2,
+        583,
+        0,
+        -0.7,
+        -0.21,
+        0,
+        0.583,
+        1,
+        1.95,
+        0.5,
+        0.041,
+        0.15
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 320,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 272,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.765
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.15,
+        17.74,
+        1,
+        91,
+        14,
+        1,
+        2,
+        286,
+        0,
+        0.55,
+        0.11,
+        0,
+        0.286,
+        1,
+        1.87,
+        0.54,
+        0.061,
+        0.07
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 224,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 352,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.69
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        64.93,
+        17.81,
+        1,
+        92,
+        14,
+        1,
+        1,
+        166,
+        0,
+        -1.22,
+        0.07,
+        0,
+        0.166,
+        1,
+        1.07,
+        0.19,
+        0.042,
+        0.15
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 208,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 48,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.588
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        64.19,
+        17.39,
+        1,
+        93,
+        14,
+        1,
+        2,
+        161,
+        0,
+        -0.74,
+        -0.42,
+        0,
+        0.161,
+        1,
+        2.27,
+        0.78,
+        0.104,
+        0.1
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 368,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 64,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.652
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.0,
+        17.46,
+        2,
+        94,
+        14,
+        1,
+        4,
+        208,
+        0,
+        0.81,
+        0.07,
+        0,
+        0.208,
+        1,
+        4.37,
+        0.65,
+        0.101,
+        0.09
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 176,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 352,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.667
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.49,
+        17.44,
+        6,
+        95,
+        14,
+        1,
+        5,
+        439,
+        0,
+        0.49,
+        -0.02,
+        0,
+        0.439,
+        1,
+        5.74,
+        0.42,
+        0.096,
+        -0.07
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 112,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.674
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.98,
+        17.14,
+        2,
+        96,
+        14,
+        1,
+        4,
+        356,
+        0,
+        1.49,
+        -0.3,
+        0,
+        0.356,
+        1,
+        4.41,
+        0.77,
+        0.081,
+        0.29
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 16,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 256,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.66
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.7,
+        17.26,
+        1,
+        97,
+        14,
+        1,
+        5,
+        199,
+        0,
+        0.72,
+        0.12,
+        0,
+        0.199,
+        1,
+        5.02,
+        0.74,
+        0.088,
+        0.26
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 112,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.539
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.75,
+        17.4,
+        6,
+        98,
+        14,
+        1,
+        2,
+        566,
+        0,
+        -0.95,
+        0.14,
+        0,
+        0.566,
+        1,
+        2.18,
+        0.5,
+        0.066,
+        -0.04
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 32,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.629
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.15,
+        17.72,
+        1,
+        99,
+        14,
+        1,
+        1,
+        400,
+        0,
+        0.4,
+        0.32,
+        0,
+        0.4,
+        1,
+        0.88,
+        0.94,
+        0.056,
+        -0.14
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 336,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.72
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.13,
+        17.17,
+        1,
+        100,
+        14,
+        1,
+        4,
+        436,
+        0,
+        0.98,
+        -0.55,
+        0,
+        0.436,
+        1,
+        3.72,
+        0.9,
+        0.1,
+        0.35
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 368,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.79
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.62,
+        16.79,
+        1,
+        101,
+        14,
+        1,
+        5,
+        599,
+        0,
+        0.49,
+        -0.38,
+        0,
+        0.599,
+        1,
+        4.73,
+        0.58,
+        0.095,
+        0.09
+      ],
+      "gameState": {
+        "snake_x": 96,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 16,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.76
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.83,
+        16.81,
+        1,
+        102,
+        14,
+        1,
+        4,
+        255,
+        0,
+        0.21,
+        0.02,
+        0,
+        0.255,
+        1,
+        4.54,
+        0.84,
+        0.056,
+        -0.13
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 112,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 160,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.715
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.07,
+        16.65,
+        6,
+        103,
+        14,
+        1,
+        2,
+        553,
+        0,
+        -0.76,
+        -0.16,
+        0,
+        0.553,
+        1,
+        2.17,
+        0.65,
+        0.055,
+        0.21
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 144,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.733
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.65,
+        16.81,
+        6,
+        104,
+        14,
+        1,
+        4,
+        174,
+        0,
+        0.58,
+        0.16,
+        0,
+        0.174,
+        1,
+        3.92,
+        0.96,
+        0.027,
+        0.27
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 144,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 176,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.637
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.19,
+        16.62,
+        2,
+        105,
+        14,
+        1,
+        4,
+        593,
+        0,
+        -0.46,
+        -0.19,
+        0,
+        0.593,
+        1,
+        3.75,
+        0.46,
+        0.062,
+        0.09
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 160,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 80,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.713
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.05,
+        16.77,
+        6,
+        106,
+        14,
+        1,
+        1,
+        464,
+        0,
+        -0.14,
+        0.15,
+        0,
+        0.464,
+        1,
+        1.11,
+        0.37,
+        0.068,
+        0.03
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 384,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 176,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.639
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.4,
+        16.87,
+        6,
+        107,
+        14,
+        1,
+        1,
+        340,
+        0,
+        -0.65,
+        0.1,
+        0,
+        0.34,
+        1,
+        0.87,
+        0.49,
+        0.087,
+        -0.15
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 224,
+        "apple_y": 272
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.817
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.12,
+        17.21,
+        6,
+        108,
+        14,
+        1,
+        7,
+        441,
+        0,
+        -0.28,
+        0.34,
+        0,
+        0.441,
+        1,
+        6.82,
+        0.56,
+        0.054,
+        0.53
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 352,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 80,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.637
+      },
+      "mods_applied": [
+        {
+          "mod": "speed",
+          "direction": "+",
+          "policy": "bored_speed_up"
+        }
+      ]
+    },
+    {
+      "vector": [
+        67.97,
+        16.79,
+        1,
+        109,
+        14,
+        1,
+        5,
+        420,
+        0,
+        0.85,
+        -0.42,
+        0,
+        0.42,
+        1,
+        4.59,
+        0.69,
+        0.108,
+        -0.22
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 336,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 18,
+        "apples_eaten": 14,
+        "apple_x": 240,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.677
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.83,
+        17.08,
+        2,
+        110,
+        15,
+        1,
+        4,
+        292,
+        1,
+        -0.14,
+        0.29,
+        0,
+        0.292,
+        1,
+        4.27,
+        0.35,
+        0.02,
+        0.56
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 240,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 19,
+        "apples_eaten": 15,
+        "apple_x": 0,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.775
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.81,
+        16.85,
+        1,
+        111,
+        15,
+        1,
+        3,
+        236,
+        0,
+        -0.02,
+        -0.23,
+        0,
+        0.236,
+        1,
+        3.26,
+        0.61,
+        0.148,
+        -0.09
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 19,
+        "apples_eaten": 15,
+        "apple_x": 128,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.762
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.35,
+        16.93,
+        6,
+        112,
+        15,
+        1,
+        2,
+        218,
+        0,
+        -0.46,
+        0.08,
+        0,
+        0.218,
+        1,
+        2.13,
+        0.52,
+        0.036,
+        0.1
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 272,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 19,
+        "apples_eaten": 15,
+        "apple_x": 0,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.565
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.74,
+        17.04,
+        1,
+        113,
+        15,
+        1,
+        5,
+        599,
+        0,
+        0.39,
+        0.11,
+        0,
+        0.599,
+        1,
+        5.1,
+        0.59,
+        0.082,
+        -0.35
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 272,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 19,
+        "apples_eaten": 15,
+        "apple_x": 240,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.746
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.27,
+        17.25,
+        2,
+        114,
+        16,
+        1,
+        1,
+        263,
+        1,
+        -0.47,
+        0.21,
+        0,
+        0.263,
+        1,
+        0.86,
+        0.93,
+        0.098,
+        0.12
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 20,
+        "apples_eaten": 16,
+        "apple_x": 304,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.875
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.45,
+        17.26,
+        1,
+        115,
+        16,
+        1,
+        1,
+        542,
+        0,
+        0.18,
+        0.01,
+        0,
+        0.542,
+        1,
+        0.9,
+        0.76,
+        0.041,
+        -0.13
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 320,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 20,
+        "apples_eaten": 16,
+        "apple_x": 272,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.789
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.29,
+        17.15,
+        2,
+        116,
+        17,
+        1,
+        3,
+        230,
+        1,
+        -0.16,
+        -0.11,
+        0,
+        0.23,
+        1,
+        3.4,
+        0.69,
+        0.094,
+        0.56
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 224,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 21,
+        "apples_eaten": 17,
+        "apple_x": 64,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.724
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.68,
+        17.39,
+        2,
+        117,
+        17,
+        1,
+        6,
+        208,
+        0,
+        -0.61,
+        0.24,
+        0,
+        0.208,
+        1,
+        5.93,
+        0.23,
+        0.014,
+        0.2
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 21,
+        "apples_eaten": 17,
+        "apple_x": 304,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.697
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.12,
+        17.94,
+        1,
+        118,
+        17,
+        1,
+        3,
+        174,
+        0,
+        0.44,
+        0.55,
+        0,
+        0.174,
+        1,
+        2.95,
+        0.71,
+        0.034,
+        -0.01
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 192,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 21,
+        "apples_eaten": 17,
+        "apple_x": 0,
+        "apple_y": 288
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.623
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.45,
+        17.78,
+        6,
+        119,
+        17,
+        1,
+        3,
+        350,
+        0,
+        -0.67,
+        -0.16,
+        0,
+        0.35,
+        1,
+        2.92,
+        0.73,
+        0.051,
+        0.29
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 384,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 21,
+        "apples_eaten": 17,
+        "apple_x": 384,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.591
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.81,
+        17.83,
+        1,
+        120,
+        17,
+        1,
+        1,
+        502,
+        0,
+        0.36,
+        0.05,
+        0,
+        0.502,
+        1,
+        0.93,
+        0.64,
+        0.047,
+        0.17
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 21,
+        "apples_eaten": 17,
+        "apple_x": 48,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.724
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.48,
+        17.61,
+        1,
+        121,
+        17,
+        1,
+        5,
+        497,
+        0,
+        -0.33,
+        -0.22,
+        0,
+        0.497,
+        1,
+        5.09,
+        0.22,
+        0.086,
+        -0.01
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 144,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 21,
+        "apples_eaten": 17,
+        "apple_x": 128,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.529
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.5,
+        17.86,
+        2,
+        122,
+        18,
+        1,
+        5,
+        369,
+        1,
+        0.02,
+        0.25,
+        0,
+        0.369,
+        1,
+        4.68,
+        0.78,
+        0.092,
+        0.52
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 22,
+        "apples_eaten": 18,
+        "apple_x": 16,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.757
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.41,
+        17.84,
+        1,
+        123,
+        18,
+        1,
+        4,
+        455,
+        0,
+        0.91,
+        -0.02,
+        0,
+        0.455,
+        1,
+        4.03,
+        1,
+        0.105,
+        0.42
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 112,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 22,
+        "apples_eaten": 18,
+        "apple_x": 0,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.913
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.07,
+        17.78,
+        2,
+        124,
+        19,
+        1,
+        4,
+        552,
+        1,
+        -0.34,
+        -0.06,
+        0,
+        0.552,
+        1,
+        4.1,
+        0.86,
+        0.135,
+        0.43
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 23,
+        "apples_eaten": 19,
+        "apple_x": 96,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.749
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.83,
+        17.37,
+        1,
+        125,
+        19,
+        1,
+        3,
+        152,
+        0,
+        -0.24,
+        -0.41,
+        0,
+        0.152,
+        1,
+        2.57,
+        1,
+        0.067,
+        -0.08
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 23,
+        "apples_eaten": 19,
+        "apple_x": 64,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.575
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.81,
+        17.33,
+        1,
+        126,
+        19,
+        1,
+        4,
+        565,
+        0,
+        -0.02,
+        -0.04,
+        0,
+        0.565,
+        1,
+        4.05,
+        0.7,
+        0.02,
+        0.26
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 96,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 23,
+        "apples_eaten": 19,
+        "apple_x": 320,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.663
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.42,
+        17.17,
+        2,
+        127,
+        19,
+        1,
+        3,
+        497,
+        0,
+        -0.39,
+        -0.16,
+        0,
+        0.497,
+        1,
+        3.09,
+        0.57,
+        0.104,
+        -0.16
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 112,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 23,
+        "apples_eaten": 19,
+        "apple_x": 16,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.728
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        65.45,
+        17.37,
+        6,
+        128,
+        19,
+        1,
+        1,
+        551,
+        0,
+        -0.97,
+        0.2,
+        0,
+        0.551,
+        0,
+        0.93,
+        0.77,
+        0.012,
+        -0.04
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 23,
+        "apples_eaten": 19,
+        "apple_x": 272,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.548
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        64.16,
+        17.59,
+        2,
+        129,
+        20,
+        1,
+        4,
+        597,
+        1,
+        -1.29,
+        0.22,
+        0,
+        0.597,
+        0,
+        3.5,
+        0.25,
+        0.035,
+        0.56
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 48,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.643
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        64.88,
+        17.51,
+        6,
+        130,
+        20,
+        1,
+        5,
+        269,
+        0,
+        0.72,
+        -0.08,
+        0,
+        0.269,
+        0,
+        5.19,
+        0.48,
+        0.06,
+        0.41
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 0,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 32,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.605
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        64.93,
+        17.56,
+        2,
+        131,
+        20,
+        1,
+        1,
+        438,
+        0,
+        0.05,
+        0.05,
+        0,
+        0.438,
+        0,
+        1.09,
+        1,
+        0.114,
+        0.15
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 384,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 256,
+        "apple_y": 128
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.794
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.28,
+        17.13,
+        1,
+        132,
+        20,
+        1,
+        1,
+        387,
+        0,
+        1.35,
+        -0.43,
+        0,
+        0.387,
+        0,
+        1.04,
+        0.78,
+        0.057,
+        0.13
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 192,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 336,
+        "apple_y": 368
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.64
+      },
+      "mods_applied": [
+        {
+          "mod": "reward",
+          "direction": "+",
+          "policy": "excited_ride"
+        }
+      ]
+    },
+    {
+      "vector": [
+        67.15,
+        16.78,
+        6,
+        133,
+        20,
+        1,
+        6,
+        568,
+        0,
+        0.87,
+        -0.35,
+        0,
+        0.568,
+        0,
+        5.95,
+        0.96,
+        0.028,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 256,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.678
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.76,
+        16.74,
+        1,
+        134,
+        20,
+        1,
+        1,
+        336,
+        0,
+        1.61,
+        -0.04,
+        0,
+        0.336,
+        0,
+        0.87,
+        0.44,
+        0.021,
+        0.02
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 224,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 176,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.637
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.3,
+        16.98,
+        1,
+        135,
+        20,
+        1,
+        1,
+        460,
+        0,
+        -0.46,
+        0.24,
+        0,
+        0.46,
+        0,
+        0.9,
+        0.67,
+        0.078,
+        -0.06
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 240,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 192,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.631
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.13,
+        17.23,
+        1,
+        136,
+        20,
+        1,
+        1,
+        178,
+        0,
+        -1.17,
+        0.25,
+        0,
+        0.178,
+        0,
+        0.91,
+        0.63,
+        0.038,
+        0.09
+      ],
+      "gameState": {
+        "snake_x": 256,
+        "snake_y": 256,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 48,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.524
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.52,
+        17.1,
+        2,
+        137,
+        20,
+        1,
+        4,
+        218,
+        0,
+        -0.61,
+        -0.13,
+        0,
+        0.218,
+        0,
+        4.24,
+        0.88,
+        0.032,
+        0.3
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 224,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.705
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.76,
+        17.39,
+        2,
+        138,
+        20,
+        1,
+        2,
+        383,
+        0,
+        0.24,
+        0.29,
+        0,
+        0.383,
+        0,
+        2.13,
+        0.78,
+        0.082,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 288,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 272,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.633
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.3,
+        17.59,
+        1,
+        139,
+        20,
+        1,
+        5,
+        222,
+        0,
+        0.54,
+        0.2,
+        0,
+        0.222,
+        0,
+        4.74,
+        0.49,
+        0.029,
+        -0.24
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 256,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 128,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.642
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.87,
+        17.57,
+        2,
+        140,
+        20,
+        1,
+        2,
+        418,
+        0,
+        -0.43,
+        -0.02,
+        0,
+        0.418,
+        0,
+        2.22,
+        0.54,
+        0.1,
+        -0.06
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 320,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 64,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.636
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.44,
+        18.09,
+        5,
+        141,
+        20,
+        1,
+        2,
+        246,
+        0,
+        0.57,
+        0.52,
+        0,
+        0.246,
+        0,
+        2.02,
+        0.84,
+        0.081,
+        0.03
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 336,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 320,
+        "apple_y": 128
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.715
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.79,
+        18.32,
+        5,
+        142,
+        20,
+        1,
+        1,
+        198,
+        0,
+        0.35,
+        0.23,
+        0,
+        0.198,
+        0,
+        0.97,
+        0.31,
+        0.068,
+        0.18
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 352,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 144,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.708
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.18,
+        18.13,
+        1,
+        143,
+        20,
+        1,
+        1,
+        310,
+        0,
+        -0.61,
+        -0.19,
+        0,
+        0.31,
+        0,
+        0.94,
+        0.58,
+        0.117,
+        -0.12
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 144,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.695
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.68,
+        18.37,
+        3,
+        144,
+        20,
+        2,
+        0,
+        181,
+        0,
+        1.5,
+        0.24,
+        1,
+        0.181,
+        1,
+        0.0,
+        0.69,
+        0.072,
+        -0.57
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 176,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 32,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.446
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.09,
+        18.14,
+        1,
+        145,
+        20,
+        2,
+        2,
+        400,
+        0,
+        -0.59,
+        -0.23,
+        0,
+        0.4,
+        1,
+        1.98,
+        0.55,
+        0.047,
+        -0.04
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 176,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.642
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.58,
+        18.3,
+        1,
+        146,
+        20,
+        2,
+        4,
+        204,
+        0,
+        0.49,
+        0.16,
+        0,
+        0.204,
+        1,
+        3.81,
+        0.59,
+        0.061,
+        -0.1
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 352,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.712
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.11,
+        18.46,
+        1,
+        147,
+        20,
+        2,
+        2,
+        373,
+        0,
+        -0.47,
+        0.16,
+        0,
+        0.373,
+        1,
+        1.79,
+        0.63,
+        0.053,
+        -0.08
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 240,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.793
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.53,
+        18.56,
+        1,
+        148,
+        20,
+        2,
+        2,
+        207,
+        0,
+        0.42,
+        0.1,
+        0,
+        0.207,
+        1,
+        2.11,
+        0.41,
+        0.172,
+        0.46
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 112,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 336,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.646
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.5,
+        18.58,
+        1,
+        149,
+        20,
+        2,
+        1,
+        511,
+        0,
+        -0.03,
+        0.02,
+        0,
+        0.511,
+        1,
+        0.97,
+        0.85,
+        0.03,
+        -0.1
+      ],
+      "gameState": {
+        "snake_x": 96,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 128,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.66
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.98,
+        18.31,
+        6,
+        150,
+        20,
+        2,
+        4,
+        225,
+        0,
+        -0.52,
+        -0.27,
+        0,
+        0.225,
+        1,
+        3.59,
+        0.8,
+        0.065,
+        -0.29
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 352,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.707
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.71,
+        17.64,
+        6,
+        151,
+        20,
+        2,
+        5,
+        396,
+        0,
+        -0.27,
+        -0.67,
+        0,
+        0.396,
+        1,
+        4.41,
+        0.65,
+        0.04,
+        0.04
+      ],
+      "gameState": {
+        "snake_x": 96,
+        "snake_y": 96,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 336,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.605
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.35,
+        17.37,
+        6,
+        152,
+        20,
+        2,
+        6,
+        295,
+        0,
+        -0.36,
+        -0.27,
+        0,
+        0.295,
+        1,
+        5.82,
+        0.97,
+        0.043,
+        0.09
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 112,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 128,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.739
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.02,
+        17.27,
+        6,
+        153,
+        20,
+        2,
+        5,
+        571,
+        0,
+        0.67,
+        -0.1,
+        0,
+        0.571,
+        1,
+        5.41,
+        0.27,
+        0.031,
+        0.38
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 384,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.673
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.18,
+        17.58,
+        6,
+        154,
+        20,
+        2,
+        6,
+        333,
+        0,
+        -0.84,
+        0.31,
+        0,
+        0.333,
+        1,
+        6.37,
+        0.89,
+        0,
+        -0.04
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 144,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 368,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.562
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.7,
+        17.38,
+        1,
+        155,
+        20,
+        2,
+        0,
+        40,
+        0,
+        0.52,
+        -0.2,
+        0,
+        0.04,
+        1,
+        0.0,
+        0.78,
+        0.084,
+        0.02
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 160,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 320,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.672
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.93,
+        17.46,
+        6,
+        156,
+        20,
+        2,
+        3,
+        244,
+        0,
+        -0.77,
+        0.08,
+        0,
+        0.244,
+        1,
+        3.11,
+        0.69,
+        0.017,
+        0.16
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 176,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 304,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.697
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.62,
+        17.72,
+        2,
+        157,
+        20,
+        2,
+        1,
+        476,
+        0,
+        0.69,
+        0.26,
+        0,
+        0.476,
+        1,
+        0.96,
+        1,
+        0.15,
+        0.4
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 368,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 224,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.587
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.17,
+        17.69,
+        2,
+        158,
+        20,
+        2,
+        5,
+        258,
+        0,
+        -1.45,
+        -0.03,
+        0,
+        0.258,
+        1,
+        5.24,
+        0.53,
+        0.028,
+        -0.13
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 144,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.58
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.48,
+        17.74,
+        1,
+        159,
+        20,
+        2,
+        6,
+        257,
+        0,
+        1.31,
+        0.05,
+        0,
+        0.257,
+        1,
+        6.03,
+        0.53,
+        0.01,
+        0.11
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 336,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 160,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.673
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.81,
+        17.65,
+        1,
+        160,
+        20,
+        2,
+        2,
+        526,
+        0,
+        -0.67,
+        -0.09,
+        0,
+        0.526,
+        1,
+        2.19,
+        0.87,
+        0.036,
+        0.14
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 320,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 368,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.63
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.45,
+        17.58,
+        6,
+        161,
+        20,
+        2,
+        4,
+        173,
+        0,
+        1.64,
+        -0.07,
+        0,
+        0.173,
+        1,
+        3.82,
+        0.52,
+        0.103,
+        0.06
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 256,
+        "apple_y": 272
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.67
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.2,
+        17.55,
+        1,
+        162,
+        20,
+        2,
+        4,
+        459,
+        0,
+        -0.25,
+        -0.03,
+        0,
+        0.459,
+        1,
+        4.47,
+        0.64,
+        0.09,
+        0.16
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 272,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 304,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.685
+      },
+      "mods_applied": [
+        {
+          "mod": "reward",
+          "direction": "+",
+          "policy": "excited_ride"
+        }
+      ]
+    },
+    {
+      "vector": [
+        70.91,
+        18.03,
+        3,
+        163,
+        20,
+        3,
+        0,
+        189,
+        0,
+        2.71,
+        0.48,
+        1,
+        0.189,
+        2,
+        0.0,
+        0.73,
+        0.181,
+        -0.32
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 240,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.513
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        70.06,
+        17.99,
+        1,
+        164,
+        20,
+        3,
+        3,
+        164,
+        0,
+        -0.85,
+        -0.04,
+        0,
+        0.164,
+        2,
+        2.62,
+        0.67,
+        0.087,
+        0.33
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 24,
+        "apples_eaten": 20,
+        "apple_x": 64,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.667
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        69.93,
+        17.6,
+        2,
+        165,
+        21,
+        3,
+        1,
+        152,
+        1,
+        -0.13,
+        -0.39,
+        0,
+        0.152,
+        2,
+        1.03,
+        0.9,
+        0.086,
+        0.52
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 320,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 25,
+        "apples_eaten": 21,
+        "apple_x": 48,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.806
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        70.22,
+        17.85,
+        5,
+        166,
+        21,
+        3,
+        3,
+        444,
+        0,
+        0.29,
+        0.25,
+        0,
+        0.444,
+        2,
+        3.18,
+        0.64,
+        0.141,
+        0.14
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 224,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 25,
+        "apples_eaten": 21,
+        "apple_x": 160,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.637
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.86,
+        17.82,
+        2,
+        167,
+        21,
+        3,
+        3,
+        187,
+        0,
+        -1.36,
+        -0.03,
+        0,
+        0.187,
+        2,
+        2.83,
+        0.82,
+        0.07,
+        -0.03
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 208,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 25,
+        "apples_eaten": 21,
+        "apple_x": 64,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.651
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.15,
+        18.07,
+        2,
+        168,
+        21,
+        3,
+        2,
+        525,
+        0,
+        -0.71,
+        0.25,
+        0,
+        0.525,
+        2,
+        2.13,
+        0.43,
+        0.131,
+        0.14
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 25,
+        "apples_eaten": 21,
+        "apple_x": 80,
+        "apple_y": 48
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.729
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.66,
+        18.33,
+        1,
+        169,
+        21,
+        3,
+        2,
+        188,
+        0,
+        -0.49,
+        0.26,
+        0,
+        0.188,
+        2,
+        2.03,
+        0.74,
+        0.097,
+        0.34
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 384,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 25,
+        "apples_eaten": 21,
+        "apple_x": 80,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.606
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.26,
+        17.89,
+        2,
+        170,
+        21,
+        3,
+        1,
+        347,
+        0,
+        0.6,
+        -0.44,
+        0,
+        0.347,
+        2,
+        1.0,
+        0.71,
+        0.117,
+        0.17
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 160,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 25,
+        "apples_eaten": 21,
+        "apple_x": 368,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.755
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.25,
+        17.67,
+        1,
+        171,
+        21,
+        3,
+        2,
+        269,
+        0,
+        -0.01,
+        -0.22,
+        0,
+        0.269,
+        2,
+        2.17,
+        0.85,
+        0.065,
+        0.17
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 16,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 25,
+        "apples_eaten": 21,
+        "apple_x": 144,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.65
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.79,
+        17.84,
+        2,
+        172,
+        22,
+        3,
+        1,
+        164,
+        1,
+        -0.46,
+        0.17,
+        0,
+        0.164,
+        2,
+        0.98,
+        0.8,
+        0.061,
+        0.44
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 128,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 26,
+        "apples_eaten": 22,
+        "apple_x": 112,
+        "apple_y": 240
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.744
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.11,
+        17.67,
+        1,
+        173,
+        22,
+        3,
+        1,
+        351,
+        0,
+        0.32,
+        -0.17,
+        0,
+        0.351,
+        2,
+        0.93,
+        0.63,
+        0.057,
+        0.17
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 26,
+        "apples_eaten": 22,
+        "apple_x": 80,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.733
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.62,
+        17.76,
+        2,
+        174,
+        22,
+        3,
+        2,
+        210,
+        0,
+        -0.49,
+        0.09,
+        0,
+        0.21,
+        2,
+        2.21,
+        0.65,
+        0.035,
+        0.08
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 26,
+        "apples_eaten": 22,
+        "apple_x": 0,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.718
+      },
+      "mods_applied": [
+        {
+          "mod": "reward",
+          "direction": "+",
+          "policy": "excited_ride"
+        }
+      ]
+    },
+    {
+      "vector": [
+        67.45,
+        17.58,
+        1,
+        175,
+        22,
+        3,
+        2,
+        305,
+        0,
+        -0.17,
+        -0.18,
+        0,
+        0.305,
+        2,
+        1.72,
+        0.65,
+        0.055,
+        0.18
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 26,
+        "apples_eaten": 22,
+        "apple_x": 224,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.556
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.5,
+        17.28,
+        6,
+        176,
+        22,
+        3,
+        6,
+        249,
+        0,
+        0.05,
+        -0.3,
+        0,
+        0.249,
+        2,
+        6.24,
+        0.99,
+        0.123,
+        0.32
+      ],
+      "gameState": {
+        "snake_x": 96,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 26,
+        "apples_eaten": 22,
+        "apple_x": 272,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.694
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.87,
+        17.57,
+        2,
+        177,
+        23,
+        3,
+        0,
+        55,
+        1,
+        -0.63,
+        0.29,
+        0,
+        0.055,
+        2,
+        0.0,
+        0.64,
+        0.042,
+        0.56
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 112,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 27,
+        "apples_eaten": 23,
+        "apple_x": 288,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.764
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.27,
+        17.65,
+        6,
+        178,
+        23,
+        3,
+        3,
+        397,
+        0,
+        -0.6,
+        0.08,
+        0,
+        0.397,
+        2,
+        3.33,
+        0.7,
+        0,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 27,
+        "apples_eaten": 23,
+        "apple_x": 112,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.712
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.68,
+        17.27,
+        1,
+        179,
+        23,
+        3,
+        1,
+        330,
+        0,
+        0.41,
+        -0.38,
+        0,
+        0.33,
+        2,
+        1.04,
+        0.79,
+        0.046,
+        0.03
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 27,
+        "apples_eaten": 23,
+        "apple_x": 80,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.669
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.53,
+        17.4,
+        1,
+        180,
+        23,
+        3,
+        6,
+        471,
+        0,
+        0.85,
+        0.13,
+        0,
+        0.471,
+        2,
+        5.13,
+        0.57,
+        0.052,
+        -0.01
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 27,
+        "apples_eaten": 23,
+        "apple_x": 352,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.767
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.83,
+        17.19,
+        6,
+        181,
+        23,
+        3,
+        2,
+        269,
+        0,
+        -0.7,
+        -0.21,
+        0,
+        0.269,
+        2,
+        1.89,
+        0.85,
+        0.063,
+        -0.2
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 384,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 27,
+        "apples_eaten": 23,
+        "apple_x": 80,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.608
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.65,
+        17.39,
+        1,
+        182,
+        23,
+        3,
+        1,
+        472,
+        0,
+        0.82,
+        0.2,
+        0,
+        0.472,
+        2,
+        0.9,
+        0.65,
+        0.082,
+        -0.03
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 192,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 27,
+        "apples_eaten": 23,
+        "apple_x": 176,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.702
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.92,
+        17.31,
+        6,
+        183,
+        23,
+        3,
+        2,
+        559,
+        0,
+        0.27,
+        -0.08,
+        0,
+        0.559,
+        2,
+        2.22,
+        0.48,
+        0.039,
+        0.08
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 352,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 27,
+        "apples_eaten": 23,
+        "apple_x": 176,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.696
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.24,
+        17.21,
+        2,
+        184,
+        24,
+        3,
+        4,
+        193,
+        1,
+        0.32,
+        -0.1,
+        0,
+        0.193,
+        2,
+        3.49,
+        0.52,
+        0.033,
+        0.47
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 224,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 320,
+        "apple_y": 272
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.691
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.66,
+        17.49,
+        2,
+        185,
+        24,
+        3,
+        1,
+        188,
+        0,
+        -0.58,
+        0.28,
+        0,
+        0.188,
+        2,
+        0.9,
+        0.37,
+        0.134,
+        0.44
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 320,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 144,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.568
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.04,
+        17.6,
+        1,
+        186,
+        24,
+        3,
+        3,
+        468,
+        0,
+        0.38,
+        0.11,
+        0,
+        0.468,
+        2,
+        3.11,
+        0.66,
+        0.085,
+        0.0
+      ],
+      "gameState": {
+        "snake_x": 256,
+        "snake_y": 256,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 160,
+        "apple_y": 48
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.59
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.84,
+        17.31,
+        1,
+        187,
+        24,
+        3,
+        6,
+        240,
+        0,
+        -1.2,
+        -0.29,
+        0,
+        0.24,
+        2,
+        6.75,
+        0.35,
+        0.069,
+        0.09
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 32,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.821
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.55,
+        17.32,
+        1,
+        188,
+        24,
+        3,
+        5,
+        498,
+        0,
+        -0.29,
+        0.01,
+        0,
+        0.498,
+        2,
+        5.49,
+        1,
+        0.044,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 272,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 0,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.687
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.82,
+        17.05,
+        2,
+        189,
+        24,
+        3,
+        4,
+        378,
+        0,
+        0.27,
+        -0.27,
+        0,
+        0.378,
+        2,
+        4.5,
+        0.9,
+        0.004,
+        -0.11
+      ],
+      "gameState": {
+        "snake_x": 256,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 160,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.775
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.82,
+        17.12,
+        1,
+        190,
+        24,
+        3,
+        1,
+        313,
+        0,
+        1.0,
+        0.07,
+        0,
+        0.313,
+        2,
+        0.85,
+        0.76,
+        0.057,
+        0.0
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 320,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 80,
+        "apple_y": 272
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.676
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.6,
+        16.55,
+        1,
+        191,
+        24,
+        3,
+        1,
+        238,
+        0,
+        -0.22,
+        -0.57,
+        0,
+        0.238,
+        2,
+        0.87,
+        1,
+        0.049,
+        0.17
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 336,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 304,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.678
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.55,
+        16.9,
+        1,
+        192,
+        24,
+        3,
+        1,
+        181,
+        0,
+        -1.05,
+        0.35,
+        0,
+        0.181,
+        2,
+        1.04,
+        0.33,
+        0.054,
+        0.26
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 352,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 80,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.672
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.11,
+        16.7,
+        1,
+        193,
+        24,
+        3,
+        2,
+        581,
+        0,
+        0.56,
+        -0.2,
+        0,
+        0.581,
+        2,
+        1.89,
+        0.83,
+        0.003,
+        -0.09
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 368,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 352,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.648
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.73,
+        16.9,
+        2,
+        194,
+        24,
+        3,
+        5,
+        457,
+        0,
+        1.62,
+        0.2,
+        0,
+        0.457,
+        2,
+        5.21,
+        0.87,
+        0.074,
+        0.02
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 384,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 288,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.667
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.31,
+        16.82,
+        1,
+        195,
+        24,
+        3,
+        4,
+        271,
+        0,
+        -0.42,
+        -0.08,
+        0,
+        0.271,
+        2,
+        3.81,
+        0.63,
+        0.081,
+        -0.16
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 160,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 352,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.749
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.4,
+        16.75,
+        6,
+        196,
+        24,
+        3,
+        1,
+        317,
+        0,
+        -0.91,
+        -0.07,
+        0,
+        0.317,
+        2,
+        1.1,
+        0.93,
+        0.064,
+        0.05
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 144,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 320,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.736
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.54,
+        16.99,
+        2,
+        197,
+        24,
+        3,
+        2,
+        328,
+        0,
+        0.14,
+        0.24,
+        0,
+        0.328,
+        2,
+        2.29,
+        0.59,
+        0.04,
+        0.04
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 384,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.631
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.64,
+        16.88,
+        6,
+        198,
+        24,
+        3,
+        4,
+        315,
+        0,
+        0.1,
+        -0.11,
+        0,
+        0.315,
+        2,
+        3.95,
+        1,
+        0.072,
+        0.48
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 32,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.678
+      },
+      "mods_applied": [
+        {
+          "mod": "reward",
+          "direction": "+",
+          "policy": "excited_ride"
+        }
+      ]
+    },
+    {
+      "vector": [
+        68.59,
+        17.12,
+        6,
+        199,
+        24,
+        3,
+        7,
+        176,
+        0,
+        0.95,
+        0.24,
+        0,
+        0.176,
+        2,
+        6.12,
+        0.42,
+        0.029,
+        0.13
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 96,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 160,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.703
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.48,
+        16.84,
+        2,
+        200,
+        24,
+        3,
+        4,
+        180,
+        0,
+        -0.11,
+        -0.28,
+        0,
+        0.18,
+        2,
+        4.38,
+        0.68,
+        0.044,
+        -0.02
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 64,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.683
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.09,
+        16.77,
+        2,
+        201,
+        24,
+        3,
+        2,
+        253,
+        0,
+        -0.39,
+        -0.07,
+        0,
+        0.253,
+        2,
+        2.11,
+        1,
+        0.029,
+        -0.01
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 96,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 64,
+        "apple_y": 368
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.66
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.24,
+        16.89,
+        6,
+        202,
+        24,
+        3,
+        2,
+        358,
+        0,
+        -0.85,
+        0.12,
+        0,
+        0.358,
+        2,
+        1.75,
+        0.93,
+        0.019,
+        0.08
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 336,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.593
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.17,
+        17.46,
+        1,
+        203,
+        24,
+        3,
+        3,
+        275,
+        0,
+        -0.07,
+        0.57,
+        0,
+        0.275,
+        2,
+        2.73,
+        1.0,
+        0.09,
+        -0.17
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 112,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.691
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.83,
+        17.57,
+        2,
+        204,
+        24,
+        3,
+        1,
+        391,
+        0,
+        0.66,
+        0.11,
+        0,
+        0.391,
+        1,
+        1.12,
+        0.72,
+        0.005,
+        0.05
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 240,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.668
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.38,
+        17.64,
+        6,
+        205,
+        24,
+        3,
+        3,
+        302,
+        0,
+        -0.45,
+        0.07,
+        0,
+        0.302,
+        1,
+        2.85,
+        0.51,
+        0.078,
+        0.04
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 160,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 384,
+        "apple_y": 368
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.757
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.01,
+        17.53,
+        1,
+        206,
+        24,
+        3,
+        2,
+        425,
+        0,
+        -0.37,
+        -0.11,
+        0,
+        0.425,
+        1,
+        2.07,
+        0.77,
+        0.075,
+        0.0
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 384,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 144,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.68
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.53,
+        17.45,
+        6,
+        207,
+        24,
+        3,
+        2,
+        366,
+        0,
+        1.52,
+        -0.08,
+        0,
+        0.366,
+        1,
+        1.71,
+        0.7,
+        0.028,
+        0.23
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 368,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 28,
+        "apples_eaten": 24,
+        "apple_x": 208,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.553
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        71.51,
+        17.86,
+        2,
+        208,
+        25,
+        3,
+        4,
+        382,
+        1,
+        2.98,
+        0.41,
+        0,
+        0.382,
+        1,
+        4.24,
+        0.6,
+        0.118,
+        0.31
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 352,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 176,
+        "apple_y": 80
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.73
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        71.22,
+        17.87,
+        6,
+        209,
+        25,
+        3,
+        5,
+        232,
+        0,
+        -0.29,
+        0.01,
+        0,
+        0.232,
+        1,
+        4.81,
+        0.46,
+        0.087,
+        0.25
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 336,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 192,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.782
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        71.17,
+        18.03,
+        4,
+        210,
+        25,
+        4,
+        1,
+        160,
+        0,
+        -0.05,
+        0.16,
+        1,
+        0.16,
+        2,
+        0.93,
+        0.39,
+        0.127,
+        -0.23
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 240,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 240,
+        "apple_y": 272
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.552
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        70.65,
+        18.03,
+        6,
+        211,
+        25,
+        4,
+        6,
+        541,
+        0,
+        -0.52,
+        0.0,
+        0,
+        0.541,
+        2,
+        5.18,
+        0.42,
+        0.101,
+        0.03
+      ],
+      "gameState": {
+        "snake_x": 256,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 64,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.657
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        70.04,
+        18.11,
+        1,
+        212,
+        25,
+        4,
+        1,
+        514,
+        0,
+        -0.61,
+        0.08,
+        0,
+        0.514,
+        2,
+        0.86,
+        0.86,
+        0.063,
+        0.02
+      ],
+      "gameState": {
+        "snake_x": 272,
+        "snake_y": 288,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 112,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.655
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        69.44,
+        18.25,
+        5,
+        213,
+        25,
+        4,
+        3,
+        581,
+        0,
+        -0.6,
+        0.14,
+        0,
+        0.581,
+        2,
+        2.71,
+        0.91,
+        0.061,
+        0.33
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 240,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.654
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.13,
+        18.16,
+        6,
+        214,
+        25,
+        4,
+        7,
+        185,
+        0,
+        -1.31,
+        -0.09,
+        0,
+        0.185,
+        2,
+        6.68,
+        0.73,
+        0.079,
+        0.03
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 256,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 272,
+        "apple_y": 288
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.611
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.87,
+        17.75,
+        6,
+        215,
+        25,
+        4,
+        3,
+        157,
+        0,
+        0.74,
+        -0.41,
+        0,
+        0.157,
+        2,
+        2.86,
+        0.58,
+        0.082,
+        0.01
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 320,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 208,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.667
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.08,
+        17.59,
+        6,
+        216,
+        25,
+        4,
+        5,
+        453,
+        0,
+        -0.79,
+        -0.16,
+        0,
+        0.453,
+        2,
+        4.44,
+        0.73,
+        0.108,
+        0.04
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 224,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 272,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.586
+      },
+      "mods_applied": [
+        {
+          "mod": "speed",
+          "direction": "+",
+          "policy": "bored_speed_up"
+        }
+      ]
+    },
+    {
+      "vector": [
+        68.12,
+        17.68,
+        1,
+        217,
+        25,
+        4,
+        1,
+        264,
+        0,
+        0.04,
+        0.09,
+        0,
+        0.264,
+        2,
+        0.87,
+        0.4,
+        0.086,
+        0.34
+      ],
+      "gameState": {
+        "snake_x": 352,
+        "snake_y": 352,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 29,
+        "apples_eaten": 25,
+        "apple_x": 288,
+        "apple_y": 368
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.677
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.23,
+        17.66,
+        2,
+        218,
+        26,
+        4,
+        3,
+        517,
+        1,
+        0.11,
+        -0.02,
+        0,
+        0.517,
+        2,
+        3.24,
+        1,
+        0.087,
+        0.53
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 368,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 30,
+        "apples_eaten": 26,
+        "apple_x": 336,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.848
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.72,
+        17.5,
+        2,
+        219,
+        27,
+        4,
+        5,
+        238,
+        1,
+        -0.51,
+        -0.16,
+        0,
+        0.238,
+        2,
+        4.54,
+        0.53,
+        0.032,
+        0.51
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 176,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 384,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.622
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.67,
+        17.66,
+        1,
+        220,
+        27,
+        4,
+        3,
+        231,
+        0,
+        -0.05,
+        0.16,
+        0,
+        0.231,
+        2,
+        2.97,
+        0.67,
+        0.118,
+        0.15
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 160,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 368,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.645
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.18,
+        17.69,
+        2,
+        221,
+        27,
+        4,
+        6,
+        227,
+        0,
+        0.51,
+        0.03,
+        0,
+        0.227,
+        2,
+        5.12,
+        0.26,
+        0.064,
+        0.61
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 144,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 336,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.834
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.88,
+        17.41,
+        1,
+        222,
+        27,
+        4,
+        1,
+        233,
+        0,
+        -0.3,
+        -0.28,
+        0,
+        0.233,
+        2,
+        1.0,
+        0.41,
+        0.095,
+        0.22
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 128,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 192,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.564
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.94,
+        17.21,
+        1,
+        223,
+        27,
+        4,
+        2,
+        584,
+        0,
+        -0.94,
+        -0.2,
+        0,
+        0.584,
+        1,
+        1.9,
+        0.5,
+        0.028,
+        0.1
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 0,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.758
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.53,
+        17.15,
+        1,
+        224,
+        27,
+        4,
+        2,
+        528,
+        0,
+        1.59,
+        -0.06,
+        0,
+        0.528,
+        1,
+        1.91,
+        0.56,
+        0.082,
+        -0.04
+      ],
+      "gameState": {
+        "snake_x": 96,
+        "snake_y": 64,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 16,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.649
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.52,
+        17.57,
+        6,
+        225,
+        27,
+        4,
+        2,
+        584,
+        0,
+        -1.01,
+        0.42,
+        0,
+        0.584,
+        1,
+        2.21,
+        0.82,
+        0.049,
+        0.34
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 352,
+        "apple_y": 32
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.747
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.61,
+        17.26,
+        1,
+        226,
+        27,
+        4,
+        2,
+        193,
+        0,
+        0.09,
+        -0.31,
+        0,
+        0.193,
+        1,
+        1.94,
+        0.72,
+        0.038,
+        0.27
+      ],
+      "gameState": {
+        "snake_x": 96,
+        "snake_y": 64,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 288,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.626
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        68.04,
+        17.59,
+        1,
+        227,
+        27,
+        4,
+        5,
+        588,
+        0,
+        0.43,
+        0.33,
+        0,
+        0.588,
+        1,
+        4.65,
+        0.53,
+        0.064,
+        0.01
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 31,
+        "apples_eaten": 27,
+        "apple_x": 208,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.768
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.83,
+        17.78,
+        2,
+        228,
+        28,
+        4,
+        2,
+        527,
+        1,
+        -1.21,
+        0.19,
+        0,
+        0.527,
+        1,
+        2.27,
+        0.54,
+        0.107,
+        0.35
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 32,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 64,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.705
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.71,
+        17.66,
+        2,
+        229,
+        28,
+        4,
+        2,
+        157,
+        0,
+        -0.12,
+        -0.12,
+        0,
+        0.157,
+        1,
+        2.25,
+        0.3,
+        0.035,
+        0.05
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 16,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 208,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.73
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.32,
+        18.09,
+        1,
+        230,
+        28,
+        4,
+        1,
+        264,
+        0,
+        0.61,
+        0.43,
+        0,
+        0.264,
+        1,
+        1.13,
+        0.8,
+        0.05,
+        -0.1
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 208,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.497
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.75,
+        17.99,
+        1,
+        231,
+        28,
+        4,
+        5,
+        342,
+        0,
+        -0.57,
+        -0.1,
+        0,
+        0.342,
+        1,
+        4.79,
+        0.9,
+        0.021,
+        0.14
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 384,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 144,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.771
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.3,
+        18.0,
+        1,
+        232,
+        28,
+        4,
+        5,
+        350,
+        0,
+        0.55,
+        0.01,
+        0,
+        0.35,
+        1,
+        4.63,
+        0.71,
+        0.022,
+        -0.02
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 192,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 384,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "disengaged",
+        "score": 0.677
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.62,
+        17.77,
+        1,
+        233,
+        28,
+        4,
+        0,
+        95,
+        0,
+        -0.68,
+        -0.23,
+        0,
+        0.095,
+        1,
+        0.0,
+        0.65,
+        0,
+        0.29
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 208,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 256,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.724
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.05,
+        17.71,
+        2,
+        234,
+        28,
+        4,
+        5,
+        156,
+        0,
+        0.43,
+        -0.06,
+        0,
+        0.156,
+        1,
+        4.31,
+        0.46,
+        0.102,
+        0.22
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 336,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 192,
+        "apple_y": 224
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.838
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.45,
+        17.38,
+        6,
+        235,
+        28,
+        4,
+        5,
+        443,
+        0,
+        0.4,
+        -0.33,
+        0,
+        0.443,
+        1,
+        5.2,
+        0.41,
+        0.107,
+        0.17
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 320,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 256,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.71
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.49,
+        17.56,
+        2,
+        236,
+        28,
+        4,
+        4,
+        513,
+        0,
+        0.04,
+        0.18,
+        0,
+        0.513,
+        1,
+        3.61,
+        0.69,
+        0.049,
+        0.06
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 288,
+        "apple_y": 144
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.783
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.16,
+        17.65,
+        2,
+        237,
+        28,
+        4,
+        7,
+        451,
+        0,
+        -0.33,
+        0.09,
+        0,
+        0.451,
+        1,
+        6.03,
+        0.72,
+        0.036,
+        -0.16
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 208,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.745
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.7,
+        17.76,
+        1,
+        238,
+        28,
+        4,
+        1,
+        549,
+        0,
+        0.54,
+        0.11,
+        0,
+        0.549,
+        1,
+        1.13,
+        0.98,
+        0.041,
+        0.36
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 272,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 144,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.544
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.04,
+        17.4,
+        1,
+        239,
+        28,
+        4,
+        6,
+        474,
+        0,
+        -0.66,
+        -0.36,
+        0,
+        0.474,
+        1,
+        6.22,
+        0.62,
+        0.045,
+        -0.06
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 304,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 48,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.759
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.03,
+        17.28,
+        1,
+        240,
+        28,
+        4,
+        1,
+        410,
+        0,
+        -0.01,
+        -0.12,
+        0,
+        0.41,
+        1,
+        0.97,
+        0.64,
+        0.024,
+        0.4
+      ],
+      "gameState": {
+        "snake_x": 320,
+        "snake_y": 320,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 112,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.607
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.38,
+        17.55,
+        1,
+        241,
+        28,
+        4,
+        1,
+        469,
+        0,
+        0.35,
+        0.27,
+        0,
+        0.469,
+        1,
+        1.08,
+        0.64,
+        0.081,
+        0.37
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 224,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 304,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.763
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.3,
+        16.99,
+        1,
+        242,
+        28,
+        4,
+        3,
+        357,
+        0,
+        -0.08,
+        -0.56,
+        0,
+        0.357,
+        1,
+        2.8,
+        0.76,
+        0.082,
+        -0.05
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 208,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 224,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.676
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.79,
+        16.97,
+        2,
+        243,
+        28,
+        4,
+        4,
+        588,
+        0,
+        0.49,
+        -0.02,
+        0,
+        0.588,
+        1,
+        3.79,
+        0.09,
+        0.051,
+        -0.14
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 192,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 384,
+        "apple_y": 48
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.779
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.3,
+        16.64,
+        2,
+        244,
+        28,
+        4,
+        2,
+        385,
+        0,
+        -0.49,
+        -0.33,
+        0,
+        0.385,
+        1,
+        1.96,
+        0.86,
+        0.056,
+        -0.09
+      ],
+      "gameState": {
+        "snake_x": 384,
+        "snake_y": 384,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 32,
+        "apple_y": 288
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.755
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.33,
+        16.78,
+        2,
+        245,
+        28,
+        4,
+        3,
+        470,
+        0,
+        0.03,
+        0.14,
+        0,
+        0.47,
+        1,
+        2.82,
+        0.54,
+        0.059,
+        -0.05
+      ],
+      "gameState": {
+        "snake_x": 0,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 304,
+        "apple_y": 176
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.697
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.66,
+        16.73,
+        1,
+        246,
+        28,
+        4,
+        6,
+        476,
+        0,
+        0.33,
+        -0.05,
+        0,
+        0.476,
+        1,
+        5.34,
+        0.73,
+        0.076,
+        0.33
+      ],
+      "gameState": {
+        "snake_x": 144,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 32,
+        "apples_eaten": 28,
+        "apple_x": 32,
+        "apple_y": 192
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.704
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.09,
+        16.71,
+        2,
+        247,
+        29,
+        4,
+        7,
+        343,
+        1,
+        -0.57,
+        -0.02,
+        0,
+        0.343,
+        1,
+        7.17,
+        0.34,
+        0.004,
+        0.5
+      ],
+      "gameState": {
+        "snake_x": 32,
+        "snake_y": 128,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 33,
+        "apples_eaten": 29,
+        "apple_x": 96,
+        "apple_y": 336
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.595
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.15,
+        16.82,
+        1,
+        248,
+        29,
+        4,
+        5,
+        442,
+        0,
+        0.06,
+        0.11,
+        0,
+        0.442,
+        1,
+        5.74,
+        0.95,
+        0.067,
+        0.21
+      ],
+      "gameState": {
+        "snake_x": 112,
+        "snake_y": 48,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 33,
+        "apples_eaten": 29,
+        "apple_x": 352,
+        "apple_y": 112
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.641
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.83,
+        17.49,
+        6,
+        249,
+        29,
+        4,
+        2,
+        500,
+        0,
+        -0.32,
+        0.67,
+        0,
+        0.5,
+        1,
+        2.05,
+        0.67,
+        0.071,
+        0.06
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 33,
+        "apples_eaten": 29,
+        "apple_x": 272,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.616
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.83,
+        17.79,
+        1,
+        250,
+        29,
+        4,
+        3,
+        164,
+        0,
+        0.0,
+        0.3,
+        0,
+        0.164,
+        1,
+        2.73,
+        0.86,
+        0.096,
+        0.01
+      ],
+      "gameState": {
+        "snake_x": 80,
+        "snake_y": 80,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 33,
+        "apples_eaten": 29,
+        "apple_x": 288,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.633
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.01,
+        17.46,
+        2,
+        251,
+        29,
+        4,
+        5,
+        197,
+        0,
+        0.18,
+        -0.33,
+        0,
+        0.197,
+        1,
+        4.54,
+        0.75,
+        0.071,
+        -0.19
+      ],
+      "gameState": {
+        "snake_x": 64,
+        "snake_y": 64,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 33,
+        "apples_eaten": 29,
+        "apple_x": 144,
+        "apple_y": 320
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.757
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.22,
+        17.76,
+        2,
+        252,
+        29,
+        4,
+        2,
+        445,
+        0,
+        0.21,
+        0.3,
+        0,
+        0.445,
+        1,
+        1.8,
+        0.77,
+        0.036,
+        0.27
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 48,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 33,
+        "apples_eaten": 29,
+        "apple_x": 192,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.54
+      },
+      "mods_applied": [
+        {
+          "mod": "forgiveness",
+          "direction": "+",
+          "policy": "frustrated_ease"
+        }
+      ]
+    },
+    {
+      "vector": [
+        66.99,
+        17.95,
+        2,
+        253,
+        30,
+        4,
+        1,
+        531,
+        1,
+        -0.23,
+        0.19,
+        0,
+        0.531,
+        1,
+        0.97,
+        0.7,
+        0.093,
+        0.36
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 32,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 34,
+        "apples_eaten": 30,
+        "apple_x": 144,
+        "apple_y": 288
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.95
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.09,
+        17.86,
+        2,
+        254,
+        31,
+        4,
+        3,
+        498,
+        1,
+        0.1,
+        -0.09,
+        0,
+        0.498,
+        1,
+        2.58,
+        0.52,
+        0.072,
+        0.44
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 144,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 35,
+        "apples_eaten": 31,
+        "apple_x": 256,
+        "apple_y": 128
+      },
+      "engagement": {
+        "state": "excited",
+        "score": 0.773
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.95,
+        18.08,
+        1,
+        255,
+        31,
+        4,
+        5,
+        587,
+        0,
+        -0.14,
+        0.22,
+        0,
+        0.587,
+        1,
+        5.68,
+        0.83,
+        0.103,
+        0.43
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 0,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 35,
+        "apples_eaten": 31,
+        "apple_x": 32,
+        "apple_y": 16
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.599
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.78,
+        17.84,
+        1,
+        256,
+        31,
+        4,
+        3,
+        153,
+        0,
+        0.83,
+        -0.24,
+        0,
+        0.153,
+        1,
+        2.82,
+        0.7,
+        0.018,
+        -0.02
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 384,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 35,
+        "apples_eaten": 31,
+        "apple_x": 144,
+        "apple_y": 128
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.577
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.86,
+        17.52,
+        2,
+        257,
+        32,
+        4,
+        4,
+        597,
+        1,
+        0.08,
+        -0.32,
+        0,
+        0.597,
+        1,
+        4.52,
+        0.83,
+        0.071,
+        0.39
+      ],
+      "gameState": {
+        "snake_x": 368,
+        "snake_y": 192,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 384,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "bored",
+        "score": 0.837
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.88,
+        17.46,
+        1,
+        258,
+        32,
+        4,
+        1,
+        157,
+        0,
+        0.02,
+        -0.06,
+        0,
+        0.157,
+        1,
+        1.06,
+        0.24,
+        0.062,
+        -0.13
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 352,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 208,
+        "apple_y": 208
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.646
+      },
+      "mods_applied": [
+        {
+          "mod": "forgiveness",
+          "direction": "+",
+          "policy": "frustrated_ease"
+        }
+      ]
+    },
+    {
+      "vector": [
+        67.9,
+        17.16,
+        1,
+        259,
+        32,
+        4,
+        5,
+        280,
+        0,
+        0.02,
+        -0.3,
+        0,
+        0.28,
+        1,
+        4.93,
+        1,
+        0.062,
+        -0.05
+      ],
+      "gameState": {
+        "snake_x": 224,
+        "snake_y": 336,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 80,
+        "apple_y": 0
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.677
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.41,
+        17.68,
+        1,
+        260,
+        32,
+        4,
+        1,
+        590,
+        0,
+        -0.49,
+        0.52,
+        0,
+        0.59,
+        1,
+        1.15,
+        0.55,
+        0.05,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 320,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 80,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.606
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.51,
+        17.62,
+        1,
+        261,
+        32,
+        4,
+        4,
+        457,
+        0,
+        0.1,
+        -0.06,
+        0,
+        0.457,
+        1,
+        3.48,
+        0.42,
+        0.082,
+        0.02
+      ],
+      "gameState": {
+        "snake_x": 256,
+        "snake_y": 304,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 368,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.819
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.73,
+        17.45,
+        2,
+        262,
+        32,
+        4,
+        2,
+        294,
+        0,
+        0.22,
+        -0.17,
+        0,
+        0.294,
+        1,
+        1.88,
+        0.75,
+        0.064,
+        -0.3
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 96,
+        "apple_y": 304
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.799
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.36,
+        17.59,
+        2,
+        263,
+        32,
+        4,
+        1,
+        163,
+        0,
+        -0.37,
+        0.14,
+        0,
+        0.163,
+        1,
+        1.01,
+        0.43,
+        0.019,
+        -0.14
+      ],
+      "gameState": {
+        "snake_x": 288,
+        "snake_y": 288,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 0,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.661
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.86,
+        17.49,
+        1,
+        264,
+        32,
+        4,
+        3,
+        578,
+        0,
+        0.5,
+        -0.1,
+        0,
+        0.578,
+        1,
+        2.83,
+        0.99,
+        0,
+        -0.02
+      ],
+      "gameState": {
+        "snake_x": 304,
+        "snake_y": 256,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 144,
+        "apple_y": 128
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.632
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.69,
+        17.14,
+        6,
+        265,
+        32,
+        4,
+        4,
+        155,
+        0,
+        -0.17,
+        -0.35,
+        0,
+        0.155,
+        1,
+        3.44,
+        0.53,
+        0.052,
+        -0.04
+      ],
+      "gameState": {
+        "snake_x": 240,
+        "snake_y": 240,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 384,
+        "apple_y": 96
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.515
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.26,
+        17.01,
+        6,
+        266,
+        32,
+        4,
+        2,
+        343,
+        0,
+        -0.43,
+        -0.13,
+        0,
+        0.343,
+        1,
+        2.14,
+        0.54,
+        0.067,
+        -0.23
+      ],
+      "gameState": {
+        "snake_x": 336,
+        "snake_y": 336,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 208,
+        "apple_y": 256
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.697
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.69,
+        17.35,
+        2,
+        267,
+        32,
+        4,
+        6,
+        152,
+        0,
+        -0.57,
+        0.34,
+        0,
+        0.152,
+        1,
+        5.65,
+        1,
+        0.007,
+        -0.03
+      ],
+      "gameState": {
+        "snake_x": 208,
+        "snake_y": 208,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 176,
+        "apple_y": 64
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.691
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.82,
+        16.85,
+        1,
+        268,
+        32,
+        4,
+        1,
+        354,
+        0,
+        0.13,
+        -0.5,
+        0,
+        0.354,
+        1,
+        0.99,
+        0.47,
+        0.088,
+        0.19
+      ],
+      "gameState": {
+        "snake_x": 192,
+        "snake_y": 368,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": -16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 192,
+        "apple_y": 128
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.672
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        67.73,
+        17.13,
+        1,
+        269,
+        32,
+        4,
+        3,
+        540,
+        0,
+        0.91,
+        0.28,
+        0,
+        0.54,
+        1,
+        3.43,
+        0.62,
+        0.062,
+        0.29
+      ],
+      "gameState": {
+        "snake_x": 176,
+        "snake_y": 384,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 304,
+        "apple_y": 272
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.67
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.23,
+        17.08,
+        1,
+        270,
+        32,
+        4,
+        7,
+        400,
+        0,
+        -1.5,
+        -0.05,
+        0,
+        0.4,
+        0,
+        7.71,
+        1,
+        0.027,
+        0.59
+      ],
+      "gameState": {
+        "snake_x": 160,
+        "snake_y": 160,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 128,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "frustrated",
+        "score": 0.667
+      },
+      "mods_applied": [
+        {
+          "mod": "forgiveness",
+          "direction": "+",
+          "policy": "frustrated_ease"
+        }
+      ]
+    },
+    {
+      "vector": [
+        67.11,
+        16.94,
+        2,
+        271,
+        32,
+        4,
+        3,
+        555,
+        0,
+        0.88,
+        -0.14,
+        0,
+        0.555,
+        0,
+        2.9,
+        0.57,
+        0.089,
+        -0.06
+      ],
+      "gameState": {
+        "snake_x": 16,
+        "snake_y": 16,
+        "snake_velocity_x": 0,
+        "snake_velocity_y": 16,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 0,
+        "apple_y": 160
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.735
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.9,
+        16.65,
+        1,
+        272,
+        32,
+        4,
+        1,
+        531,
+        0,
+        -0.21,
+        -0.29,
+        0,
+        0.531,
+        0,
+        0.86,
+        0.95,
+        0.08,
+        -0.14
+      ],
+      "gameState": {
+        "snake_x": 128,
+        "snake_y": 32,
+        "snake_velocity_x": 16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 240,
+        "apple_y": 352
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.514
+      },
+      "mods_applied": []
+    },
+    {
+      "vector": [
+        66.92,
+        17.05,
+        6,
+        273,
+        32,
+        4,
+        5,
+        496,
+        0,
+        0.02,
+        0.4,
+        0,
+        0.496,
+        0,
+        5.33,
+        0.51,
+        0.104,
+        0.05
+      ],
+      "gameState": {
+        "snake_x": 48,
+        "snake_y": 112,
+        "snake_velocity_x": -16,
+        "snake_velocity_y": 0,
+        "snake_body_length": 36,
+        "apples_eaten": 32,
+        "apple_x": 144,
+        "apple_y": 384
+      },
+      "engagement": {
+        "state": "flow",
+        "score": 0.737
+      },
+      "mods_applied": []
+    }
+  ],
+  "summary": {
+    "avg_engagement": 0.677,
+    "flow_pct": 65,
+    "frustration_pct": 11,
+    "avg_score_delta": 0.117,
+    "tick_count": 274
+  }
+}

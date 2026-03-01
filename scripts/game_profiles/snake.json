@@ -2,50 +2,80 @@
   "state": [
     {
       "key": "snake_x",
-      "description": "Snake head X position",
+      "description": "Snake head X position in pixels",
       "js_expression": "snake.x",
       "type": "number"
     },
     {
       "key": "snake_y",
-      "description": "Snake head Y position",
+      "description": "Snake head Y position in pixels",
       "js_expression": "snake.y",
       "type": "number"
     },
     {
       "key": "snake_velocity_x",
-      "description": "Snake X velocity (movement direction and speed)",
+      "description": "Snake X velocity in pixels per frame",
       "js_expression": "snake.dx",
       "type": "number"
     },
     {
       "key": "snake_velocity_y",
-      "description": "Snake Y velocity (movement direction and speed)",
+      "description": "Snake Y velocity in pixels per frame",
       "js_expression": "snake.dy",
       "type": "number"
     },
     {
-      "key": "snake_body_length",
+      "key": "snake_current_length",
       "description": "Current number of cells in the snake's body",
       "js_expression": "snake.cells.length",
       "type": "number"
     },
     {
-      "key": "apples_eaten",
-      "description": "Number of apples eaten (score), calculated as snake.maxCells - 4 (since it starts at 4)",
-      "js_expression": "snake.maxCells - 4",
+      "key": "snake_target_length",
+      "description": "The length the snake will attempt to maintain, increases when eating apples",
+      "js_expression": "snake.maxCells",
       "type": "number"
     },
     {
       "key": "apple_x",
-      "description": "Apple X position",
+      "description": "Regular apple X position in pixels",
       "js_expression": "apple.x",
       "type": "number"
     },
     {
       "key": "apple_y",
-      "description": "Apple Y position",
+      "description": "Regular apple Y position in pixels",
       "js_expression": "apple.y",
+      "type": "number"
+    },
+    {
+      "key": "bonus_apples_on_screen",
+      "description": "Number of bonus apples currently spawned on the screen",
+      "js_expression": "bonusApples.length",
+      "type": "number"
+    },
+    {
+      "key": "wall_obstacles_on_screen",
+      "description": "Number of wall obstacle segments (groups of 3) currently on the screen",
+      "js_expression": "walls.length",
+      "type": "number"
+    },
+    {
+      "key": "is_speed_burst_active",
+      "description": "True if a speed burst is currently active",
+      "js_expression": "window.__snakeSpeedBurst > 0 && window.__snakeSpeedBurstTimer > 0",
+      "type": "boolean"
+    },
+    {
+      "key": "speed_burst_timer_frames",
+      "description": "Remaining frames for the current speed burst",
+      "js_expression": "window.__snakeSpeedBurstTimer",
+      "type": "number"
+    },
+    {
+      "key": "effective_frame_skip",
+      "description": "The actual number of frames skipped between game updates, affecting game speed.",
+      "js_expression": "var baseSkip = window.__snakeFrameSkip != null ? window.__snakeFrameSkip : 3; (window.__snakeSpeedBurst > 0 && window.__snakeSpeedBurstTimer > 0) ? Math.max(1, baseSkip - window.__snakeSpeedBurst) : baseSkip",
       "type": "number"
     }
   ],
@@ -53,70 +83,21 @@
     {
       "key": "game_frame_skip",
       "label": "Game Frame Skip",
-      "description": "Number of animation frames to skip between game logic updates. Higher = slower. INVERTED: engine decreases this to speed up.",
-      "js_get": "window.__snakeFrameSkip != null ? window.__snakeFrameSkip : 4",
+      "description": "Number of frames to skip before updating game state. Higher value means slower game.",
+      "js_get": "window.__snakeFrameSkip != null ? window.__snakeFrameSkip : 3",
       "js_set": "window.__snakeFrameSkip = VALUE",
-      "default": 4,
+      "default": 3,
       "min": 1,
-      "max": 8,
+      "max": 10,
       "step": 1,
-      "category": "speed",
-      "invert": true
+      "category": "speed"
     },
     {
-      "key": "grid_cell_size",
-      "label": "Grid Cell Size",
-      "description": "The size of each grid cell in pixels. Affects visual scale, movement granularity, and implicitly the number of cells on screen. Changes snake's movement speed proportional to cell size.",
-      "js_get": "grid",
-      "js_set": "snake.dx = (snake.dx / grid) * VALUE; snake.dy = (snake.dy / grid) * VALUE; grid = VALUE;",
-      "default": 16,
-      "min": 8,
-      "max": 40,
-      "step": 4,
-      "category": "difficulty"
-    },
-    {
-      "key": "snake_reset_x",
-      "label": "Snake Reset X Position",
-      "description": "The X position where the snake is initialized and resets after a game over. Changes the current snake X position, but the game's hardcoded reset (160) will overwrite this value on actual game over.",
-      "js_get": "snake.x",
-      "js_set": "snake.x = VALUE;",
-      "default": 160,
-      "min": 0,
-      "max": 384,
-      "step": 16,
-      "category": "forgiveness"
-    },
-    {
-      "key": "snake_reset_y",
-      "label": "Snake Reset Y Position",
-      "description": "The Y position where the snake is initialized and resets after a game over. Changes the current snake Y position, but the game's hardcoded reset (160) will overwrite this value on actual game over.",
-      "js_get": "snake.y",
-      "js_set": "snake.y = VALUE;",
-      "default": 160,
-      "min": 0,
-      "max": 384,
-      "step": 16,
-      "category": "forgiveness"
-    },
-    {
-      "key": "death_forgiveness",
-      "label": "Death Forgiveness",
-      "description": "Length the snake keeps after dying (normally resets to 4). A watcher enforces this on death events.",
-      "js_get": "window.__snakeDeathForgive != null ? window.__snakeDeathForgive : 4",
-      "js_set": "window.__snakeDeathForgive = VALUE",
-      "default": 4,
-      "min": 4,
-      "max": 12,
-      "step": 1,
-      "category": "forgiveness"
-    },
-    {
-      "key": "apple_attract_radius",
-      "label": "Apple Attract Radius",
-      "description": "When > 0, apple respawns within this many cells of the snake head (easier to reach). 0 = fully random.",
-      "js_get": "window.__snakeAppleRadius != null ? window.__snakeAppleRadius : 0",
-      "js_set": "window.__snakeAppleRadius = VALUE",
+      "key": "bonus_apple_count",
+      "label": "Bonus Apple Count",
+      "description": "Number of extra bonus apples maintained on screen.",
+      "js_get": "window.__snakeBonusCount || 0",
+      "js_set": "window.__snakeBonusCount = VALUE",
       "default": 0,
       "min": 0,
       "max": 10,
@@ -124,36 +105,85 @@
       "category": "reward"
     },
     {
-      "key": "apple_initial_x",
-      "label": "Apple Initial X Position",
-      "description": "The X position of the apple at game start. Changes the current apple X position, but a new random position will be assigned when an apple is eaten or on game over.",
-      "js_get": "apple.x",
-      "js_set": "apple.x = VALUE;",
-      "default": 320,
+      "key": "wall_obstacle_count",
+      "label": "Wall Obstacle Count",
+      "description": "Number of wall segments (groups of 3) maintained on screen.",
+      "js_get": "window.__snakeWallCount || 0",
+      "js_set": "window.__snakeWallCount = VALUE",
+      "default": 0,
       "min": 0,
-      "max": 384,
-      "step": 16,
+      "max": 5,
+      "step": 1,
+      "category": "obstacle"
+    },
+    {
+      "key": "apple_growth_points",
+      "label": "Apple Growth Points",
+      "description": "Number of cells the snake grows when eating a regular apple.",
+      "js_get": "window.__appleGrowthPoints || 1",
+      "js_set": "window.__appleGrowthPoints = VALUE",
+      "default": 1,
+      "min": 1,
+      "max": 5,
+      "step": 1,
       "category": "reward"
     },
     {
-      "key": "apple_initial_y",
-      "label": "Apple Initial Y Position",
-      "description": "The Y position of the apple at game start. Changes the current apple Y position, but a new random position will be assigned when an apple is eaten or on game over.",
-      "js_get": "apple.y",
-      "js_set": "apple.y = VALUE;",
-      "default": 320,
+      "key": "snake_initial_length",
+      "label": "Snake Initial Length",
+      "description": "The starting length of the snake when the game begins or resets.",
+      "js_get": "window.__snakeInitialLength || 4",
+      "js_set": "window.__snakeInitialLength = VALUE; snake.maxCells = VALUE;",
+      "default": 4,
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "category": "difficulty"
+    },
+    {
+      "key": "grid_cell_size",
+      "label": "Grid Cell Size",
+      "description": "The size of each grid cell in pixels. Affects visual scale and movement unit.",
+      "js_get": "grid",
+      "js_set": "grid = VALUE",
+      "default": 16,
+      "min": 8,
+      "max": 32,
+      "step": 1,
+      "category": "visual"
+    },
+    {
+      "key": "speed_burst_amount",
+      "label": "Speed Burst Amount",
+      "description": "Extra frame skip reduction applied during a speed burst (higher value means faster burst).",
+      "js_get": "window.__snakeSpeedBurst || 0",
+      "js_set": "window.__snakeSpeedBurst = VALUE",
+      "default": 0,
       "min": 0,
-      "max": 384,
-      "step": 16,
-      "category": "reward"
+      "max": 3,
+      "step": 1,
+      "category": "speed"
+    },
+    {
+      "key": "speed_burst_duration",
+      "label": "Speed Burst Duration",
+      "description": "Number of frames a speed burst lasts when activated.",
+      "js_get": "window.__snakeSpeedBurstTimer || 0",
+      "js_set": "window.__snakeSpeedBurstTimer = VALUE",
+      "default": 0,
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "category": "speed"
     }
   ],
   "engagement_mod_keys": [
     "game_frame_skip",
-    "death_forgiveness",
-    "apple_attract_radius",
     "bonus_apple_count",
     "wall_obstacle_count",
-    "speed_burst"
+    "apple_growth_points",
+    "snake_initial_length",
+    "speed_burst_amount",
+    "speed_burst_duration"
   ]
 }

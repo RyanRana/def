@@ -50,6 +50,68 @@ Serves `index.html` (landing page).
 
 Serves static files from the project root. MIME types: `.html`, `.js`, `.css`, `.json`, `.ico`, `.png`.
 
+---
+
+## Game profiles API (states, mods)
+
+These endpoints serve the game profile data from `scripts/game_profiles/<game>.json`. Use them for tooling, `analyze_games`, or any client that needs the state/mod schema for a game.
+
+### `GET /api/games`
+
+Returns the list of supported games.
+
+**Response:** `200 OK`
+
+```json
+{
+  "games": ["snake", "bird", "dino"]
+}
+```
+
+### `GET /api/games/<name>`
+
+Returns the full profile for a game: `state` (state field definitions), `mods` (mod definitions), and `engagement_mod_keys` (allowlist for the RL engine).
+
+**Response:** `200 OK` — full profile object (same shape as the JSON file).
+
+```json
+{
+  "state": [
+    { "key": "snake_x", "description": "...", "js_expression": "snake.x", "type": "number" },
+    ...
+  ],
+  "mods": [
+    { "key": "game_frame_skip", "label": "Game Frame Skip", "category": "speed", "default": 3, "min": 1, "max": 10, ... },
+    ...
+  ],
+  "engagement_mod_keys": ["game_frame_skip", "bonus_apple_count", ...]
+}
+```
+
+**Response:** `404` — `{ "error": "Game not found", "game": "<name>" }` if `<name>` is not `snake`, `bird`, or `dino`.
+
+### `GET /api/games/<name>/state`
+
+Returns only the state field definitions for the game (keys, descriptions, `js_expression`, type). Same as the `state` array in the full profile.
+
+**Response:** `200 OK` — array of state field objects.
+
+### `GET /api/games/<name>/mods`
+
+Returns only the mod definitions for the game. Same as the `mods` array in the full profile.
+
+**Response:** `200 OK` — array of mod objects.
+
+### `GET /api/games/<name>/engagement_mod_keys`
+
+Returns only the engagement mod allowlist (mod keys the RL engine is allowed to adjust).
+
+**Response:** `200 OK` — array of strings (mod keys).
+
+The profile JSON files are the same ones used by `analyze_games.py` to generate `game_state_*.js` and `game_mods_*.js`; the API exposes them over HTTP so external tools can discover state and mod schemas without reading the repo.
+
+---
+
 ## Vector Format
 
 The engage-tracker produces an 18-field numeric vector each tick (1 Hz):

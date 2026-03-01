@@ -1,6 +1,6 @@
 /**
  * Camera consent: full-screen overlay before the game. User chooses
- * "Allow camera" or "Continue without camera". After consent, loads (in order):
+ * "Allow camera" or "Skip". After consent, loads (in order):
  * engage-tracker → inference-vitals → engage-logger → engage-tracker-ui → engage-stimulus → engage-rl.
  * Load this after __engageGetScore / __engageGetDeaths are set (adapter).
  */
@@ -35,7 +35,7 @@
 
     var text = document.createElement('span');
     text.id = 'camera-consent-title';
-    text.textContent = 'Enable camera for vitals tracking? (optional, all local)';
+    text.textContent = 'Enable camera for vitals tracking? Camera Requested (optional, all local)';
     text.style.cssText = 'font-size:0.95rem;opacity:0.9;';
     card.appendChild(text);
 
@@ -152,7 +152,7 @@
         done();
       })
       .catch(function (err) {
-        setStatus('Camera denied or unavailable. Click "Continue without camera" to play.');
+        setStatus('Camera denied or unavailable. Click Skip to play.');
       });
   }
 

@@ -3,17 +3,19 @@
   'use strict';
   function read() {
     var s = {};
-    try { s["distance_ran"] = window.Runner.instance_.distanceRan; } catch(e) { s["distance_ran"] = null; }
-    try { s["high_score"] = window.Runner.instance_.highestScore; } catch(e) { s["high_score"] = null; }
-    try { s["current_speed"] = window.Runner.instance_.currentSpeed; } catch(e) { s["current_speed"] = null; }
-    try { s["is_crashed"] = window.Runner.instance_.crashed; } catch(e) { s["is_crashed"] = null; }
-    try { s["is_paused"] = window.Runner.instance_.paused; } catch(e) { s["is_paused"] = null; }
-    try { s["is_game_active"] = window.Runner.instance_.activated; } catch(e) { s["is_game_active"] = null; }
-    try { s["trex_y_pos"] = window.Runner.instance_.tRex.yPos; } catch(e) { s["trex_y_pos"] = null; }
-    try { s["trex_is_jumping"] = window.Runner.instance_.tRex.jumping; } catch(e) { s["trex_is_jumping"] = null; }
-    try { s["obstacle_count"] = window.Runner.instance_.obstacles.length; } catch(e) { s["obstacle_count"] = null; }
-    try { s["nearest_obstacle_x"] = window.Runner.instance_.obstacles.length > 0 ? window.Runner.instance_.obstacles[0].xPos : -1; } catch(e) { s["nearest_obstacle_x"] = null; }
-    try { s["game_running_time"] = window.Runner.instance_.runningTime; } catch(e) { s["game_running_time"] = null; }
+    try { s["player_x"] = Runner.instance_.tRex.xPos; } catch(e) { s["player_x"] = null; }
+    try { s["player_y"] = Runner.instance_.tRex.yPos; } catch(e) { s["player_y"] = null; }
+    try { s["player_status"] = Runner.instance_.tRex.status; } catch(e) { s["player_status"] = null; }
+    try { s["is_jumping"] = Runner.instance_.tRex.jumping; } catch(e) { s["is_jumping"] = null; }
+    try { s["current_speed"] = Runner.instance_.currentSpeed; } catch(e) { s["current_speed"] = null; }
+    try { s["score"] = Runner.instance_.distanceMeter.getActualDistance(Runner.instance_.distanceRan); } catch(e) { s["score"] = null; }
+    try { s["high_score"] = Runner.instance_.highestScore; } catch(e) { s["high_score"] = null; }
+    try { s["game_started"] = Runner.instance_.started; } catch(e) { s["game_started"] = null; }
+    try { s["game_crashed"] = Runner.instance_.crashed; } catch(e) { s["game_crashed"] = null; }
+    try { s["game_paused"] = Runner.instance_.paused; } catch(e) { s["game_paused"] = null; }
+    try { s["obstacle_count"] = Runner.instance_.horizon.obstacles.length; } catch(e) { s["obstacle_count"] = null; }
+    try { s["nearest_obstacle_x"] = Runner.instance_.horizon.obstacles.length > 0 ? Runner.instance_.horizon.obstacles[0].xPos : -1; } catch(e) { s["nearest_obstacle_x"] = null; }
+    try { s["nearest_obstacle_type"] = Runner.instance_.horizon.obstacles.length > 0 ? Runner.instance_.horizon.obstacles[0].typeConfig.type : 'NONE'; } catch(e) { s["nearest_obstacle_type"] = null; }
     return s;
   }
   if (typeof window !== "undefined") window.getEngageGameState = read;

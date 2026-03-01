@@ -50,6 +50,25 @@ function broadcastLog(line) {
 const GAME_HTML = /^\/games\/(snake|bird|dino)\.html$/i;
 const ENGAGE_BOOTSTRAP = '<script src="/js/engage-bootstrap.js"></script>';
 
+const PROFILE_DIR = path.join(ROOT, 'scripts', 'game_profiles');
+const KNOWN_GAMES = ['snake', 'bird', 'dino'];
+
+function loadGameProfile(gameName) {
+  if (!KNOWN_GAMES.includes(gameName)) return null;
+  const file = path.join(PROFILE_DIR, gameName + '.json');
+  try {
+    const raw = fs.readFileSync(file, 'utf8');
+    return JSON.parse(raw);
+  } catch (e) {
+    return null;
+  }
+}
+
+function sendJson(res, statusCode, data) {
+  res.writeHead(statusCode, { 'Content-Type': 'application/json' });
+  res.end(JSON.stringify(data));
+}
+
 function serve(pathname, res) {
   const file = path.join(ROOT, pathname.replace(/^\//, ''));
   const isGameHtml = GAME_HTML.test(pathname);
@@ -114,6 +133,43 @@ const server = http.createServer((req, res) => {
       res.writeHead(204);
       res.end();
     });
+    return;
+  }
+
+  // API: game profiles (states, mods) for analyze_games and tooling
+  if (req.method === 'GET' && req.url.startsWith('/api/games')) {
+    const parts = req.url.split('?')[0].replace(/^\/api\/games\/?/, '').split('/').filter(Boolean);
+    const gameName = parts[0];
+    const sub = parts[1]; // 'state' | 'mods' | 'engagement_mod_keys' | undefined
+
+    if (!gameName) {
+      sendJson(res, 200, { games: KNOWN_GAMES });
+      return;
+    }
+
+    const profile = loadGameProfile(gameName);
+    if (!profile) {
+      sendJson(res, 404, { error: 'Game not found', game: gameName });
+      return;
+    }
+
+    if (!sub) {
+      sendJson(res, 200, profile);
+      return;
+    }
+    if (sub === 'state') {
+      sendJson(res, 200, profile.state != null ? profile.state : []);
+      return;
+    }
+    if (sub === 'mods') {
+      sendJson(res, 200, profile.mods != null ? profile.mods : []);
+      return;
+    }
+    if (sub === 'engagement_mod_keys') {
+      sendJson(res, 200, profile.engagement_mod_keys != null ? profile.engagement_mod_keys : []);
+      return;
+    }
+    sendJson(res, 404, { error: 'Unknown resource', resource: sub });
     return;
   }
 

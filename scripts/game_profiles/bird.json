@@ -1,29 +1,59 @@
 {
   "state": [
     {
-      "key": "player_y_percent",
-      "description": "Vertical position of the bird's top edge, as a percentage of canvas height.",
-      "js_expression": "($('#Birdy').offset().top - $('#Canvas').offset().top) / $('#Canvas').height() * 100",
+      "key": "score",
+      "description": "Current player score",
+      "js_expression": "window.CurrentScore",
       "type": "number"
     },
     {
-      "key": "player_x_percent",
-      "description": "Horizontal position of the bird's left edge, as a percentage of canvas width.",
-      "js_expression": "($('#Birdy').offset().left - $('#Canvas').offset().left) / $('#Canvas').width() * 100",
+      "key": "high_score",
+      "description": "Highest score achieved",
+      "js_expression": "parseInt(localStorage.getItem('birdBest') || '0', 10)",
       "type": "number"
     },
     {
-      "key": "pipe_pair_count",
-      "description": "Number of active pipe pairs (top and bottom) on screen.",
+      "key": "game_state",
+      "description": "Current state of the game",
+      "js_expression": "window.__birdLost ? 'dead' : ($('#PauseBtn').hasClass('show-play') ? 'paused' : 'playing')",
+      "type": "string"
+    },
+    {
+      "key": "bird_y_position_percent",
+      "description": "Bird's vertical position as a percentage from the top of the canvas",
+      "js_expression": "parseFloat($('#Birdy').css('top'))",
+      "type": "number"
+    },
+    {
+      "key": "bird_angle_degrees",
+      "description": "Bird's rotation angle in degrees",
+      "js_expression": "parseFloat($('#Birdy').css('transform').match(/rotate\\(([-.\\d]+)deg\\)/)?.[1] || 0)",
+      "type": "number"
+    },
+    {
+      "key": "is_bird_jumping",
+      "description": "True if the bird is currently performing a jump animation",
+      "js_expression": "$('#Birdy').is(':animated')",
+      "type": "boolean"
+    },
+    {
+      "key": "total_pipes_on_screen",
+      "description": "Number of active pipe pairs currently on screen",
       "js_expression": "$('.Pipe').length / 2",
+      "type": "number"
+    },
+    {
+      "key": "nearest_pipe_distance_pixels",
+      "description": "Distance in pixels from the bird's right edge to the nearest pipe's left edge (or -1 if no pipes are ahead)",
+      "js_expression": "(function() { var $birdy = $('#Birdy'); var birdRight = $birdy.offset().left + $birdy.width(); var minDistance = Infinity; $('.Pipe').each(function() { var $pipe = $(this); var pipeLeft = $pipe.offset().left; if (pipeLeft > birdRight) { minDistance = Math.min(minDistance, pipeLeft - birdRight); } }); return minDistance === Infinity ? -1 : minDistance; })()",
       "type": "number"
     }
   ],
   "mods": [
     {
       "key": "gravity_acceleration",
-      "label": "Gravity Acceleration",
-      "description": "How quickly the bird's falling speed increases.",
+      "label": "Gravity Strength",
+      "description": "The acceleration due to gravity, making the bird fall faster.",
       "js_get": "window.BirdyConfig.gravAccel",
       "js_set": "window.BirdyConfig.gravAccel = VALUE",
       "default": 0.3,
@@ -39,7 +69,7 @@
       "js_get": "window.BirdyConfig.terminalVelocity",
       "js_set": "window.BirdyConfig.terminalVelocity = VALUE",
       "default": 5,
-      "min": 2,
+      "min": 1,
       "max": 10,
       "step": 0.5,
       "category": "gravity"
@@ -47,81 +77,57 @@
     {
       "key": "jump_height",
       "label": "Jump Height",
-      "description": "How high the bird jumps with each click.",
+      "description": "How high the bird jumps with each flap, as a percentage of canvas height.",
       "js_get": "window.BirdyConfig.jumpHeight",
       "js_set": "window.BirdyConfig.jumpHeight = VALUE",
       "default": 9,
       "min": 3,
       "max": 15,
       "step": 1,
-      "category": "player_ability"
+      "category": "player"
     },
     {
-      "key": "pipe_spawn_interval_loops",
+      "key": "pipe_spawn_interval",
       "label": "Pipe Spawn Interval",
-      "description": "Game loops between pipe spawns. Lower = more pipes. INVERTED: engine decreases this to add more obstacles.",
+      "description": "The number of gameLoop cycles between new pipe spawns. Lower values mean more frequent pipes.",
       "js_get": "window.BirdyConfig.pipeInterval",
       "js_set": "window.BirdyConfig.pipeInterval = VALUE",
-      "default": 90,
-      "min": 40,
-      "max": 140,
-      "step": 10,
-      "category": "obstacle",
-      "invert": true
-    },
-    {
-      "key": "canvas_width",
-      "label": "Canvas Width",
-      "description": "Width of the game canvas. Affects available play area.",
-      "js_get": "$('#Canvas').width()",
-      "js_set": "$('#Canvas').width(VALUE)",
-      "default": 500,
-      "min": 200,
-      "max": 800,
-      "step": 50,
-      "category": "difficulty"
-    },
-    {
-      "key": "canvas_height",
-      "label": "Canvas Height",
-      "description": "Height of the game canvas. Affects available play area.",
-      "js_get": "$('#Canvas').height()",
-      "js_set": "$('#Canvas').height(VALUE)",
-      "default": 400,
-      "min": 200,
-      "max": 600,
-      "step": 50,
-      "category": "difficulty"
-    },
-    {
-      "key": "bird_width",
-      "label": "Bird Width",
-      "description": "Width of the bird sprite. Affects collision box.",
-      "js_get": "$('#Birdy').width()",
-      "js_set": "$('#Birdy').width(VALUE)",
-      "default": 50,
+      "default": 60,
       "min": 20,
-      "max": 100,
+      "max": 120,
       "step": 5,
-      "category": "difficulty"
+      "category": "obstacle"
     },
     {
-      "key": "bird_height",
-      "label": "Bird Height",
-      "description": "Height of the bird sprite. Affects collision box.",
-      "js_get": "$('#Birdy').height()",
-      "js_set": "$('#Birdy').height(VALUE)",
-      "default": 35,
+      "key": "pipe_gap_size",
+      "label": "Pipe Gap Size",
+      "description": "The vertical gap percentage between the top and bottom pipes, allowing the bird to pass.",
+      "js_get": "window.BirdyConfig.pipeGap",
+      "js_set": "window.BirdyConfig.pipeGap = VALUE",
+      "default": 30,
       "min": 15,
-      "max": 70,
-      "step": 5,
-      "category": "difficulty"
+      "max": 45,
+      "step": 1,
+      "category": "obstacle"
+    },
+    {
+      "key": "pipe_speed",
+      "label": "Pipe Speed",
+      "description": "The speed at which pipes move across the screen. Higher values mean faster pipes.",
+      "js_get": "window.BirdyConfig.pipeSpeed",
+      "js_set": "window.BirdyConfig.pipeSpeed = VALUE",
+      "default": 7,
+      "min": 3,
+      "max": 15,
+      "step": 0.5,
+      "category": "speed"
     }
   ],
   "engagement_mod_keys": [
     "gravity_acceleration",
+    "terminal_velocity",
     "jump_height",
-    "pipe_spawn_interval_loops",
+    "pipe_spawn_interval",
     "pipe_gap_size",
     "pipe_speed"
   ]

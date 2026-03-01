@@ -2,7 +2,7 @@
 
 ## Overview
 
-DEF is a **lightweight agent framework** that adapts to any web game. Using **attention-based reinforcement learning**, it **modifies live games** in real time to **maximize dopamine and engagement**. A Node.js server injects a thin client-side pipeline; the game’s own HTML and JS are never edited.
+DEF (Dynamic Engagement Framework) is a **lightweight agent framework** that adapts to any web game. Using **attention-based reinforcement learning**, it **modifies live games** in real time to **maximize dopamine and engagement**. A Node.js server injects a thin client-side pipeline; the game’s own HTML and JS are never edited.
 
 **Key constraints:**
 - Games are never edited — the agent is injected by the server and attaches on top

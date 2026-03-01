@@ -1,6 +1,6 @@
 # RL and Engagement Tuning Guide
 
-DEF uses **attention-based reinforcement learning** to modify live games and maximize dopamine and engagement. Two complementary systems (Thompson sampling + attention, and a UCB1 bandit) work together; both are game-agnostic and operate on mod categories so the agent can adapt to any web game.
+DEF (Dynamic Engagement Framework) uses **attention-based reinforcement learning** to modify live games and maximize dopamine and engagement. Two complementary systems (Thompson sampling + attention, and a UCB1 bandit) work together; both are game-agnostic and operate on mod categories so the agent can adapt to any web game.
 
 ## Overview
 

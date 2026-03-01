@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>DEF — Lightweight Agent for Adaptive Web Games</title>
+  <title>DEF — Dynamic Engagement Framework</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; scroll-snap-type: y mandatory; }
@@ -97,8 +97,8 @@
   <section class="slide" id="s1">
     <div class="slide-inner">
       <h1>DEF</h1>
-      <h2>Lightweight agent for adaptive web games</h2>
-      <p>A small agent framework that adapts to any web game. Using attention-based reinforcement learning, it modifies live games in real time—speed, rewards, difficulty—to maximize dopamine and engagement, without changing game source code.</p>
+      <h2>Dynamic Engagement Framework</h2>
+      <p>A framework that adapts to any web game. Using attention-based reinforcement learning, it modifies live games in real time—speed, rewards, difficulty—to maximize dopamine and engagement, without changing game source code.</p>
     </div>
   </section>
 
@@ -106,7 +106,7 @@
   <section class="slide" id="s2">
     <div class="slide-inner">
       <h1>Why it matters</h1>
-      <p>Static difficulty misses the mark: too easy and attention drifts; too hard and players leave. DEF is a lightweight agent that runs entirely in the browser. It reads a 1 Hz stream of vitals, input, and score, then uses attention-based RL to nudge only gameplay levers—maximizing engagement and that “one more run” feeling while leaving the game code untouched.</p>
+      <p>Static difficulty misses the mark: too easy and attention drifts; too hard and players leave. DEF runs entirely in the browser. It reads a 1 Hz stream of vitals, input, and score, then uses attention-based RL to nudge only gameplay levers—maximizing engagement and that “one more run” feeling while leaving the game code untouched.</p>
     </div>
   </section>
 
@@ -127,7 +127,7 @@
   <section class="slide" id="s4">
     <div class="slide-inner">
       <h1>How the agent works</h1>
-      <p class="small" style="margin-bottom:0.25rem;">DEF is a lightweight agent that adapts to any web game. Everything runs in the browser; game HTML and scripts stay unchanged. The agent reads signals, infers engagement, and adjusts live game parameters to maximize dopamine and engagement.</p>
+      <p class="small" style="margin-bottom:0.25rem;">DEF adapts to any web game. Everything runs in the browser; game HTML and scripts stay unchanged. The agent reads signals, infers engagement, and adjusts live game parameters to maximize dopamine and engagement.</p>
       <p class="small" style="margin-bottom:0.5rem;">Profiles define <strong>state creation</strong> (what to measure each tick) and <strong>mod creation</strong> (safe parameters and get/set hooks). At runtime, <strong>attention-based reinforcement learning</strong> drives the loop: Thompson sampling + attention weighting probe which mods help; a UCB1 bandit then exploits what works to keep players in flow.</p>
       <p class="small" style="margin-bottom:0.5rem;">Profiles can be generated from game code analysis, so new games can be onboarded without hand-writing state or mod hooks.</p>
       <div class="flow-wrap">
@@ -388,8 +388,8 @@
   <section class="slide" id="s8">
     <div class="slide-inner">
       <h1>DEF</h1>
-      <h2>Lightweight agent for adaptive web games</h2>
-      <p>A lightweight agent framework that adapts to any web game. Using attention-based reinforcement learning, it modifies live games to maximize dopamine and engagement—vitals and input stay local, game code stays intact.</p>
+      <h2>Dynamic Engagement Framework</h2>
+      <p>A framework that adapts to any web game. Using attention-based reinforcement learning, it modifies live games to maximize dopamine and engagement—vitals and input stay local, game code stays intact.</p>
       <p class="small" style="margin-top:1.5rem;">Load order: server injects a small loader on game pages → consent → tracker → inference → logger → UI → stimulus → RL. All client-side.</p>
     </div>
   </section>

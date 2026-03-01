@@ -1,6 +1,6 @@
-# DEF — Lightweight Agent for Adaptive Web Games
+# DEF — Dynamic Engagement Framework
 
-DEF is a **lightweight agent framework** that adapts to any web game. It injects a thin layer on top of game pages—games are never edited—and uses **attention-based reinforcement learning** to modify live games in real time (speed, rewards, difficulty, forgiveness) to **maximize dopamine and engagement**. Vitals (heart rate, breathing rate) come from in-browser webcam processing (rPPG); no video leaves the browser.
+DEF is a **dynamic engagement framework** that adapts to any web game. It injects a thin layer on top of game pages—games are never edited—and uses **attention-based reinforcement learning** to modify live games in real time (speed, rewards, difficulty, forgiveness) to **maximize dopamine and engagement**. Vitals (heart rate, breathing rate) come from in-browser webcam processing (rPPG); no video leaves the browser.
 
 ## Results
 
@@ -36,7 +36,7 @@ python scripts/engage_rl.py demo        # run Q-learning demo on captured sessio
 
 ## Architecture
 
-DEF is a **lightweight agent** that can attach to any web game. The pipeline runs in the browser; the server only injects a small loader.
+DEF is a **dynamic engagement framework** that can attach to any web game. The pipeline runs in the browser; the server only injects a small loader.
 
 ```
 Browser                                      Server (Node.js)

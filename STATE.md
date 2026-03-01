@@ -1,4 +1,4 @@
-# Project State: DEF — Lightweight Agent for Adaptive Web Games
+# Project State: DEF — Dynamic Engagement Framework
 
 ---
 

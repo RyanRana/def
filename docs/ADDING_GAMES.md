@@ -1,6 +1,6 @@
 # Adding a Game
 
-This guide walks through adding a new HTML5 game to DEF. The engagement pipeline is game-agnostic — you only need to teach it how to read your game's state and what parameters it can modify.
+This guide walks through adding a new HTML5 game to DEF (Dynamic Engagement Framework). The engagement pipeline is game-agnostic — you only need to teach it how to read your game's state and what parameters it can modify.
 
 ## Prerequisites
 

@@ -2,6 +2,8 @@
 
 DEF is a **dynamic engagement framework** that adapts to any web game. It injects a thin layer on top of game pages—games are never edited—and uses **attention-based reinforcement learning** to modify live games in real time (speed, rewards, difficulty, forgiveness) to **maximize dopamine and engagement**. Vitals (heart rate, breathing rate) come from in-browser webcam processing (rPPG); no video leaves the browser.
 
+https://www.youtube.com/watch?v=ITA7dEJnZSg
+
 ## Results
 
 Data captured across all 60 game runs (10 DEF-on + 10 DEF-off per game; see `data/`):
